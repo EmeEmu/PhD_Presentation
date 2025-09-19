@@ -501,3 +501,51 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   max-height: 100%;
 }
 
+
+/* Development-only slide annotations for reveal.js
+ * Classes:
+ *  - .entry       : small grey text at top-left (how the slide is introduced)
+ *  - .mainmessage : large grey text centered (the main message of the slide)
+ *  - .outlook     : small grey text at bottom-right (how we lead to next slide)
+ *
+ * Drop this file after your main theme so variables like --r-main-font are available.
+ */
+
+/* Base style for all three helpers */
+.reveal .entry,
+.reveal .mainmessage,
+.reveal .outlook {
+  position: absolute;
+  color: #777;
+  font-family: var(--r-main-font, Source Sans Pro, Helvetica, sans-serif);
+  line-height: 1.2;
+  opacity: 0.9;
+  z-index: 10;
+  pointer-events: none; /* don’t interfere with slide interactions */
+}
+
+/* ENTRY — top-left */
+.reveal .entry {
+  top: 10%;
+  left: 2%;
+  font-size: 0.55em;
+  text-align: left;
+}
+
+/* MAIN MESSAGE — centered */
+.reveal .mainmessage {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6em;
+  text-align: center;
+  max-width: 80%;
+}
+
+/* OUTLOOK — bottom-right */
+.reveal .outlook {
+  right: 7%;
+  bottom: 10%;
+  font-size: 0.55em;
+  text-align: right;
+}
