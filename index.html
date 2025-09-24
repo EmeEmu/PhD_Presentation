@@ -24,13 +24,175 @@
 
 
 
-<section>
+<section> <!-- INTRO SECTION -->
 
 	<section>
 		<h1> Introduction </h1>
+  	<div class="entry">main idea of the PhD : how do you campare the brain activity of multiple individuals ?</div>
+  	<div class="mainmessage">we know from recording human brains using fMRI : if we show the same task or stimuli to multiple individuals, we can find comparable representations in brain activity</div>
+  	<div class="outlook">not at the scale of neurons</div>
 	</section>
 
-</section>
+	<section>
+		<h1> Introduction </h1>
+  	<div class="entry">for small animals where you can image individual neurons</div>
+  	<div class="mainmessage">C. elegens : same neurons can be identified in multiple individuals. latent space representation of behavior.</div>
+  	<div class="outlook">very simple brain. not vertebrates.</div>
+	</section>
+
+	need latent space to compare
+	how to make sense of the latent space -> using behavior or evoked
+
+	<section>
+		<h1> Introduction </h1>
+		<h2>Zebrafish</h2>
+  	<div class="entry">??</div>
+  	<div class="mainmessage">Zebra larvae are perfect for vertebrate whole brain recordings (transparent, ...) + behavior (mention HMM paper)</div>
+  	<div class="outlook">??</div>
+	</section>
+
+	lightsheet microscopy
+
+
+</section> <!-- INTRO SECTION -->
+
+
+
+
+<section> <!-- RBMs SECTION -->
+	<section>
+		<h1> Restricted Bolzmann Machines </h1>
+  	<div class="entry">spont recordings</div>
+  	<div class="mainmessage">Hinton Deamon → dim reduction + probability + different time scales</div>
+  	<div class="outlook">zebrafish brain is controlled by a hinton deamon</div>
+	</section>
+
+	<section>
+		<h1> Restricted Bolzmann Machines </h1>
+		<h1> The Theory </h1>
+  	<div class="entry">Geofrey Hinton</div>
+  	<div class="mainmessage">Diagram and math + (v to multiple h, continuous h and distrib, ...) + Gibbs</div>
+  	<div class="outlook">application to zebrafish by Thijs and Jerome</div>
+	</section>
+
+	<section>
+		<h1> Restricted Bolzmann Machines </h1>
+		<h1> and zebrafish larvae </h1>
+  	<div class="entry"></div>
+  	<div class="mainmessage">HU maps + filtering + (cell assemblies)</div>
+  	<div class="outlook"></div>
+	</section>
+
+	<section>
+		<h1> Restricted Bolzmann Machines </h1>
+		<h1> as multi-individual models </h1>
+  	<div class="entry"></div>
+  	<div class="mainmessage">degen + need for models that naturally aligned representations + big methodological question of my PhD</div>
+  	<div class="outlook">2 families of methods</div>
+	</section>
+
+</section> <!-- RBMs SECTION -->
+
+
+
+
+<section> <!-- VOX SECTION -->
+	naiv method (similar to fMRI)
+
+	common representation space (better stereotypy)
+
+	show that it can work. but would be better at neuron scale. "we asked whether we could do better at neuron scale ?"
+</section> <!-- VOX SECTION -->
+
+
+
+
+<section> <!-- LaRBM SECTION -->
+	problem with non-comparable neurons across individuals
+	what do we want the model to be able and do ? (same weight distrib + same hidden representation)
+
+	teacher/student method
+
+	spatial distrib of weights concerved
+
+	P(h) concerved
+
+	we succesfully constrained the model to same spatial and latent representation (miror of first slide in section)
+
+	bidirectional generative model + same latent space -> deepfake -> allows to ask the question of "is activity from one fish probable in another fish ?"
+
+	conclusion of this section -> use to compare dynamics
+</section> <!-- LARBM SECTION -->
+
+
+
+
+<section> <!-- DYNAMICS SECTION -->
+	same timescale + same replored regions + explored differently (qualitative)
+
+	same position in latent space ?=? same "brain state"
+
+	segmentation of latent space into brain states -> sRBM -> method
+
+	state sequence + smax + "certainty" vs S
+
+	what are those states (spatially) -> compositionality
+
+	markov -> hub states
+
+	hub states (-> microstates EEG in humans) -> (weaknesses) + it opens new ways of studying whole brain dynamics -> motivates: plus de poisons + multitraining + combined with evoked 
+</section> <!-- DYNAMICS SECTION -->
+
+
+
+
+<section> <!-- CONCLUSION + END SECTION -->
+	<section>
+		<h1> Conclusion </h1>
+  	<div class="entry"></div>
+  	<div class="mainmessage"></div>
+  	<div class="outlook"></div>
+	</section>
+
+	<section>
+		<h1> Ethics </h1>
+  	<div class="entry"></div>
+  	<div class="mainmessage"></div>
+  	<div class="outlook"></div>
+	</section>
+
+	<section>
+		<h1> SciComm </h1>
+  	<div class="entry"></div>
+  	<div class="mainmessage"></div>
+  	<div class="outlook"></div>
+	</section>
+
+	<section>
+		<h1> Thanks </h1>
+  	<div class="entry"></div>
+  	<div class="mainmessage"></div>
+  	<div class="outlook"></div>
+	</section>
+</section> <!-- CONCLUSION + END SECTION -->
+
+
+
+<section> <!-- SUPPS SECTION -->
+	<section>
+		<h1> Supplementary </h1>
+	</section>
+</section> <!-- SUPPS SECTION -->
+
+
+
+
+
+
+
+
+
+
 
 
 	<!-- <section> -->
