@@ -60,6 +60,7 @@
 
 
 <section> <!-- RBMs SECTION -->
+
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
   	<div class="entry">spont recordings</div>
@@ -69,7 +70,7 @@
 
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
-		<h1> The Theory </h1>
+		<h2> The Theory </h2>
   	<div class="entry">Geofrey Hinton</div>
   	<div class="mainmessage">Diagram and math + (v to multiple h, continuous h and distrib, ...) + Gibbs</div>
   	<div class="outlook">application to zebrafish by Thijs and Jerome</div>
@@ -77,7 +78,7 @@
 
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
-		<h1> and zebrafish larvae </h1>
+		<h2> in zebrafish larvae </h2>
   	<div class="entry"></div>
   	<div class="mainmessage">HU maps + filtering + (cell assemblies)</div>
   	<div class="outlook"></div>
@@ -85,7 +86,7 @@
 
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
-		<h1> as multi-individual models </h1>
+		<h2> as multi-individual models </h2>
   	<div class="entry"></div>
   	<div class="mainmessage">degen + need for models that naturally aligned representations + big methodological question of my PhD</div>
   	<div class="outlook">2 families of methods</div>
@@ -97,50 +98,139 @@
 
 
 <section> <!-- VOX SECTION -->
-	naiv method (similar to fMRI)
 
-	common representation space (better stereotypy)
+	<section>
+		<h1> Global Voxelized RBM </h1>
+		<!-- <h2> as multi-individual models </h2> -->
+  	<div class="entry">first method : 1 model for multiple indvs</div>
+  	<div class="mainmessage">naiv method (similar to fMRI) + methodology + good model</div>
+  	<div class="outlook">a single latent space</div>
+	</section>
 
-	show that it can work. but would be better at neuron scale. "we asked whether we could do better at neuron scale ?"
+	<section>
+		<h1> Global Voxelized RBM </h1>
+		<h2> Stereotypy of representation </h2>
+  	<div class="entry">compairing stereotypy in v and h</div>
+  	<div class="mainmessage">Latent representation are more stereotyped than raw activity → common representation space + no individual idiosyncrasies</div>
+  	<div class="outlook">unified representation at coarse grained scales → what about neuron scale ?</div>
+	</section>
+
 </section> <!-- VOX SECTION -->
 
 
 
 
 <section> <!-- LaRBM SECTION -->
-	problem with non-comparable neurons across individuals
-	what do we want the model to be able and do ? (same weight distrib + same hidden representation)
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<!-- <h2> Stereotypy of representation </h2> -->
+  	<div class="entry">building multi-individual models from neuron-level data</div>
+  	<div class="mainmessage">problem with non-comparable neurons across individuals → one model per fish but aligned in latent space → what do we want the model to be able and do ? (same weight distrib + same hidden representation)</div>
+  	<div class="outlook">??</div>
+	</section>
+	
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<h2> The Teacher-Student method </h2>
+  	<div class="entry">constraining latent space from one individual to another</div>
+  	<div class="mainmessage">Initialisation + bitraining</div>
+  	<div class="outlook">reminder of goal (w spatial distrib + P(h))</div>
+	</section>
+	
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<h2> Maintaining Spatial Distribution of Weights </h2>
+  	<div class="entry">??</div>
+  	<div class="mainmessage">Stable weight distribs</div>
+  	<div class="outlook">description of different fish using the same cell assemblies</div>
+	</section>
 
-	teacher/student method
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<h2> Maintaining Hidden Priors </h2>
+  	<div class="entry">need same space</div>
+  	<div class="mainmessage">Stable P(h) + same explored regions of latent space</div>
+  	<div class="outlook">the activity of multiple individuals can be mapped to the same latent space</div>
+	</section>
 
-	spatial distrib of weights concerved
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<h2> Translating Activity from one Fish to Another </h2>
+  	<div class="entry">bidirectional generative model + same latent space → deepfake</div>
+  	<div class="mainmessage">method → "is activity from one fish probable in another fish ?"</div>
+  	<div class="outlook">the activity of multiple individuals can be mapped to the same latent space</div>
+	</section>
 
-	P(h) concerved
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<h2> Summary </h2>
+  	<div class="entry"></div>
+  	<div class="mainmessage">we succesfully constrained the model to same spatial and latent representation and showed that this could be used to translate activity from one fish to another</div>
+  	<div class="outlook">use to compare dynamics</div>
+	</section>
 
-	we succesfully constrained the model to same spatial and latent representation (miror of first slide in section)
-
-	bidirectional generative model + same latent space -> deepfake -> allows to ask the question of "is activity from one fish probable in another fish ?"
-
-	conclusion of this section -> use to compare dynamics
 </section> <!-- LARBM SECTION -->
 
 
 
 
 <section> <!-- DYNAMICS SECTION -->
-	same timescale + same replored regions + explored differently (qualitative)
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<!-- <h2> Summary </h2> -->
+  	<div class="entry">A common space to compare dynamics across individuals</div>
+  	<div class="mainmessage">Start with naive comparison (autocor + explored regions) (qualitative)</div>
+  	<div class="outlook">same position in latent space ?=? same "brain state"</div>
+	</section>
 
-	same position in latent space ?=? same "brain state"
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> Partitioning the Latent Space </h2>
+  	<div class="entry">??</div>
+  	<div class="mainmessage">segmentation of latent space into brain states → sRBM → method (+ fails to reproduce hh)</div>
+  	<div class="outlook">sequence of states</div>
+	</section>
+	
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> Partitioning the Latent Space </h2>
+  	<div class="entry">building sequence of states</div>
+  	<div class="mainmessage">state sequence + smax + "certainty" vs S</div>
+  	<div class="outlook">video of state sequence</div>
+	</section>
 
-	segmentation of latent space into brain states -> sRBM -> method
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> Neuronal Composition of States </h2>
+  	<div class="entry">what do those states look like spatially</div>
+  	<div class="mainmessage">compositionality + stable large scales features</div>
+  	<div class="outlook">??</div>
+	</section>
+	
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> Markovian Dynamics </h2>
+  	<div class="entry">what states are the most probable</div>
+  	<div class="mainmessage">occupation of states + vs S</div>
+  	<div class="outlook">??</div>
+	</section>
 
-	state sequence + smax + "certainty" vs S
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> Markovian Dynamics </h2>
+  	<div class="entry">what is the structure of sequence ?</div>
+  	<div class="mainmessage">markov + transition matrix + stereotypy</div>
+  	<div class="outlook">??</div>
+	</section>
 
-	what are those states (spatially) -> compositionality
-
-	markov -> hub states
-
-	hub states (-> microstates EEG in humans) -> (weaknesses) + it opens new ways of studying whole brain dynamics -> motivates: plus de poisons + multitraining + combined with evoked 
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> Markovian Dynamics </h2>
+  	<div class="entry">??</div>
+  	<div class="mainmessage">hub states (n* and nn* vs S)</div>
+  	<div class="outlook">??</div>
+	</section>
+	 
 </section> <!-- DYNAMICS SECTION -->
 
 
@@ -150,7 +240,7 @@
 	<section>
 		<h1> Conclusion </h1>
   	<div class="entry"></div>
-  	<div class="mainmessage"></div>
+  	<div class="mainmessage">hub states (→ microstates EEG in humans) → (weaknesses) + it opens new ways of studying whole brain dynamics → motivates: plus de poisons + multitraining + combined with evoked</div>
   	<div class="outlook"></div>
 	</section>
 
