@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="183.85455mm"
+   height="149.38484mm"
+   viewBox="0 0 183.85456 149.38484"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="test.svg"
+   inkscape:export-filename="test.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.2599933"
+     inkscape:cx="422.62131"
+     inkscape:cy="337.70022"
+     inkscape:window-width="1914"
+     inkscape:window-height="1050"
+     inkscape:window-x="0"
+     inkscape:window-y="1104"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer4" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="layer1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-6.9742429,-1.6712126)">
+    <rect
+       style="fill:#0000ff;stroke:#c7c7c7;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:3, 3"
+       id="rect1"
+       width="66.818176"
+       height="70"
+       x="33.409088"
+       y="35" />
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 85.909091,16.439394 136.81818,73.181818"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 60.984849,2.1212121 143.71212,128.86364"
+       id="path4" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="layer2"
+     transform="translate(-6.9742429,-1.6712126)">
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 7.4242424,92.803029 168.10606,67.348483"
+       id="path5" />
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 190.37879,125.15151 149.54545,25.454545"
+       id="path6" />
+    <path
+       style="fill:none;stroke:#800080;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 23.863636,21.212121 115.07576,150.60606"
+       id="path7" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="layer3"
+     style="display:inline"
+     transform="translate(-6.9742429,-1.6712126)">
+    <ellipse
+       style="display:inline;fill:#d40000;stroke:#c7c7c7;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:3, 3"
+       id="path1"
+       cx="82.196968"
+       cy="92.803032"
+       rx="32.878788"
+       ry="32.348484" />
+    <path
+       style="display:inline;fill:none;stroke:#800080;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 40.303029,146.89394 171.28788,91.742423"
+       id="path3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="layer4">
+    <text
+       xml:space="preserve"
+       style="display:inline;font-weight:bold;font-size:17.63888889px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.899999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;stroke-dashoffset:0"
+       x="110.70826"
+       y="36.109226"
+       id="text7"
+       transform="translate(-6.9742428,-1.6712126)"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="stroke-width:0.9;fill:#000000;stroke:none;font-size:17.63888889px"
+         x="110.70826"
+         y="36.109226">coucou</tspan></text>
+  </g>
+</svg>
