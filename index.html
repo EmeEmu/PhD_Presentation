@@ -28,30 +28,89 @@
 
 	<section>
 		<h1> Introduction </h1>
-  	<div class="entry">main idea of the PhD : how do you campare the brain activity of multiple individuals ?</div>
-  	<div class="mainmessage">we know from recording human brains using fMRI : if we show the same task or stimuli to multiple individuals, we can find comparable representations in brain activity</div>
+  	<div class="entry"></div>
+  	<div class="mainmessage">main idea of the PhD : how do you campare the brain activity of multiple individuals ?</div>
+  	<div class="outlook">in humans...</div>
+	</section>
+
+	<section>
+		<h1> Introduction </h1>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 79.5%; --floating-top: 11.9%; --floating-w: 348px; --floating-h: 286px;
+     		">
+			<img src="https://www.mhs.ox.ac.uk/exhibits/revealing-the-brain/wp-content/uploads/fmriregions.gif" width="100%"/>
+		</div>
+
+  	<div class="entry">typical method for recording brain activity → fMRI</div>
+  	<div class="mainmessage"> we know how to record activity of the whole brain + show stimulus + to compare between indvs we can align brains + the organization of activity structure is dominated by group effects and individual effects (both mediated in majority by instrinsic network organization)</div>
   	<div class="outlook">not at the scale of neurons</div>
 	</section>
 
 	<section>
 		<h1> Introduction </h1>
-  	<div class="entry">for small animals where you can image individual neurons</div>
+  	<div class="entry">doing whole brain analysis in small animals where neurons can be identified</div>
   	<div class="mainmessage">C. elegens : same neurons can be identified in multiple individuals. latent space representation of behavior.</div>
-  	<div class="outlook">very simple brain. not vertebrates.</div>
+  	<div class="outlook">maybe you see a common theme</div>
 	</section>
 
-	need latent space to compare
-	how to make sense of the latent space -> using behavior or evoked
+	<section>
+		<h1> Introduction </h1>
+  	<div class="entry">Classical method for comparing brains</div>
+  	<div class="mainmessage">A method for mapping the unit of computation between individuals + a method to align recordings</div>
+  	<div class="outlook">maybe you see a common theme</div>
+	</section>
+
+	<!-- need latent space to compare -->
+	<!-- how to make sense of the latent space -> using behavior or evoked -->
 
 	<section>
 		<h1> Introduction </h1>
 		<h2>Zebrafish</h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 80.1%; --floating-top: 37.5%; --floating-w: 334px; --floating-h: 478px;
+     		">
+			<img src="assets/intro/zebra/rice.png" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 50.8%; --floating-top: 1.1%; --floating-w: 407px; --floating-h: 356px;
+     		">
+			<img src="assets/intro/zebra/adult.png" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -3.1%; --floating-top: 13.9%; --floating-w: 444px; --floating-h: 566px;
+     		">
+			<img src="assets/intro/zebra/fluo_annotated.png" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 79.5%; --floating-top: 11.9%; --floating-w: 348px; --floating-h: 286px;
+     		">
+			<video loop="true" src="assets/intro/zebra/gcamp_slide_show.mp4"></video>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 21.5%; --floating-top: -0.2%; --floating-w: 321px; --floating-h: 430px;
+     		">
+			<video loop="true" src="assets/intro/zebra/lots_of_little_fish.mp4"></video>
+		</div>
+
+
   	<div class="entry">??</div>
   	<div class="mainmessage">Zebra larvae are perfect for vertebrate whole brain recordings (transparent, ...) + behavior (mention HMM paper)</div>
   	<div class="outlook">??</div>
 	</section>
 
-	lightsheet microscopy
+	<!-- lightsheet microscopy -->
 
 
 </section> <!-- INTRO SECTION -->
@@ -87,6 +146,15 @@
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
 		<h2> as multi-individual models </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 64.3%; --floating-top: -0.7%; --floating-w: 633px; --floating-h: 430px;
+     		">
+			<img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/>
+		</div>
+
+
   	<div class="entry"></div>
   	<div class="mainmessage">degen + need for models that naturally aligned representations + big methodological question of my PhD</div>
   	<div class="outlook">2 families of methods</div>
@@ -102,6 +170,28 @@
 	<section>
 		<h1> Global Voxelized RBM </h1>
 		<!-- <h2> as multi-individual models </h2> -->
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 1.1%; --floating-top: 15.7%; --floating-w: 634px; --floating-h: 319px;
+     		">
+			<img src="assets/multiRBM/vox_diag.svg" width="100%"/>
+		</div>
+		
+		<div class="floating debug"
+     		style="
+					--floating-left: -0.4%; --floating-top: 62.0%; --floating-w: 1552px; --floating-h: 324px;
+     		">
+			<img src="assets/multiRBM/vox_rasters.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 52.7%; --floating-top: -1.2%; --floating-w: 856px; --floating-h: 534px;	
+     		">
+			<img src="assets/multiRBM/vox_stats.svg" width="100%"/>
+		</div>
+
   	<div class="entry">first method : 1 model for multiple indvs</div>
   	<div class="mainmessage">naiv method (similar to fMRI) + methodology + good model</div>
   	<div class="outlook">a single latent space</div>
@@ -110,6 +200,28 @@
 	<section>
 		<h1> Global Voxelized RBM </h1>
 		<h2> Stereotypy of representation </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -5.5%; --floating-top: 13.1%; --floating-w: 1214px; --floating-h: 318px;
+     		">
+			<img src="assets/multiRBM/vox_shared_structure.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 72.6%; --floating-top: 0.5%; --floating-w: 466px; --floating-h: 436px;
+     		">
+			<img src="assets/multiRBM/vox_freeenergy.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -5.1%; --floating-top: 62.2%; --floating-w: 661px; --floating-h: 162px;
+     		">
+			$$F(\mathbf{v}) = -\log Z -\log P(\mathbf{v})$$
+		</div>
+
   	<div class="entry">compairing stereotypy in v and h</div>
   	<div class="mainmessage">Latent representation are more stereotyped than raw activity → common representation space + no individual idiosyncrasies</div>
   	<div class="outlook">unified representation at coarse grained scales → what about neuron scale ?</div>
@@ -124,6 +236,14 @@
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<!-- <h2> Stereotypy of representation </h2> -->
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 64.3%; --floating-top: -0.7%; --floating-w: 633px; --floating-h: 430px;
+     		">
+			<img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/>
+		</div>
+
   	<div class="entry">building multi-individual models from neuron-level data</div>
   	<div class="mainmessage">problem with non-comparable neurons across individuals → one model per fish but aligned in latent space → what do we want the model to be able and do ? (same weight distrib + same hidden representation)</div>
   	<div class="outlook">??</div>
@@ -132,14 +252,58 @@
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<h2> The Teacher-Student method </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -1.0%; --floating-top: 16.8%; --floating-w: 633px; --floating-h: 430px;
+     		">
+			<img src="assets/multiRBM/TS_diag.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -0.0%; --floating-top: 60.7%; --floating-w: 843px; --floating-h: 352px;
+     		">
+			<img src="assets/multiRBM/TS_maps.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 31.6%; --floating-top: 13.5%; --floating-w: 698px; --floating-h: 345px;
+     		">
+			<img src="assets/multiRBM/La_LLH.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 68.8%; --floating-top: -1.1%; --floating-w: 501px; --floating-h: 969px;
+     		">
+			<img src="assets/multiRBM/LaRBM_stats.svg" width="100%"/>
+		</div>
+
   	<div class="entry">constraining latent space from one individual to another</div>
-  	<div class="mainmessage">Initialisation + bitraining</div>
+  	<div class="mainmessage">Initialisation + bitraining + good models</div>
   	<div class="outlook">reminder of goal (w spatial distrib + P(h))</div>
 	</section>
 	
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<h2> Maintaining Spatial Distribution of Weights </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 42.8%; --floating-top: 8.5%; --floating-w: 940px; --floating-h: 432px;
+     		">
+			<img src="assets/multiRBM/rho_dist.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 5.6%; --floating-top: 10.0%; --floating-w: 501px; --floating-h: 969px;
+     		">
+			<img src="assets/multiRBM/TS_samplemaps.svg" width="100%"/>
+		</div>
+
   	<div class="entry">??</div>
   	<div class="mainmessage">Stable weight distribs</div>
   	<div class="outlook">description of different fish using the same cell assemblies</div>
@@ -148,6 +312,28 @@
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<h2> Maintaining Hidden Priors </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 68.5%; --floating-top: 21.0%; --floating-w: 613px; --floating-h: 555px;
+     		">
+			<img src="assets/multiRBM/TS_Ph.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -4.1%; --floating-top: 22.9%; --floating-w: 610px; --floating-h: 481px;
+     		">
+			<img src="assets/multiRBM/QQ_Ph.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 34.0%; --floating-top: 2.1%; --floating-w: 610px; --floating-h: 481px;
+     		">
+			<img src="assets/multiDYN/HU_space_occupation.svg" width="100%"/>
+		</div>
+
   	<div class="entry">need same space</div>
   	<div class="mainmessage">Stable P(h) + same explored regions of latent space</div>
   	<div class="outlook">the activity of multiple individuals can be mapped to the same latent space</div>
@@ -156,9 +342,61 @@
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<h2> Translating Activity from one Fish to Another </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -6.3%; --floating-top: 12.0%; --floating-w: 718px; --floating-h: 517px;
+     		">
+			<img src="assets/multiRBM/deepfake_diag.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -6.0%; --floating-top: 54.6%; --floating-w: 715px; --floating-h: 409px;
+     		">
+			<img src="assets/multiRBM/deepfake_eq.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 57.9%; --floating-top: -1.9%; --floating-w: 876px; --floating-h: 517px;
+     		">
+			<video loop="true" src="assets/multiRBM/Movie3.mp4"></video>
+		</div>
+
   	<div class="entry">bidirectional generative model + same latent space → deepfake</div>
-  	<div class="mainmessage">method → "is activity from one fish probable in another fish ?"</div>
-  	<div class="outlook">the activity of multiple individuals can be mapped to the same latent space</div>
+  	<div class="mainmessage">method → we can translate activity from on fish to the other</div>
+  	<div class="outlook">we can now ask question : "how probable is the activity in the recipient?"</div>
+	</section>
+
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<h2> Translating Activity from one Fish to Another </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -1.2%; --floating-top: 14.3%; --floating-w: 719px; --floating-h: 919px;
+     		">
+			<img src="assets/multiRBM/deepfake_stats.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 50.9%; --floating-top: 1.9%; --floating-w: 714px; --floating-h: 472px;
+     		">
+			<img src="assets/multiRBM/deepfake_rho.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 50.9%; --floating-top: 55.0%; --floating-w: 715px; --floating-h: 409px;
+     		">
+			<img src="assets/multiRBM/deepfake_freeenergy.svg" width="100%"/>
+		</div>
+
+  	<div class="entry"></div>
+  	<div class="mainmessage">stats + structure + proba maintained upon translation</div>
+  	<div class="outlook"></div>
 	</section>
 
 	<section>
@@ -178,6 +416,21 @@
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<!-- <h2> Summary </h2> -->
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -0.1%; --floating-top: 57.5%; --floating-w: 943px; --floating-h: 393px;
+     		">
+			<img src="assets/multiDYN/hidden_act.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 51.9%; --floating-top: 2.3%; --floating-w: 924px; --floating-h: 577px;
+     		">
+			<img src="assets/multiDYN/hidden_explore.svg" width="100%"/>
+		</div>
+
   	<div class="entry">A common space to compare dynamics across individuals</div>
   	<div class="mainmessage">Start with naive comparison (autocor + explored regions) (qualitative)</div>
   	<div class="outlook">same position in latent space ?=? same "brain state"</div>
@@ -186,6 +439,42 @@
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Partitioning the Latent Space </h2>
+		
+		<div class="floating debug"
+     		style="
+					--floating-left: 2.6%; --floating-top: 10.2%; --floating-w: 783px; --floating-h: 421px;
+     		">
+			<img src="assets/multiDYN/sRBM_diag.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 70.2%; --floating-top: 1.6%; --floating-w: 499px; --floating-h: 403px;
+     		">
+			<img src="assets/multiDYN/sRBM_qq.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 69.2%; --floating-top: 40.3%; --floating-w: 539px; --floating-h: 412px;
+     		">
+			<img src="assets/multiDYN/sRBM_hh.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 10.6%; --floating-top: 66.7%; --floating-w: 1391px; --floating-h: 293px;
+     		">
+			<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -7.8%; --floating-top: 49.0%; --floating-w: 724px; --floating-h: 183px;
+     		">
+			$$P(s\mid\mathbf{v}_t) = \mathbb{E}\Big[ P\big( s\mid P(\mathbf{h}\mid\mathbf{v}_t) \big) \Big]$$
+		</div>
+
   	<div class="entry">??</div>
   	<div class="mainmessage">segmentation of latent space into brain states → sRBM → method (+ fails to reproduce hh)</div>
   	<div class="outlook">sequence of states</div>
@@ -194,6 +483,28 @@
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Partitioning the Latent Space </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 10.6%; --floating-top: 66.7%; --floating-w: 1391px; --floating-h: 293px;
+     		">
+			<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 73.9%; --floating-top: 2.9%; --floating-w: 630px; --floating-h: 501px;
+     		">
+			<img src="assets/multiDYN/Psv_vs_S.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -3.1%; --floating-top: 14.5%; --floating-w: 1391px; --floating-h: 293px;
+     		">
+			<img src="assets/multiDYN/smax.svg" width="100%"/>
+		</div>
+
   	<div class="entry">building sequence of states</div>
   	<div class="mainmessage">state sequence + smax + "certainty" vs S</div>
   	<div class="outlook">video of state sequence</div>
@@ -201,23 +512,114 @@
 
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> Partitioning the Latent Space </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 18.3%; --floating-top: 9.6%; --floating-w: 1227px; --floating-h: 949px;
+     		">
+			<video loop="true" src="assets/multiDYN/Movie1.mp4"></video>
+		</div>
+
+  	<div class="entry"></div>
+  	<div class="mainmessage">capture large scale features</div>
+  	<div class="outlook">are those features similar across fish ?</div>
+	</section>
+
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Neuronal Composition of States </h2>
-  	<div class="entry">what do those states look like spatially</div>
-  	<div class="mainmessage">compositionality + stable large scales features</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -2.2%; --floating-top: 17.7%; --floating-w: 1153px; --floating-h: 816px;
+     		">
+			<img src="assets/multiDYN/state_maps.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 69.3%; --floating-top: 18.0%; --floating-w: 530px; --floating-h: 772px;
+     		">
+			<img src="assets/multiDYN/states_rho.svg" width="100%"/>
+		</div>
+
+  	<div class="entry">what do those states look like spatially across fish?</div>
+  	<div class="mainmessage">compositionality + stable large scales features across fish</div>
   	<div class="outlook">??</div>
 	</section>
 	
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<h2> Markovian Dynamics </h2>
+		<h2> State Probability </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -1.3%; --floating-top: 71.2%; --floating-w: 557px; --floating-h: 221px;
+     		">
+			$$P(s) = \frac{1}{T}\sum_{t=1}^T P(s\mid\mathbf{v}_t)$$
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -1.5%; --floating-top: 21.6%; --floating-w: 535px; --floating-h: 510px;
+     		">
+			<img src="assets/multiDYN/Ps_id.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 36.8%; --floating-top: 47.9%; --floating-w: 646px; --floating-h: 528px;
+     		">
+			<img src="assets/multiDYN/Ps_matrix.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 68.9%; --floating-top: 2.3%; --floating-w: 473px; --floating-h: 535px;
+     		">
+			<img src="assets/multiDYN/PS_vs_S.svg" width="100%"/>
+		</div>
+
+
   	<div class="entry">what states are the most probable</div>
-  	<div class="mainmessage">occupation of states + vs S</div>
+  	<div class="mainmessage">occupation of states + clutches + vs S</div>
   	<div class="outlook">??</div>
 	</section>
 
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Markovian Dynamics </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -1.8%; --floating-top: 17.4%; --floating-w: 1597px; --floating-h: 232px;
+     		">
+			$$P(s\to s') = \frac{ \sum_{t=1}^{T-1} P(s\mid\mathbf{v}_t) \cdot P(s'\mid\mathbf{v}_{t+1}) }{ \sum_{t=1}^{T-1} P(s\mid\mathbf{v}_t) }
+                \quad\text{with}\quad \sum_{s'=1}^{S} P_{ss'} = 1.$$
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 81.4%; --floating-top: 19.9%; --floating-w: 380px; --floating-h: 138px;
+     		">
+			markov diag
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 0.6%; --floating-top: 57.0%; --floating-w: 715px; --floating-h: 353px;
+     		">
+			<img src="assets/multiDYN/Pss.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 60.6%; --floating-top: 51.2%; --floating-w: 473px; --floating-h: 462px;
+     		">
+			<img src="assets/multiDYN/Pss_id.svg" width="100%"/>
+		</div>
+
   	<div class="entry">what is the structure of sequence ?</div>
   	<div class="mainmessage">markov + transition matrix + stereotypy</div>
   	<div class="outlook">??</div>
@@ -226,6 +628,29 @@
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Markovian Dynamics </h2>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 0.3%; --floating-top: 9.7%; --floating-w: 375px; --floating-h: 429px;
+     		">
+			<img src="assets/multiDYN/PS_vs_S.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -0.7%; --floating-top: 46.9%; --floating-w: 404px; --floating-h: 428px;
+     		">
+			<img src="assets/multiDYN/Pss_vs_S.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 45.3%; --floating-top: 1.2%; --floating-w: 901px; --floating-h: 1061px;
+     		">
+			<img src="assets/multiDYN/FamillyTransitions.svg" width="100%"/>
+		</div>
+
+
   	<div class="entry">??</div>
   	<div class="mainmessage">hub states (n* and nn* vs S)</div>
   	<div class="outlook">??</div>
