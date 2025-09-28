@@ -549,3 +549,60 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   font-size: 0.75em;
   text-align: right;
 }
+
+
+
+/*********************************************
+ * CITATIONS (bottom-left container)
+ *********************************************/
+/* Container placed at bottom-left of the slide */
+.reveal .citations {
+  position: absolute;
+  left: 14px;
+  bottom: 54px;
+  max-width: 40%;
+  color: #666;
+  font-size: 0.55em;
+  line-height: 1.25;
+  text-align: left;
+}
+
+/* You can use a <ul class="citations"> or any block with .citations */
+.reveal ul.citations {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;            /* allow auto-wrap onto multiple lines */
+  align-items: baseline;
+  gap: 0.4em;                 /* spacing around separators */
+  white-space: normal;        /* allow wrapping */
+}
+.reveal ul.citations > li {
+  margin: 0;
+  display: inline-flex;
+  align-items: baseline;
+  max-width: 100%;
+}
+
+/* Structure: <span class="author"></span>, <span class="journal"></span>, <span class="year"></span> */
+.reveal .citations .author { font-style: normal; font-weight: normal; }
+.reveal .citations .journal { font-style: italic; }
+.reveal .citations .year { font-style: italic; }
+
+/* Pipe separators between items */
+/* Pipe separators between items (works with wrapping) */
+.reveal ul.citations > li + li { position: relative; }
+.reveal ul.citations > li + li::before {
+  content: "|";
+  opacity: .6;
+  margin: 0 .2em; /* small spacing around pipe */
+}
+
+/* Make each citation optionally clickable without changing look */
+.reveal .citations a,
+.reveal .citations a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+

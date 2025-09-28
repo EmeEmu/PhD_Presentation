@@ -28,6 +28,16 @@
 
 	<section>
 		<h1> Introduction </h1>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 10.7%; --floating-top: 22.4%; --floating-w: 1545px; --floating-h: 364px;
+     		">
+     	<p>Comparing Brain Activity across Individuals</p>
+			<!-- <img src="assets/multiRBM/deepfake_freeenergy.svg" width="100%"/> -->
+			IMAGE
+		</div>
+
   	<div class="entry"></div>
   	<div class="mainmessage">main idea of the PhD : how do you campare the brain activity of multiple individuals ?</div>
   	<div class="outlook">in humans...</div>
@@ -42,6 +52,22 @@
      		">
 			<img src="https://www.mhs.ox.ac.uk/exhibits/revealing-the-brain/wp-content/uploads/fmriregions.gif" width="100%"/>
 		</div>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: -5.0%; --floating-top: 13.8%; --floating-w: 849px; --floating-h: 414px;
+     		">
+			<img src="https://www.slicer.org/w/img_auth.php/thumb/c/cb/RegLib_C42_Xf2_registered.gif/300px-RegLib_C42_Xf2_registered.gif" width="100%"/>
+		</div>
+
+		<ul class="citations">
+  		<li><a href="https://www.mhs.ox.ac.uk/exhibits/revealing-the-brain/regions/index.html" target="_blank" rel="noopener">
+      		<span class="author">MHS Oxford</span> <span class="journal">Exibition</span> <span class="year">2013</span>
+    	</a></li>
+  		<li><a href="https://www.slicer.org/wiki/Documentation:Nightly:Registration:RegistrationLibrary:RegLib_C42" target="_blank" rel="noopener">
+      		<span class="author">3DSlicer</span> <span class="journal">Documentation</span> <span class="year">2013</span>
+    	</a></li>
+		</ul>
 
   	<div class="entry">typical method for recording brain activity → fMRI</div>
   	<div class="mainmessage"> we know how to record activity of the whole brain + show stimulus + to compare between indvs we can align brains + the organization of activity structure is dominated by group effects and individual effects (both mediated in majority by instrinsic network organization)</div>
@@ -419,16 +445,21 @@
 
 		<div class="floating debug"
      		style="
-					--floating-left: -0.1%; --floating-top: 57.5%; --floating-w: 943px; --floating-h: 393px;
+					--floating-left: -7.8%; --floating-top: 17.2%; --floating-w: 997px; --floating-h: 683px;
      		">
 			<img src="assets/multiDYN/hidden_act.svg" width="100%"/>
+			<p>characteristic auto-correlation $\approx\! 2\!-\!3s$</p>
+			<p>↓</p>
+			<p>predictable over short time scales</p>
 		</div>
 
 		<div class="floating debug"
      		style="
-					--floating-left: 51.9%; --floating-top: 2.3%; --floating-w: 924px; --floating-h: 577px;
+					--floating-left: 51.9%; --floating-top: 2.3%; --floating-w: 1007px; --floating-h: 807px;
      		">
 			<img src="assets/multiDYN/hidden_explore.svg" width="100%"/>
+			<p>stereotyped accessible subspace</p>
+			<p>different subspace exploration</p>
 		</div>
 
   	<div class="entry">A common space to compare dynamics across individuals</div>
@@ -442,37 +473,26 @@
 		
 		<div class="floating debug"
      		style="
-					--floating-left: 2.6%; --floating-top: 10.2%; --floating-w: 783px; --floating-h: 421px;
+					--floating-left: -0.1%; --floating-top: 14.0%; --floating-w: 959px; --floating-h: 493px;
      		">
 			<img src="assets/multiDYN/sRBM_diag.svg" width="100%"/>
 		</div>
 
 		<div class="floating debug"
      		style="
-					--floating-left: 70.2%; --floating-top: 1.6%; --floating-w: 499px; --floating-h: 403px;
+					--floating-left: 65.2%; --floating-top: 8.9%; --floating-w: 604px; --floating-h: 554px;
      		">
 			<img src="assets/multiDYN/sRBM_qq.svg" width="100%"/>
+			<p>h-bRBM ≈ h-sRBM</p>
 		</div>
+
 
 		<div class="floating debug"
      		style="
-					--floating-left: 69.2%; --floating-top: 40.3%; --floating-w: 539px; --floating-h: 412px;
-     		">
-			<img src="assets/multiDYN/sRBM_hh.svg" width="100%"/>
-		</div>
-
-		<div class="floating debug"
-     		style="
-					--floating-left: 10.6%; --floating-top: 66.7%; --floating-w: 1391px; --floating-h: 293px;
-     		">
-			<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/>
-		</div>
-
-		<div class="floating debug"
-     		style="
-					--floating-left: -7.8%; --floating-top: 49.0%; --floating-w: 724px; --floating-h: 183px;
+					--floating-left: 12.4%; --floating-top: 54.7%; --floating-w: 1434px; --floating-h: 473px;
      		">
 			$$P(s\mid\mathbf{v}_t) = \mathbb{E}\Big[ P\big( s\mid P(\mathbf{h}\mid\mathbf{v}_t) \big) \Big]$$
+			<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/>
 		</div>
 
   	<div class="entry">??</div>
@@ -486,8 +506,9 @@
 
 		<div class="floating debug"
      		style="
-					--floating-left: 10.6%; --floating-top: 66.7%; --floating-w: 1391px; --floating-h: 293px;
+					--floating-left: 12.4%; --floating-top: 54.7%; --floating-w: 1434px; --floating-h: 473px;
      		">
+			$$P(s\mid\mathbf{v}_t) = \mathbb{E}\Big[ P\big( s\mid P(\mathbf{h}\mid\mathbf{v}_t) \big) \Big]$$
 			<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/>
 		</div>
 
@@ -543,6 +564,13 @@
      		">
 			<img src="assets/multiDYN/states_rho.svg" width="100%"/>
 		</div>
+
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 69.2%; --floating-top: 40.3%; --floating-w: 539px; --floating-h: 412px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiDYN/sRBM_hh.svg" width="100%"/> -->
+		<!-- </div> -->
 
   	<div class="entry">what do those states look like spatially across fish?</div>
   	<div class="mainmessage">compositionality + stable large scales features across fish</div>
@@ -721,13 +749,12 @@
 	<section>
 		<h1>Section Title</h1>
 		<h2>Smaller subtitle 1</h2>
-		<img src="assets/test.svg" />
-		$$E=mc^2$$
 		$$\mathcal{U}(x) = \frac{1}{2}\gamma_+ x_+^2 + \frac{1}{2}\gamma_- x_-^2 + \theta_+x_+ + \theta_-x_-$$
-		$$\begin{align}
-		P(\mathbf{v}, \mathbf{h}) & = \frac{1}{Z} e^{-E(\mathbf{v}, \mathbf{h})}\\
-		E(\mathbf{v}, \mathbf{h}) & = -\sum_{i=1}^N g_i v_i + \sum_{\mu=1}^M \mathcal{U}_{\mu}(h_{\mu}) - \sum_{i,\mu} w_{i,\mu}v_ih_{\mu}
-		\end{align}$$
+		<ul class="citations">
+  		<li><a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">
+      		<span class="author">Smith, J.</span> <span class="journal">Nature</span> <span class="year">2021</span>
+    	</a></li>
+		</ul>
 	</section>
 
 
