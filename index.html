@@ -113,30 +113,44 @@
   	<!-- <div class="mainmessage"> we know how to record activity of the whole brain + show stimulus + to compare between indvs we can align brains + the organization of activity structure is dominated by group effects and individual effects (both mediated in majority by instrinsic network organization)</div> -->
   	<!-- <div class="outlook">not at the scale of neurons</div> -->
   	<div class="entry">comparing brain activity has been done for a long time</div>
-  	<div class="mainmessage"> recording=fRMI + stimuli or task → link activity with stim/task → maps → compare maps across individuals using registration</div>
-  	<div class="outlook">problem : not all the activity of the brain is related to stimuli or tasks</div>
+  	<div class="mainmessage"> recording=fRMI + stimuli or task → link activity with stim/task → maps identifying the functions of brain regions → compare maps across individuals using registration</div>
+  	<div class="outlook">brains are different but share large scale functional organization</div>
 	</section>
 
 	<section>
 		<h1> Introduction </h1>
-
-		<div class="floating debug"
-     		style="
-					--floating-left: 24.0%; --floating-top: 59.4%; --floating-w: 887px; --floating-h: 307px;
-     		">
-			<img src="assets/intro/neuro/fMRI_spont.svg" width="100%"/>
-		</div>
-
-		<ul class="citations">
-  		<li><a href="https://www.pnas.org/doi/10.1073/pnas.0601417103" target="_blank" rel="noopener">
-      		<span class="author">Damoiseaux et al.</span> <span class="journal">PNAS</span> <span class="year">2006</span>
-    	</a></li>
-		</ul>
-
-  	<div class="entry"></div>
-  	<div class="mainmessage">spont def + problem of comparison with SA + finding networks of SA shared across humans (ICA diag)</div>
-  	<div class="outlook">problem : not at scale of neurons</div>
+  	<div class="entry">Even if we can find similar large brain structure that are specialized at doing different things, why do we expect brain activity to be the same. The brain controles the behavior, and it's easier to understand what an animal does than how an animal thinks.</div>
+  	<div class="mainmessage">My favorite example : how flies clean themselfs. Behavior = stereotyped actions (vocabulary) + stereotyped structure of sequence</div>
+  	<div class="outlook">you can find a shared representation of the behavior</div>
 	</section>
+
+	<section>
+		<h1> Introduction </h1>
+  	<div class="entry">this is a very simple example but you can generalize it to much more complicated behavior.</div>
+  	<div class="mainmessage">For example human movements. Infinite possibilities but in practice we can represent most behaviors with just a few joints (250 dof → 30 dof). We can simplify this even more : not every position equiprobable (forbiden + unlikely) + transitions</div>
+  	<div class="outlook">if we can find a shared representation space for behavior, and behavior is controled by the brain → we should be able to find a simplified reprentation of brain activity which explains the behavior.</div>
+	</section>
+
+	<!-- <section> -->
+	<!-- 	<h1> Introduction </h1> -->
+	<!---->
+	<!-- 	<div class="floating debug" -->
+ <!--     		style=" -->
+	<!-- 				--floating-left: 24.0%; --floating-top: 59.4%; --floating-w: 887px; --floating-h: 307px; -->
+ <!--     		"> -->
+	<!-- 		<img src="assets/intro/neuro/fMRI_spont.svg" width="100%"/> -->
+	<!-- 	</div> -->
+	<!---->
+	<!-- 	<ul class="citations"> -->
+ <!--  		<li><a href="https://www.pnas.org/doi/10.1073/pnas.0601417103" target="_blank" rel="noopener"> -->
+ <!--      		<span class="author">Damoiseaux et al.</span> <span class="journal">PNAS</span> <span class="year">2006</span> -->
+ <!--    	</a></li> -->
+	<!-- 	</ul> -->
+	<!---->
+ <!--  	<div class="entry"></div> -->
+ <!--  	<div class="mainmessage">spont def + problem of comparison with SA + finding networks of SA shared across humans (ICA diag)</div> -->
+ <!--  	<div class="outlook">problem : not at scale of neurons</div> -->
+	<!-- </section> -->
 
 	<section>
 		<h1> Introduction </h1>
@@ -185,51 +199,69 @@
 		<h1> Introduction </h1>
 		<h2>Zebrafish</h2>
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: 80.1%; --floating-top: 37.5%; --floating-w: 334px; --floating-h: 478px;
+					--floating-left: -0.4%; --floating-top: 11.7%; --floating-w: 455px; --floating-h: 353px;
      		">
+     	Adult
+			<img src="assets/intro/zebra/adult.png" width="100%"/>
+		</div>
+
+		<div class="floating fragment" data-fragment-index="1"
+     		style="
+					--floating-left: 1.3%; --floating-top: 46.1%; --floating-w: 389px; --floating-h: 548px;
+     		">
+     	Larva
 			<img src="assets/intro/zebra/rice.png" width="100%"/>
 		</div>
 
 		<div class="floating debug"
      		style="
-					--floating-left: 50.8%; --floating-top: 1.1%; --floating-w: 407px; --floating-h: 356px;
+					--floating-left: 62.8%; --floating-top: 5.5%; --floating-w: 592px; --floating-h: 649px;
      		">
-			<img src="assets/intro/zebra/adult.png" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/intro/zebra/fluo_annotated.svg" 
+					data-base="Layer 1" 
+				></div>
+			<!-- <img src="assets/intro/zebra/fluo_annotated.svg" width="100%"/> -->
 		</div>
 
 		<div class="floating debug"
      		style="
-					--floating-left: -3.1%; --floating-top: 13.9%; --floating-w: 444px; --floating-h: 566px;
+					--floating-left: 59.5%; --floating-top: 63.1%; --floating-w: 700px; --floating-h: 314px;
      		">
-			<img src="assets/intro/zebra/fluo_annotated.png" width="100%"/>
+			<ul>
+				<li class="fragment" data-fragment-index="2">Small brain (~100k neurons)</li>
+				<li class="fragment" data-fragment-index="3">Transparent</li>
+				<li class="fragment" data-fragment-index="3">Genetic tools (GCaMP, ...)</li>
+				<li class="fragment">Complex behavior</li>
+			</ul>
 		</div>
+
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 79.5%; --floating-top: 11.9%; --floating-w: 348px; --floating-h: 286px; -->
+  <!--    		"> -->
+		<!-- 	<video loop="true" src="assets/intro/zebra/gcamp_slide_show.mp4"></video> -->
+		<!-- </div> -->
 
 		<div class="floating debug"
      		style="
-					--floating-left: 79.5%; --floating-top: 11.9%; --floating-w: 348px; --floating-h: 286px;
-     		">
-			<video loop="true" src="assets/intro/zebra/gcamp_slide_show.mp4"></video>
-		</div>
-
-		<div class="floating debug"
-     		style="
-					--floating-left: 21.5%; --floating-top: -0.2%; --floating-w: 321px; --floating-h: 430px;
+					--floating-left: 26.5%; --floating-top: 10.4%; --floating-w: 321px; --floating-h: 430px;
      		">
 			<video loop="true" src="assets/intro/zebra/lots_of_little_fish.mp4"></video>
 		</div>
 
-		<ul class="citations" style="bottom: 100px">
-  		<li><a href="https://www.biorxiv.org/content/10.1101/2024.11.22.624881v1" target="_blank" rel="noopener">
-      		<span class="author">Dommanget-Kott & Fernandez-de-Cossio-Diaz, et al.</span> <span class="journal">bioRxiv</span> <span class="year">2024</span>
-    	</a></li>
-		</ul>
+		<!-- <ul class="citations" style="bottom: 100px"> -->
+  <!-- 		<li><a href="https://www.biorxiv.org/content/10.1101/2024.11.22.624881v1" target="_blank" rel="noopener"> -->
+  <!--     		<span class="author">Dommanget-Kott & Fernandez-de-Cossio-Diaz, et al.</span> <span class="journal">bioRxiv</span> <span class="year">2024</span> -->
+  <!--   	</a></li> -->
+		<!-- </ul> -->
 
 
-  	<div class="entry">??</div>
-  	<div class="mainmessage">Zebra larvae are perfect for vertebrate whole brain recordings (transparent, ...) + behavior (mention HMM paper)</div>
-  	<div class="outlook">??</div>
+  	<!-- <div class="entry">??</div> -->
+  	<!-- <div class="mainmessage">Zebra larvae are perfect for vertebrate whole brain recordings (transparent, ...) + behavior (mention HMM paper)</div> -->
+  	<!-- <div class="outlook">??</div> -->
 	</section>
 
 	<section>
@@ -266,6 +298,14 @@
 
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
+
+		<div class="floating debug"
+     		style="
+					--floating-left: 0.7%; --floating-top: 3.3%; --floating-w: 1864px; --floating-h: 1073px;
+     		">
+			<img src="assets/intro/deamon.png" width="100%"/>
+		</div>
+
   	<div class="entry">spont recordings</div>
   	<div class="mainmessage">Hinton Deamon → dim reduction + probability + different time scales</div>
   	<div class="outlook">zebrafish brain is controlled by a hinton deamon</div>
@@ -300,7 +340,7 @@
 
 
   	<div class="entry"></div>
-  	<div class="mainmessage">degen + need for models that naturally aligned representations + big methodological question of my PhD</div>
+  	<div class="mainmessage">?degen? + need for models that naturally aligned representations + big methodological question of my PhD</div>
   	<div class="outlook">2 families of methods</div>
 	</section>
 
