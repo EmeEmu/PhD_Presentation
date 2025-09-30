@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100.88022mm"
+   height="58.60564mm"
+   viewBox="0 0 100.88022 58.60564"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="gibbs.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3833223"
+     inkscape:cx="186.86896"
+     inkscape:cy="111.68764"
+     inkscape:window-width="1360"
+     inkscape:window-height="738"
+     inkscape:window-x="768"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true"
+       viewBox="0 0 6.9304588 5.1962256"
+       markerWidth="6.9304585"
+       markerHeight="5.1962256"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path29055-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-9-37"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path29055-7-12" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-9-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path29055-7-21" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path29049" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-53.974999,-121.17916)">
+    <g
+       id="g2">
+      <g
+         id="g288538"
+         transform="translate(-403.85862,-37.475092)">
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-75-9"
+           cx="462.97266"
+           cy="174.67462"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-3-97-0"
+           cx="462.97266"
+           cy="181.28922"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-6-8-9"
+           cx="462.97266"
+           cy="194.51837"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-7-5-8"
+           cx="462.97266"
+           cy="187.90379"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-5-3-8"
+           cx="462.97266"
+           cy="201.13297"
+           r="2" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="59.470612"
+         y="169.93112"
+         id="text325248"><tspan
+           sodipodi:role="line"
+           id="tspan325246"
+           style="font-size:2.82222px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="59.470612"
+           y="169.93112">config 0</tspan></text>
+    </g>
+    <g
+       id="g1">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="m 59.16219,174.98531 h 95.25003"
+         id="path337233"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="106.98465"
+         y="179.12903"
+         id="text339635"><tspan
+           sodipodi:role="line"
+           id="tspan339633"
+           style="font-size:3.175px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="106.98465"
+           y="179.12903">Gibbs Sampling Steps</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer 2"
+     style="display:inline"
+     transform="translate(-53.974999,-121.17916)">
+    <g
+       id="g3">
+      <circle
+         style="fill:#aa752a;fill-opacity:1;stroke:none;stroke-width:2.26772"
+         id="path7981-6-1-3-5"
+         cx="89.541039"
+         cy="133.09731"
+         r="2" />
+      <circle
+         style="fill:#aa752a;fill-opacity:1;stroke:none;stroke-width:2.26772"
+         id="path7981-7-2-8-8"
+         cx="89.541039"
+         cy="123.17916"
+         r="2" />
+      <circle
+         style="fill:#aa752a;fill-opacity:1;stroke:none;stroke-width:2.26772"
+         id="path7981-5-7-3-4"
+         cx="89.541039"
+         cy="143.01169"
+         r="2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-9)"
+         d="m 63.13094,150.37906 22.48959,-17.1979"
+         id="path288582"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-27.46784"
+         y="154.28345"
+         id="text289400"
+         transform="rotate(-37.551824)"><tspan
+           sodipodi:role="line"
+           id="tspan289398"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="-27.46784"
+           y="154.28345">extract hidden config</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="-27.46784"
+           y="156.92929"
+           id="tspan290876">from data</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-27.498377"
+         y="162.24165"
+         id="text298032"
+         transform="rotate(-37.2394)"><tspan
+           sodipodi:role="line"
+           id="tspan298030"
+           style="font-size:2.82222px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="-27.498377"
+           y="162.24165">P( h | v<tspan
+   id="tspan300200"
+   style="font-size:2.82222px;text-align:center;text-anchor:middle">(t=0)</tspan> )</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Layer 3"
+     style="display:inline"
+     transform="translate(-53.974999,-121.17916)">
+    <g
+       id="g4">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-9-37)"
+         d="m 93.55802,133.18116 22.48959,17.1979"
+         id="path288582-2"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="169.93881"
+         y="41.951897"
+         id="text294586"
+         transform="rotate(38.642111)"><tspan
+           sodipodi:role="line"
+           id="tspan294584"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="169.93881"
+           y="41.951897">reconstruct data</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="169.93881"
+           y="44.597733"
+           id="tspan294928">from hidden config</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="168.56587"
+         y="56.886238"
+         id="text298032-7"
+         transform="rotate(36.074384)"><tspan
+           sodipodi:role="line"
+           id="tspan298030-9"
+           style="font-size:2.82222px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="168.56587"
+           y="56.886238">P( v | h(t=0) )</tspan></text>
+      <g
+         id="g288538-1"
+         transform="translate(-343.00447,-37.475092)">
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-75-9-7"
+           cx="462.97266"
+           cy="174.67462"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-3-97-0-4"
+           cx="462.97266"
+           cy="181.28922"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-6-8-9-1"
+           cx="462.97266"
+           cy="194.51837"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-7-5-8-7"
+           cx="462.97266"
+           cy="187.90379"
+           r="2" />
+        <circle
+           style="fill:#60a364;fill-opacity:1;stroke:none;stroke-width:2.26772"
+           id="path7981-5-3-8-1"
+           cx="462.97266"
+           cy="201.13297"
+           r="2" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';stroke-width:0.264583"
+         x="115.37157"
+         y="169.95709"
+         id="text325248-63"><tspan
+           sodipodi:role="line"
+           id="tspan325246-7"
+           style="font-size:2.82222px;stroke-width:0.264583"
+           x="115.37157"
+           y="169.95709">config 1</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Layer 4"
+     style="display:inline"
+     transform="translate(-53.974999,-121.17916)">
+    <g
+       id="g5">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-9-0)"
+         d="m 123.98506,150.37892 22.48962,-17.1979"
+         id="path288582-4"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="20.777153"
+         y="191.37274"
+         id="text289400-8"
+         transform="rotate(-37.551824)"><tspan
+           sodipodi:role="line"
+           id="tspan289398-5"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="20.777153"
+           y="191.37274">extract hidden state</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:2.11667px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="20.777153"
+           y="194.01859"
+           id="tspan290876-1">from config</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;line-height:1.25;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre, Normal';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="20.948467"
+         y="199.06798"
+         id="text298032-1"
+         transform="rotate(-37.2394)"><tspan
+           sodipodi:role="line"
+           id="tspan298030-96"
+           style="font-size:2.82222px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="20.948467"
+           y="199.06798">P( h | v<tspan
+   id="tspan300200-4"
+   style="font-size:2.82222px;text-align:center;text-anchor:middle">(t=1)</tspan> )</tspan></text>
+      <circle
+         style="fill:#000004;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path328334"
+         cx="149.17542"
+         cy="131.84558"
+         r="0.5" />
+      <circle
+         style="fill:#000004;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path328334-9"
+         cx="150.49838"
+         cy="131.84558"
+         r="0.5" />
+      <circle
+         style="fill:#000004;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path328334-7"
+         cx="151.82126"
+         cy="131.84558"
+         r="0.5" />
+    </g>
+  </g>
+</svg>

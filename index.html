@@ -267,7 +267,7 @@
 
 	<section>
 		<h1> Introduction </h1>
-		<h2>The gap</h2>
+		<h2>Light Sheet Microscopy</h2>
   	<div class="entry"></div>
   	<div class="mainmessage">Light Sheet</div>
   	<div class="outlook"></div>
@@ -275,7 +275,8 @@
 
 	<section>
 		<h1> Introduction </h1>
-		<h2>The gap</h2>
+		<h2>Light Sheet Microscopy</h2>
+  	<div class="entry"></div>
 
 		<div class="floating debug"
      		style="
@@ -315,9 +316,133 @@
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
 		<h2> The Theory </h2>
-  	<div class="entry">Geofrey Hinton</div>
-  	<div class="mainmessage">Diagram and math + (v to multiple h, continuous h and distrib, ...) + Gibbs</div>
-  	<div class="outlook">application to zebrafish by Thijs and Jerome</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 82.6%; --floating-top: -0.6%; --floating-w: 305px; --floating-h: 413px;
+     		">
+				<p>Geoffrey Hinton</p>
+			<img src="https://chartwellspeakers.b-cdn.net/wp-content/uploads/2023/09/geoffhinton_14977197-e1697029454322.webp" width="100%"/>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -0.4%; --floating-top: 10.2%; --floating-w: 1216px; --floating-h: 374px;
+     		">
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/diag.svg" 
+					data-base="Layer 1" 
+					data-include="Layer 1"
+				></div>
+		</div>
+
+
+		<div class="floating"
+     		style="
+					--floating-left: -0.3%; --floating-top: 42.8%; --floating-w: 1005px; --floating-h: 205px;
+     		">
+			<div style="text-align: left;">
+				<p>visible configuration : $\mathbf v=(v_1,\dots,v_N)\in\{0,1\}^N$</p>
+				<p>hidden configuration : $\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$</p>
+			</div>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: -0.3%; --floating-top: 61.6%; --floating-w: 1083px; --floating-h: 375px;
+     		">
+			$$
+				\begin{aligned}
+          P(\mathbf v,\mathbf h) &= \frac{1}{Z}\,
+          e^{-E(\mathbf v,\mathbf h)}\\
+          E(\mathbf v,\mathbf h) &=
+              -\sum_{i=1}^{N}g_i v_i
+              +\sum_{\mu=1}^{M}\mathcal{U}_\mu(h_\mu)
+              -\sum_{i,\mu} w_{i\mu} v_i h_\mu
+          \end{aligned}
+			$$
+		</div>
+
+		<div class="floating fragment debug"
+     		style="
+					--floating-left: 56.2%; --floating-top: 48.2%; --floating-w: 380px; --floating-h: 388px;
+     		">
+     		<p>Continuous hiddens</p>
+				<div class="r-svg-layers" 
+					data-src="assets/multiRBM/TS_Ph.svg" 
+					data-base="Layer 1" 
+					data-include="Layer 1"
+				></div>
+		</div>
+
+		<div class="floating fragment debug"
+     		style="
+					--floating-left: 77.0%; --floating-top: 48.2%; --floating-w: 380px; --floating-h: 388px;
+     		">
+     		<p>Continuous weights</p>
+				<!-- <div class="r-svg-layers"  -->
+				<!-- 	data-src="assets/multiRBM/TS_Ph.svg"  -->
+				<!-- 	data-base="Layer 1"  -->
+				<!-- 	data-include="Layer 1" -->
+				<!-- ></div> -->
+		</div>
+
+  	<!-- <div class="entry">Geofrey Hinton</div> -->
+  	<!-- <div class="mainmessage">Diagram and math + (v to multiple h, continuous h and distrib, ...) + Gibbs</div> -->
+  	<!-- <div class="outlook">application to zebrafish by Thijs and Jerome</div> -->
+	</section>
+
+
+	<section>
+		<h1> Restricted Bolzmann Machines </h1>
+		<h2> The Theory </h2>
+
+		<div class="floating"
+     		style="
+					--floating-left: -0.4%; --floating-top: 10.2%; --floating-w: 1216px; --floating-h: 374px;
+     		">
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/diag.svg" 
+					data-base="Layer 1" 
+					data-include="Layer 1"
+				></div>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 51.3%; --floating-top: 5.4%; --floating-w: 621px; --floating-h: 98px;
+     		">
+			maximize $\mathcal{L} = \langle \log P(\mathbf{v}) \rangle_\text{data}$
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 51.4%; --floating-top: 14.9%; --floating-w: 616px; --floating-h: 96px;
+     		">
+			⇒ $\langle\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{h}\rangle$, $\langle\mathbf{h}\rangle$, $\langle\mathbf{h}\mathbf{h}\rangle$
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 0.7%; --floating-top: 43.0%; --floating-w: 925px; --floating-h: 586px;
+     		">
+     		<p>Generating new data</p>
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/gibbs.svg" 
+					data-base="Layer 1" 
+				></div>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 51.1%; --floating-top: 37.6%; --floating-w: 907px; --floating-h: 605px;
+     		">
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/stats.svg" 
+					data-base="Layer 1" 
+				></div>
+		</div>
+
 	</section>
 
 	<section>

@@ -33,6 +33,7 @@
   function hideLayer(el){ el.classList.add('rsvg-hidden'); }
   function showLayer(el){ el.classList.remove('rsvg-hidden'); }
 
+
   function buildSteps(ctx){
     var container = ctx.container, svg = ctx.svg, fragmentClass = ctx.fragmentClass;
     var allLayers = findLayers(svg);
@@ -43,24 +44,30 @@
     var extraFrag   = container.getAttribute('data-fragment-class') || fragmentClass || '';
 
     var baseSet = new Set(baseList.map(function(s){return s.toLowerCase();}));
-    var includeSet = new Set(includeList.map(function(s){return s.toLowerCase();}));
     function byName(g){ return getLabel(g).toLowerCase(); }
 
-    var baseLayers = [], stepLayers = [];
+    // Split into base layers and non-base candidates
+    var baseLayers = [], candidates = [];
     allLayers.forEach(function(g){
-      (baseSet.has(byName(g)) ? baseLayers : stepLayers).push(g);
+      (baseSet.has(byName(g)) ? baseLayers : candidates).push(g);
     });
 
+    // 1) Hide ALL non-base layers up front
+    candidates.forEach(hideLayer);
+
+    // 2) Decide which hidden candidates should be stepped as fragments
+    var stepLayers = candidates.slice();
     if (includeList.length){
-      var mapBy = new Map(stepLayers.map(function(el){ return [byName(el), el]; }));
+      var mapBy = new Map(candidates.map(function(el){ return [byName(el), el]; }));
       stepLayers = includeList.map(function(n){ return mapBy.get(n.toLowerCase()); }).filter(Boolean);
     } else if (order === 'reverse'){
       stepLayers.reverse();
     }
 
+    // 3) Show base layers
     baseLayers.forEach(showLayer);
-    stepLayers.forEach(hideLayer);
 
+    // Create invisible fragment anchors for each step
     var uid = uniqId('rsvgc');
     var placeholders = stepLayers.map(function(layerEl, i){
       var span = document.createElement('span');
@@ -73,10 +80,13 @@
     });
 
     function syncFromVisibleFragments(){
-      stepLayers.forEach(hideLayer);
+      // Keep ALL non-base hidden unless its fragment is visible
+      candidates.forEach(hideLayer);
       placeholders.forEach(function(ph){
         if (ph.classList.contains('visible')) showLayer(ph.__rsvgLayer);
       });
+      // base layers always visible
+      baseLayers.forEach(showLayer);
     }
 
     function onFragmentShown(ev){
@@ -101,9 +111,11 @@
       try{ deck.off('fragmenthidden', onFragmentHidden); }catch(e){}
       try{ deck.off('slidechanged', onSlideChanged); }catch(e){}
       placeholders.forEach(function(ph){ ph.remove(); });
-      stepLayers.forEach(showLayer);
+      // restore visibility on teardown
+      candidates.forEach(showLayer);
     });
 
+    // Initial sync (handles deep-linking to a fragment)
     syncFromVisibleFragments();
   }
 
