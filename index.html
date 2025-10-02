@@ -486,7 +486,7 @@
 					--floating-left: 45.5%; --floating-top: 75.9%; --floating-w: 799px; --floating-h: 109px;
      		">
 			<p>Representation of Neuronal Configuration</p>
-			<p>. </p>
+			<p>⠀</p>
 			<p>⇒ Hidden Units ≈ Cell Assemblies</p>
 		</div>
 
@@ -498,7 +498,7 @@
 		</ul>
 
   	<!-- <div class="entry"></div> -->
-  	<div class="mainmessage">HU maps + filtering + (cell assemblies)</div>
+  	<!-- <div class="mainmessage">HU maps + filtering + (cell assemblies)</div> -->
   	<!-- <div class="outlook"></div> -->
 	</section>
 
@@ -517,19 +517,105 @@
 
 	<section>
 		<h1> Restricted Bolzmann Machines </h1>
-		<h2> as multi-individual models </h2>
+		<h2> Concistency of the latent representation </h2>
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: 64.3%; --floating-top: -0.7%; --floating-w: 633px; --floating-h: 430px;
+					--floating-left: 3.7%; --floating-top: 12.5%; --floating-w: 1730px; --floating-h: 96px;
      		">
-			<img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/>
+			<p><b>Goal :</b> Find a Common Representation for the Spontaneous Brain Activity of multiple fish.</p>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -1.7%; --floating-top: 33.3%; --floating-w: 1033px; --floating-h: 212px;
+     		">
+			<ul>
+				<li class="fragment">Hidden Units ≈ known Functional Networks</li>
+				<li class="fragment">Functional Networks are shared by all individuals</li>
+			</ul>
+			<p>⠀</p>
+			<p class="fragment">⇒ multiple RBMs shoud provide the same representation</p>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -1.6%; --floating-top: 66.9%; --floating-w: 1029px; --floating-h: 73px;
+     		">
+			<p class="fragment">RBMs are stochastic ⇒ variable solutions</p>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 51.2%; --floating-top: 33.3%; --floating-w: 904px; --floating-h: 544px;
+     		">
+			<img src="assets/intro/RBM/singlefish_multiRBMs.svg" width="100%"/>
 		</div>
 
 
-  	<div class="entry"></div>
-  	<div class="mainmessage">?degen? + need for models that naturally aligned representations + big methodological question of my PhD</div>
-  	<div class="outlook">2 families of methods</div>
+
+  	<!-- <div class="entry"></div> -->
+  	<!-- <div class="mainmessage">?degen? + need for models that naturally aligned representations + big methodological question of my PhD</div> -->
+  	<!-- <div class="outlook">2 families of methods</div> -->
+	</section>
+
+	<section>
+		<h1> Restricted Bolzmann Machines </h1>
+		<h2> Concistency of the latent representation </h2>
+
+		<div class="floating"
+     		style="
+				--floating-left: 0.0%; --floating-top: 9.9%; --floating-w: 522px; --floating-h: 318px;
+     		">
+			<img src="assets/intro/RBM/singlefish_multiRBMs.svg" width="100%"/>
+		</div>
+
+		<div class="floating debug"
+     		style="
+				--floating-left: 37.9%; --floating-top: 8.9%; --floating-w: 1086px; --floating-h: 486px;
+     		">
+			<img src="assets/multiRBM/degen_weights.svg" width="100%"/>
+			<p>Degenerate set of Latent Features</p>
+		</div>
+
+	</section>
+
+	<section>
+		<h1> Restricted Bolzmann Machines </h1>
+		<h2> Multi-Individual Model </h2>
+		<div class="floating"
+     		style="
+					--floating-left: 3.7%; --floating-top: 12.5%; --floating-w: 1730px; --floating-h: 96px;
+     		">
+			<p><b>Goal :</b> Find a Common Representation for the Spontaneous Brain Activity of multiple fish.</p>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 3.7%; --floating-top: 12.5%; --floating-w: 1730px; --floating-h: 96px;
+     		">
+			<p><b>Goal :</b> Find a Common Representation for the Spontaneous Brain Activity of multiple fish.</p>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 3.7%; --floating-top: 22.5%; --floating-w: 1730px; --floating-h: 96px;
+     		">
+			<p>⇒ We needs a method which <b>explicitely aligns the latent space</b> across individuals</p>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 15.6%; --floating-top: 29.1%; --floating-w: 1245px; --floating-h: 754px;
+     		">
+			<!-- <img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/> -->
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/multi_fish_best_strats.svg" 
+					data-base="Layer 1" 
+					data-include="Layer 1, Layer 2"
+				></div>
+		</div>
+
 	</section>
 
 </section> <!-- RBMs SECTION -->
@@ -543,60 +629,78 @@
 		<h1> Global Voxelized RBM </h1>
 		<!-- <h2> as multi-individual models </h2> -->
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: 1.1%; --floating-top: 15.7%; --floating-w: 634px; --floating-h: 319px;
+					--floating-left: 17.8%; --floating-top: 7.8%; --floating-w: 1129px; --floating-h: 527px;
      		">
-			<img src="assets/multiRBM/vox_diag.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/multiRBM/vox_diag.svg" 
+					data-base="Layer 1" 
+				></div>
+			<!-- <img src="assets/multiRBM/vox_diag.svg" width="100%"/> -->
 		</div>
 		
-		<div class="floating debug"
+		<div class="floating fragment"
      		style="
-					--floating-left: -0.4%; --floating-top: 62.0%; --floating-w: 1552px; --floating-h: 324px;
+					--floating-left: 5.1%; --floating-top: 61.9%; --floating-w: 1668px; --floating-h: 339px;
      		">
 			<img src="assets/multiRBM/vox_rasters.svg" width="100%"/>
 		</div>
 
-		<div class="floating debug"
-     		style="
-					--floating-left: 52.7%; --floating-top: -1.2%; --floating-w: 856px; --floating-h: 534px;	
-     		">
-			<img src="assets/multiRBM/vox_stats.svg" width="100%"/>
-		</div>
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 52.7%; --floating-top: -1.2%; --floating-w: 856px; --floating-h: 534px;	 -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiRBM/vox_stats.svg" width="100%"/> -->
+		<!-- </div> -->
 
-  	<div class="entry">first method : 1 model for multiple indvs</div>
-  	<div class="mainmessage">naiv method (similar to fMRI) + methodology + good model</div>
-  	<div class="outlook">a single latent space</div>
+  	<!-- <div class="entry">first method : 1 model for multiple indvs</div> -->
+  	<!-- <div class="mainmessage">naiv method (similar to fMRI) + methodology + good model</div> -->
+  	<!-- <div class="outlook">a single latent space</div> -->
 	</section>
 
 	<section>
 		<h1> Global Voxelized RBM </h1>
 		<h2> Stereotypy of representation </h2>
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: -5.5%; --floating-top: 13.1%; --floating-w: 1214px; --floating-h: 318px;
+					--floating-left: 11.9%; --floating-top: 21.7%; --floating-w: 1465px; --floating-h: 472px;
      		">
 			<img src="assets/multiRBM/vox_shared_structure.svg" width="100%"/>
 		</div>
 
-		<div class="floating debug"
+		<div class="floating fragment"
      		style="
-					--floating-left: 72.6%; --floating-top: 0.5%; --floating-w: 466px; --floating-h: 436px;
+					--floating-left: 32.0%; --floating-top: 72.6%; --floating-w: 1300px; --floating-h: 63px;
      		">
-			<img src="assets/multiRBM/vox_freeenergy.svg" width="100%"/>
+			<p>The latent representation is more stereotyped than the voxelized activity</p>
 		</div>
 
-		<div class="floating debug"
+		<div class="floating fragment"
      		style="
-					--floating-left: -5.1%; --floating-top: 62.2%; --floating-w: 661px; --floating-h: 162px;
+					--floating-left: 53.0%; --floating-top: 78.7%; --floating-w: 880px; --floating-h: 69px;
      		">
-			$$F(\mathbf{v}) = -\log Z -\log P(\mathbf{v})$$
+			<p>⇒ Unified representation at coarse-grained scale</p>
 		</div>
 
-  	<div class="entry">compairing stereotypy in v and h</div>
-  	<div class="mainmessage">Latent representation are more stereotyped than raw activity → common representation space + no individual idiosyncrasies</div>
-  	<div class="outlook">unified representation at coarse grained scales → what about neuron scale ?</div>
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 72.6%; --floating-top: 0.5%; --floating-w: 466px; --floating-h: 436px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiRBM/vox_freeenergy.svg" width="100%"/> -->
+		<!-- </div> -->
+
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -5.1%; --floating-top: 62.2%; --floating-w: 661px; --floating-h: 162px; -->
+  <!--    		"> -->
+		<!-- 	$$F(\mathbf{v}) = -\log Z -\log P(\mathbf{v})$$ -->
+		<!-- </div> -->
+
+  	<!-- <div class="entry">compairing stereotypy in v and h</div> -->
+  	<!-- <div class="mainmessage">Latent representation are more stereotyped than raw activity → common representation space + no individual idiosyncrasies</div> -->
+  	<!-- <div class="outlook">unified representation at coarse grained scales → what about neuron scale ?</div> -->
 	</section>
 
 </section> <!-- VOX SECTION -->
@@ -609,106 +713,203 @@
 		<h1> Latent-aligned RBMs </h1>
 		<!-- <h2> Stereotypy of representation </h2> -->
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: 64.3%; --floating-top: -0.7%; --floating-w: 633px; --floating-h: 430px;
+					--floating-left: -0.9%; --floating-top: 8.9%; --floating-w: 1050px; --floating-h: 112px;
      		">
-			<img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/>
+			<p>At the single neuron scale ?</p>
+			<p>⠀</p>
+			<p><b>Problem : </b> neurons are not comparable across individuals</p>
 		</div>
 
-  	<div class="entry">building multi-individual models from neuron-level data</div>
-  	<div class="mainmessage">problem with non-comparable neurons across individuals → one model per fish but aligned in latent space → what do we want the model to be able and do ? (same weight distrib + same hidden representation)</div>
-  	<div class="outlook">??</div>
+		<div class="floating fragment"
+     		style="
+					--floating-left: -0.9%; --floating-top: 24.5%; --floating-w: 1245px; --floating-h: 754px;
+     		">
+			<!-- <img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/> -->
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/multi_fish_best_strats.svg" 
+					data-base="Layer 1" 
+					data-include="Layer 1, Layer 3"
+				></div>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 63.9%; --floating-top: 49.4%; --floating-w: 639px; --floating-h: 282px;
+     		">
+			<p>Requirements</p>
+			<p>⠀</p>
+			<ul>
+				<li>Same spatial weight distribution</li>
+				<li>Same hidden space</li>
+		</div>
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 64.3%; --floating-top: -0.7%; --floating-w: 633px; --floating-h: 430px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/> -->
+		<!-- </div> -->
+
+  	<!-- <div class="entry">building multi-individual models from neuron-level data</div> -->
+  	<!-- <div class="mainmessage">problem with non-comparable neurons across individuals → one model per fish but aligned in latent space → what do we want the model to be able and do ? (same weight distrib + same hidden representation)</div> -->
+  	<!-- <div class="outlook">??</div> -->
 	</section>
 	
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<h2> The Teacher-Student method </h2>
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: -1.0%; --floating-top: 16.8%; --floating-w: 633px; --floating-h: 430px;
+					--floating-left: 81.8%; --floating-top: -1.5%; --floating-w: 319px; --floating-h: 494px;
      		">
-			<img src="assets/multiRBM/TS_diag.svg" width="100%"/>
+				<p>Jorge Fernández</p>
+			<p>⠀</p>
+				<p>de Cossío Díaz</p>
+			<img src="https://www.ipht.fr/wp-content/uploads/2024/09/Jorge.jpeg" width="100%"/>
 		</div>
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: -0.0%; --floating-top: 60.7%; --floating-w: 843px; --floating-h: 352px;
+					--floating-left: 0.2%; --floating-top: 21.5%; --floating-w: 1276px; --floating-h: 720px;
      		">
-			<img src="assets/multiRBM/TS_maps.svg" width="100%"/>
+			<!-- <img src="assets/multiRBM/TS_diag.svg" width="100%"/> -->
+				<div class="r-svg-layers" 
+					data-src="assets/multiRBM/TS_diag.svg" 
+					data-base="Layer 1" 
+				></div>
 		</div>
 
-		<div class="floating debug"
+		<div class="floating fragment"
      		style="
-					--floating-left: 31.6%; --floating-top: 13.5%; --floating-w: 698px; --floating-h: 345px;
+					--floating-left: 69.0%; --floating-top: 60.1%; --floating-w: 549px; --floating-h: 262px;
      		">
-			<img src="assets/multiRBM/La_LLH.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/multiRBM/La_LLH.svg" 
+					data-base="Layer 1" 
+				></div>
 		</div>
 
-		<div class="floating debug"
+
+
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 68.8%; --floating-top: -1.1%; --floating-w: 501px; --floating-h: 969px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiRBM/LaRBM_stats.svg" width="100%"/> -->
+		<!-- </div> -->
+
+  	<!-- <div class="entry">constraining latent space from one individual to another</div> -->
+  	<!-- <div class="mainmessage">Initialisation + bitraining + good models</div> -->
+  	<!-- <div class="outlook">reminder of goal (w spatial distrib + P(h))</div> -->
+	</section>
+
+	<section>
+		<h1> Latent-aligned RBMs </h1>
+		<h2> Students Statistics </h2>
+		
+		<div class="floating"
      		style="
-					--floating-left: 68.8%; --floating-top: -1.1%; --floating-w: 501px; --floating-h: 969px;
+					--floating-left: 0.2%; --floating-top: 21.5%; --floating-w: 1276px; --floating-h: 720px;
      		">
-			<img src="assets/multiRBM/LaRBM_stats.svg" width="100%"/>
+			<!-- <img src="assets/multiRBM/TS_diag.svg" width="100%"/> -->
+				<div class="r-svg-layers" 
+					data-src="assets/multiRBM/TS_diag.svg" 
+					data-base="Layer 1, Layer 2, Layer 3, Layer 4, Layer 5, Layer 6, Layer 7"
+				></div>
 		</div>
 
-  	<div class="entry">constraining latent space from one individual to another</div>
-  	<div class="mainmessage">Initialisation + bitraining + good models</div>
-  	<div class="outlook">reminder of goal (w spatial distrib + P(h))</div>
+		<div class="floating"
+     		style="
+					--floating-left: 74.1%; --floating-top: 8.8%; --floating-w: 558px; --floating-h: 524px;
+     		">
+			<img src="assets/multiRBM/student_stats.svg" width="100%"/>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 73.8%; --floating-top: 60.7%; --floating-w: 567px; --floating-h: 122px;
+     		">
+     	<ul>
+			<li>Converge faster (1/10th)</li>
+			<li>Converge more reliably</li>
+		</div>
+
 	</section>
 	
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<h2> Maintaining Spatial Distribution of Weights </h2>
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: 42.8%; --floating-top: 8.5%; --floating-w: 940px; --floating-h: 432px;
+					--floating-left: 2.1%; --floating-top: 21.9%; --floating-w: 1101px; --floating-h: 441px;
      		">
-			<img src="assets/multiRBM/rho_dist.svg" width="100%"/>
+			<img src="assets/multiRBM/TS_maps.svg" width="100%"/>
 		</div>
 
-		<div class="floating debug"
+		<div class="floating fragment"
      		style="
-					--floating-left: 5.6%; --floating-top: 10.0%; --floating-w: 501px; --floating-h: 969px;
+					--floating-left: 62.8%; --floating-top: 2.0%; --floating-w: 698px; --floating-h: 1030px;
      		">
 			<img src="assets/multiRBM/TS_samplemaps.svg" width="100%"/>
 		</div>
 
-  	<div class="entry">??</div>
-  	<div class="mainmessage">Stable weight distribs</div>
-  	<div class="outlook">description of different fish using the same cell assemblies</div>
+		<div class="floating fragment"
+     		style="
+					--floating-left: 4.7%; --floating-top: 74.2%; --floating-w: 1000px; --floating-h: 75px;
+     		">
+			<p>Hidden Units retain their spatially localized patterns</p>
+		</div>
+
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 42.8%; --floating-top: 8.5%; --floating-w: 940px; --floating-h: 432px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiRBM/rho_dist.svg" width="100%"/> -->
+		<!-- </div> -->
+
+  	<!-- <div class="entry">??</div> -->
+  	<!-- <div class="mainmessage">Stable weight distribs</div> -->
+  	<!-- <div class="outlook">description of different fish using the same cell assemblies</div> -->
 	</section>
 
 	<section>
 		<h1> Latent-aligned RBMs </h1>
 		<h2> Maintaining Hidden Priors </h2>
 
-		<div class="floating debug"
+		<div class="floating"
      		style="
-					--floating-left: 68.5%; --floating-top: 21.0%; --floating-w: 613px; --floating-h: 555px;
+					--floating-left: 3.9%; --floating-top: 22.1%; --floating-w: 613px; --floating-h: 555px;
      		">
 			<img src="assets/multiRBM/TS_Ph.svg" width="100%"/>
 		</div>
 
-		<div class="floating debug"
-     		style="
-					--floating-left: -4.1%; --floating-top: 22.9%; --floating-w: 610px; --floating-h: 481px;
-     		">
-			<img src="assets/multiRBM/QQ_Ph.svg" width="100%"/>
-		</div>
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -4.1%; --floating-top: 22.9%; --floating-w: 610px; --floating-h: 481px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiRBM/QQ_Ph.svg" width="100%"/> -->
+		<!-- </div> -->
 
-		<div class="floating debug"
+		<div class="floating fragment"
      		style="
-					--floating-left: 34.0%; --floating-top: 2.1%; --floating-w: 610px; --floating-h: 481px;
+					--floating-left: 52.7%; --floating-top: 18.0%; --floating-w: 754px; --floating-h: 655px;
      		">
 			<img src="assets/multiDYN/HU_space_occupation.svg" width="100%"/>
 		</div>
 
-  	<div class="entry">need same space</div>
-  	<div class="mainmessage">Stable P(h) + same explored regions of latent space</div>
-  	<div class="outlook">the activity of multiple individuals can be mapped to the same latent space</div>
+		<div class="floating fragment"
+     		style="
+					--floating-left: 4.7%; --floating-top: 74.2%; --floating-w: 1000px; --floating-h: 75px;
+     		">
+			<p>Same accessible latent sub-space </p>
+		</div>
+
+  	<!-- <div class="entry">need same space</div> -->
+  	<!-- <div class="mainmessage">Stable P(h) + same explored regions of latent space</div> -->
+  	<!-- <div class="outlook">the activity of multiple individuals can be mapped to the same latent space</div> -->
 	</section>
 
 	<section>
