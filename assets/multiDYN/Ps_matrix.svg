@@ -5,9 +5,31 @@
    viewBox="0 0 196.68817 139.91618"
    version="1.1"
    id="svg1109"
+   sodipodi:docname="Ps_matrix.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="3.0768421"
+     inkscape:cx="77.839549"
+     inkscape:cy="80.764626"
+     inkscape:window-width="1914"
+     inkscape:window-height="1050"
+     inkscape:window-x="768"
+     inkscape:window-y="792"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1109" />
   <defs
      id="defs334">
     <g
@@ -2026,15 +2048,6 @@
        height="99"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABjCAIAAADVS/2PAAAABmJLR0QA/wD/AP+gvaeTAAAAg0lEQVQYlW2JyxFCMQwD7c3nVUFRlEerz7HDISYTBg6aXUnyeD3pRekFrmTfPF25kq0oDaGx2L+60srynlsFKmWzaTm2dD09H81Qqdq2713b7uIDiYG4JVefPpCw40+OTzyzfP7Z9ncH0xyxYFowb2daIObZDzcnLAgL3ILI/uuBr/4G2nN694pURgEAAAAASUVORK5CYII=" />
   </defs>
-  <rect
-     x="-608.59326"
-     y="-219.83598"
-     width="808"
-     height="560"
-     fill="#ffffff"
-     fill-opacity="1"
-     id="rect334"
-     style="stroke-width:0.833334" />
   <path
      fill-rule="nonzero"
      fill="#ffffff"
