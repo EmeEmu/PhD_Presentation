@@ -25,13 +25,13 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="1.1263853"
-     inkscape:cx="176.22744"
-     inkscape:cy="130.06206"
-     inkscape:window-width="1360"
-     inkscape:window-height="738"
+     inkscape:zoom="3.0084772"
+     inkscape:cx="332.06169"
+     inkscape:cy="48.363339"
+     inkscape:window-width="1914"
+     inkscape:window-height="1050"
      inkscape:window-x="768"
-     inkscape:window-y="24"
+     inkscape:window-y="792"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <sodipodi:guide
@@ -112,21 +112,21 @@
        fill-rule="nonzero"
        fill="#ffffff"
        fill-opacity="1"
-       d="M 0.97048306,118.71006 H 30.868399 V 88.547564 H 0.97048306 Z m 0,0"
+       d="M 4.1454832,118.71006 H 34.043401 V 88.547564 H 4.1454832 Z m 0,0"
        id="path268"
        style="stroke-width:0.264583" />
     <path
        fill-rule="nonzero"
        fill="#ffffff"
        fill-opacity="1"
-       d="M 71.538877,118.71005 H 105.14098 V 88.547562 H 71.538877 Z m 0,0"
+       d="M 68.363875,118.71005 H 101.96596 V 88.547562 H 68.363875 Z m 0,0"
        id="path269"
        style="stroke-width:0.264583" />
     <g
        fill="#000000"
        fill-opacity="1"
        id="g655"
-       transform="matrix(0.44296291,0,0,0.44296291,-36.001167,-195.21479)"
+       transform="matrix(0.44296291,0,0,0.44296291,-32.826165,-195.21479)"
        style="fill:#626bff;fill-opacity:0.666667">
       <g
          id="use654"
@@ -142,7 +142,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g669"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use668"
          transform="translate(83.657394,711.43469)">
@@ -155,7 +155,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g670"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use669"
          transform="translate(132.05569,711.43469)">
@@ -168,7 +168,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g671"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use670"
          transform="translate(137.98636,711.43469)">
@@ -181,7 +181,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g672"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use671"
          transform="translate(180.45401,711.43469)">
@@ -194,7 +194,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g673"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use672"
          transform="translate(186.38467,711.43469)">
@@ -207,7 +207,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g674"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use673"
          transform="translate(192.31534,711.43469)">
@@ -220,7 +220,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g678"
-       transform="matrix(0.44296291,0,0,0.44296291,-27.741785,-188.01887)"
+       transform="matrix(0.44296291,0,0,0.44296291,-24.566783,-188.01887)"
        style="fill:#ff6200;fill-opacity:0.741176">
       <g
          id="use677"
@@ -236,7 +236,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g692"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use691"
          transform="translate(66.736,693.22437)">
@@ -249,7 +249,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g693"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use692"
          transform="translate(60.805328,641.40619)">
@@ -262,7 +262,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g694"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use693"
          transform="translate(66.736,641.40619)">
@@ -275,7 +275,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g695"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use694"
          transform="translate(54.874664,589.58801)">
@@ -288,7 +288,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g696"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use695"
          transform="translate(60.805332,589.58801)">
@@ -301,7 +301,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g697"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use696"
          transform="translate(66.736,589.58801)">
@@ -313,7 +313,7 @@
     <g
        clip-path="url(#clip-11-57e2a1cd)"
        id="g698"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <image
          id="use697"
          x="82"
@@ -325,7 +325,7 @@
     <g
        clip-path="url(#clip-12-57e2a1cd)"
        id="g699"
-       transform="matrix(1.2059679,0,0,0.26458333,-214.6075,-64.910767)">
+       transform="matrix(1.2059679,0,0,0.26458333,-211.43248,-64.910767)">
       <image
          id="use698"
          x="203"
@@ -343,13 +343,13 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="2"
-       d="M 34.572566,118.71006 V 88.547564 h -1.5875 v 30.162496 z m 0,0"
+       d="M 37.747568,118.71006 V 88.547564 h -1.5875 v 30.162496 z m 0,0"
        id="path699" />
     <g
        fill="#000000"
        fill-opacity="1"
        id="g713"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use712"
          transform="translate(217,697.888)">
@@ -362,7 +362,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g714"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use713"
          transform="translate(223.22934,697.888)">
@@ -375,7 +375,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g715"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use714"
          transform="translate(229.16,697.888)">
@@ -388,7 +388,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g716"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use715"
          transform="translate(232.12534,697.888)">
@@ -401,7 +401,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g717"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use716"
          transform="translate(217,669.388)">
@@ -414,7 +414,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g718"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use717"
          transform="translate(223.22934,669.388)">
@@ -427,7 +427,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g719"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use718"
          transform="translate(229.16,669.388)">
@@ -440,7 +440,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g720"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use719"
          transform="translate(232.12534,669.388)">
@@ -453,7 +453,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g721"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use720"
          transform="translate(217,640.888)">
@@ -466,7 +466,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g722"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use721"
          transform="translate(222.93066,640.888)">
@@ -479,7 +479,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g723"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use722"
          transform="translate(225.896,640.888)">
@@ -492,7 +492,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g724"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use723"
          transform="translate(217,612.388)">
@@ -505,7 +505,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g725"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use724"
          transform="translate(222.93066,612.388)">
@@ -518,7 +518,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g726"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use725"
          transform="translate(225.896,612.388)">
@@ -531,7 +531,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g727"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use726"
          transform="translate(217,583.888)">
@@ -544,7 +544,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g728"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use727"
          transform="translate(222.93066,583.888)">
@@ -557,7 +557,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g729"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.72535,-64.910767)">
+       transform="matrix(0.26458333,0,0,0.26458333,-17.550348,-64.910767)">
       <g
          id="use728"
          transform="translate(225.896,583.888)">
@@ -570,7 +570,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g750"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use749"
          transform="translate(340.58667,711.43469)">
@@ -583,7 +583,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g751"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use750"
          transform="translate(346.51733,711.43469)">
@@ -596,7 +596,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g752"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use751"
          transform="translate(349.48267,711.43469)">
@@ -609,7 +609,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g753"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use752"
          transform="translate(401.06287,711.43469)">
@@ -622,7 +622,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g754"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use753"
          transform="translate(406.99353,711.43469)">
@@ -635,7 +635,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g755"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use754"
          transform="translate(409.95886,711.43469)">
@@ -648,7 +648,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g756"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use755"
          transform="translate(461.53906,711.43469)">
@@ -661,7 +661,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g757"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use756"
          transform="translate(467.46973,711.43469)">
@@ -674,7 +674,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g758"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use757"
          transform="translate(470.43506,711.43469)">
@@ -687,7 +687,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g759"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-22.65279,-64.910791)">
       <g
          id="use758"
          transform="translate(310.16907,659.22668)">
@@ -700,7 +700,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g760"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-22.65279,-64.910791)">
       <g
          id="use759"
          transform="translate(310.16907,649.59998)">
@@ -713,7 +713,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g761"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-22.65279,-64.910791)">
       <g
          id="use760"
          transform="translate(310.16907,642.18665)">
@@ -726,7 +726,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g762"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-22.65279,-64.910791)">
       <g
          id="use761"
          transform="translate(310.16907,634.77332)">
@@ -739,7 +739,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g763"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-22.65279,-64.910791)">
       <g
          id="use762"
          transform="translate(310.16907,628.10669)">
@@ -752,7 +752,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g764"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-22.65279,-64.910791)">
       <g
          id="use763"
          transform="translate(310.16907,625.14667)">
@@ -765,7 +765,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g765"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-22.65279,-64.910791)">
       <g
          id="use764"
          transform="translate(310.16907,621.44)">
@@ -778,7 +778,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g766"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use765"
          transform="translate(318.07571,676.79883)">
@@ -791,7 +791,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g767"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use766"
          transform="translate(324.00638,676.79883)">
@@ -804,7 +804,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g768"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use767"
          transform="translate(330.64105,672.53217)">
@@ -817,7 +817,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g769"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use768"
          transform="translate(334.75241,672.53217)">
@@ -830,7 +830,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g770"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use769"
          transform="translate(322.18707,633.78833)">
@@ -843,7 +843,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g771"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use770"
          transform="translate(328.11774,633.78833)">
@@ -856,7 +856,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g772"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use771"
          transform="translate(334.75241,629.52167)">
@@ -869,7 +869,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g773"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use772"
          transform="translate(322.18707,590.77783)">
@@ -882,7 +882,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g774"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use773"
          transform="translate(328.11774,590.77783)">
@@ -895,7 +895,7 @@
        fill="#000000"
        fill-opacity="1"
        id="g775"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use774"
          transform="translate(334.75241,586.51117)">
@@ -907,7 +907,7 @@
     <g
        clip-path="url(#clip-13-57e2a1cd)"
        id="g776"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <path
          fill="none"
          stroke-width="1.5"
@@ -922,7 +922,7 @@
     <g
        clip-path="url(#clip-14-57e2a1cd)"
        id="g777"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <path
          fill="none"
          stroke-width="1.5"
@@ -942,7 +942,7 @@
        stroke="#008000"
        stroke-opacity="1"
        stroke-miterlimit="2"
-       d="m 100.34022,93.235642 v -1.32291 h 3.20086 v 1.32291"
+       d="m 97.165218,93.235642 v -1.32291 h 3.200842 v 1.32291"
        id="path777" />
     <path
        fill="none"
@@ -952,7 +952,7 @@
        stroke="#008000"
        stroke-opacity="1"
        stroke-miterlimit="2"
-       d="m 94.174748,106.62765 h 3.20084"
+       d="m 90.999746,106.62765 h 3.20084"
        id="path777-8"
        sodipodi:nodetypes="cc" />
     <path
@@ -963,7 +963,7 @@
        stroke="#008000"
        stroke-opacity="1"
        stroke-miterlimit="2"
-       d="m 94.174748,109.4684 h 3.20084"
+       d="m 90.999746,109.4684 h 3.20084"
        id="path777-8-1"
        sodipodi:nodetypes="cc"
        style="stroke:#808080;stroke-opacity:1" />
@@ -971,7 +971,7 @@
        fill="#008000"
        fill-opacity="1"
        id="g778"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use777"
          transform="translate(453.56461,588.95404)">
@@ -984,7 +984,7 @@
        fill="#008000"
        fill-opacity="1"
        id="g779"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use778"
          transform="translate(458.75537,588.95404)">
@@ -997,7 +997,7 @@
        fill="#008000"
        fill-opacity="1"
        id="g780"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use779"
          transform="translate(463.94611,588.95404)">
@@ -1009,7 +1009,7 @@
     <g
        clip-path="url(#clip-15-57e2a1cd)"
        id="g781"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <path
          fill="none"
          stroke-width="1.5"
@@ -1025,7 +1025,7 @@
        fill="#008000"
        fill-opacity="1"
        id="g782"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use781"
          transform="translate(350.75507,588.95404)">
@@ -1038,7 +1038,7 @@
        fill="#008000"
        fill-opacity="1"
        id="g783"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use782"
          transform="translate(355.94583,588.95404)">
@@ -1051,7 +1051,7 @@
        fill="#008000"
        fill-opacity="1"
        id="g784"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.536122,-64.910791)">
+       transform="matrix(0.26458333,0,0,0.26458333,-23.711124,-64.910791)">
       <g
          id="use783"
          transform="translate(361.13657,588.95404)">
@@ -1068,7 +1068,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 2.1931475,118.8868 v 1.05833"
+       d="m 5.3681477,118.8868 v 1.05833"
        id="path831" />
     <path
        fill="none"
@@ -1078,7 +1078,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 15.784049,118.8868 v 1.05833"
+       d="m 18.959051,118.8868 v 1.05833"
        id="path832" />
     <path
        fill="none"
@@ -1088,7 +1088,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 29.373916,118.8868 v 1.05833"
+       d="m 32.548918,118.8868 v 1.05833"
        id="path833" />
     <path
        fill="none"
@@ -1098,7 +1098,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 0.7937496,117.47603 H -0.26458372"
+       d="M 3.9687498,117.47603 H 2.9104164"
        id="path834" />
     <path
        fill="none"
@@ -1108,7 +1108,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 0.7937496,103.76627 H -0.26458372"
+       d="M 3.9687498,103.76627 H 2.9104164"
        id="path835" />
     <path
        fill="none"
@@ -1118,7 +1118,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 0.7937496,90.055483 H -0.26458372"
+       d="M 3.9687498,90.055483 H 2.9104164"
        id="path836" />
     <path
        fill="none"
@@ -1128,7 +1128,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 34.704858,118.71006 h 1.058333"
+       d="m 37.87986,118.71006 h 1.058333"
        id="path837" />
     <path
        fill="none"
@@ -1138,7 +1138,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 34.704858,111.16944 h 1.058333"
+       d="m 37.87986,111.16944 h 1.058333"
        id="path838" />
     <path
        fill="none"
@@ -1148,7 +1148,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 34.704858,103.62881 h 1.058333"
+       d="m 37.87986,103.62881 h 1.058333"
        id="path839" />
     <path
        fill="none"
@@ -1158,7 +1158,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 34.704858,96.088189 h 1.058333"
+       d="m 37.87986,96.088189 h 1.058333"
        id="path840" />
     <path
        fill="none"
@@ -1168,7 +1168,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 34.704858,88.547564 h 1.058333"
+       d="m 37.87986,88.547564 h 1.058333"
        id="path841" />
     <path
        fill="none"
@@ -1178,7 +1178,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 71.538877,118.88679 v 1.05833"
+       d="m 68.363875,118.88679 v 1.05833"
        id="path842" />
     <path
        fill="none"
@@ -1188,7 +1188,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 87.539966,118.88679 v 1.05833"
+       d="m 84.364964,118.88679 v 1.05833"
        id="path843" />
     <path
        fill="none"
@@ -1198,7 +1198,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="m 103.54108,118.88679 v 1.05833"
+       d="m 100.36606,118.88679 v 1.05833"
        id="path844" />
     <path
        fill="none"
@@ -1208,7 +1208,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 71.362143,113.02048 H 70.30381"
+       d="M 68.187141,113.02048 H 67.128808"
        id="path845" />
     <path
        fill="none"
@@ -1218,7 +1218,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 71.362143,101.64029 H 70.30381"
+       d="M 68.187141,101.64029 H 67.128808"
        id="path846" />
     <path
        fill="none"
@@ -1228,7 +1228,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 71.362143,90.260112 H 70.30381"
+       d="M 68.187141,90.260112 H 67.128808"
        id="path847" />
     <path
        fill="none"
@@ -1238,7 +1238,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 0.7937496,118.71006 H 31.045133"
+       d="M 3.9687498,118.71006 H 34.220135"
        id="path856" />
     <path
        fill="none"
@@ -1248,7 +1248,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 0.97048306,118.8868 V 88.370831"
+       d="M 4.1454832,118.8868 V 88.370831"
        id="path857" />
     <path
        fill="none"
@@ -1258,7 +1258,7 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 71.362143,118.71005 H 105.31772"
+       d="M 68.187141,118.71005 H 102.1427"
        id="path858" />
     <path
        fill="none"
@@ -1268,19 +1268,19 @@
        stroke="#000000"
        stroke-opacity="1"
        stroke-miterlimit="1.1547"
-       d="M 71.538877,118.88679 V 88.370822"
+       d="M 68.363875,118.88679 V 88.370822"
        id="path859" />
     <text
        xml:space="preserve"
        style="font-size:4.31725px;line-height:0.5;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke-width:0.183569;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
        x="-91.466293"
-       y="47.725899"
+       y="49.842567"
        id="text1-1-7"
        transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan1-7-8"
          x="-91.466293"
-         y="47.725899"
+         y="49.842567"
          style="stroke-width:0.183569">Corr<tspan
    style="font-size:5.18071px;stroke-width:0.183569"
    id="tspan4-5-5">(w</tspan><tspan
@@ -1297,12 +1297,12 @@
     <text
        xml:space="preserve"
        style="font-size:4.31725px;line-height:0.5;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke-width:0.183569;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
-       x="100.55136"
+       x="97.37635"
        y="128.18311"
        id="text1-1-7-4"><tspan
          sodipodi:role="line"
          id="tspan1-7-8-5"
-         x="100.55136"
+         x="97.37635"
          y="128.18311"
          style="stroke-width:0.183569">Corr<tspan
    style="font-size:5.18071px;stroke-width:0.183569"
@@ -1320,12 +1320,12 @@
     <text
        xml:space="preserve"
        style="font-size:3.52777px;line-height:0.8;font-family:Arial;-inkscape-font-specification:Arial;text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;stroke-width:0.15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
-       x="104.60352"
+       x="101.42854"
        y="107.88307"
        id="text865"><tspan
          sodipodi:role="line"
          id="tspan865"
-         x="104.60352"
+         x="101.42854"
          y="107.88307"
          style="stroke-width:0.15"><tspan
    style="fill:#616bff;fill-opacity:1"
@@ -1333,7 +1333,7 @@
    style="fill:#ff6200;fill-opacity:1"
    id="tspan100">𝜈</tspan></tspan><tspan
          sodipodi:role="line"
-         x="104.60352"
+         x="101.42854"
          y="110.71854"
          id="tspan866"
          style="stroke-width:0.15"><tspan

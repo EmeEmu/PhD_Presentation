@@ -299,7 +299,7 @@
 <section> <!-- RBMs SECTION -->
 
 	<section>
-		<h1> Restricted Bolzmann Machines </h1>
+		<h1> Restricted Boltzmann Machines </h1>
 
 		<div class="floating debug"
      		style="
@@ -314,42 +314,53 @@
 	</section>
 
 	<section>
-		<h1> Restricted Bolzmann Machines </h1>
-		<h2> The Theory </h2>
+		<h1> Restricted Boltzmann Machines </h1>
+		<h2> Theory : A Probabilistic Model </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: 82.6%; --floating-top: -0.6%; --floating-w: 305px; --floating-h: 413px;
+					--floating-left: 85.4%; --floating-top: -0.8%; --floating-w: 248px; --floating-h: 340px;
      		">
-				<p>Geoffrey Hinton</p>
+				<p style="font-size: 0.8em;">Geoffrey Hinton</p>
 			<img src="https://chartwellspeakers.b-cdn.net/wp-content/uploads/2023/09/geoffhinton_14977197-e1697029454322.webp" width="100%"/>
 		</div>
 
 		<div class="floating"
      		style="
-					--floating-left: -0.4%; --floating-top: 10.2%; --floating-w: 1216px; --floating-h: 374px;
+					--floating-left: 22.6%; --floating-top: 8.5%; --floating-w: 936px; --floating-h: 405px;
      		">
-				<div class="r-svg-layers" 
-					data-src="assets/intro/RBM/diag.svg" 
-					data-base="Layer 1" 
-					data-include="Layer 1"
-				></div>
+			<img src="assets/intro/RBM/diag_simple.svg" width="100%"/>
 		</div>
 
 
+		<!-- <div class="floating debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -0.3%; --floating-top: 42.8%; --floating-w: 1005px; --floating-h: 205px; -->
+  <!--    		"> -->
+		<!-- 	<div style="text-align: left;"> -->
+		<!-- 		<p>visible configuration : $\mathbf v=(v_1,\dots,v_N)\in\{0,1\}^N$</p> -->
+		<!-- 		<p>hidden configuration : $\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$</p> -->
+		<!-- 	</div> -->
+		<!-- </div> -->
 		<div class="floating"
      		style="
-					--floating-left: -0.3%; --floating-top: 42.8%; --floating-w: 1005px; --floating-h: 205px;
+					--floating-left: 15.2%; --floating-top: 43.8%; --floating-w: 611px; --floating-h: 152px;
      		">
-			<div style="text-align: left;">
-				<p>visible configuration : $\mathbf v=(v_1,\dots,v_N)\in\{0,1\}^N$</p>
-				<p>hidden configuration : $\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$</p>
-			</div>
+				<p>visible configuration</p>
+				$$\mathbf v=(v_1,\dots,v_N)\in\{0,1\}^N$$
+				<!-- <p>hidden configuration : $\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$</p> -->
+		</div>
+		<div class="floating"
+     		style="
+					--floating-left: 53.4%; --floating-top: 43.7%; --floating-w: 562px; --floating-h: 151px;
+     		">
+				<p>hidden configuration</p>
+				$$\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$$
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: -0.3%; --floating-top: 61.6%; --floating-w: 1083px; --floating-h: 375px;
+					--floating-left: 6.5%; --floating-top: 60.1%; --floating-w: 1083px; --floating-h: 375px;
      		">
 			$$
 				\begin{aligned}
@@ -363,43 +374,127 @@
 			$$
 		</div>
 
-		<div class="floating fragment debug"
+		<div class="floating fragment"
      		style="
-					--floating-left: 56.2%; --floating-top: 48.2%; --floating-w: 380px; --floating-h: 388px;
+					--floating-left: 65.2%; --floating-top: 64.5%; --floating-w: 432px; --floating-h: 268px;
      		">
-     		<p>Continuous hiddens</p>
-				<div class="r-svg-layers" 
-					data-src="assets/multiRBM/TS_Ph.svg" 
-					data-base="Layer 1" 
-					data-include="Layer 1"
-				></div>
+			parameters $
+			\begin{cases}
+			&g_i\\
+			&\mathcal{U}_\mu\\
+			&w_{i\mu}
+			\end{cases}
+			$
 		</div>
 
-		<div class="floating fragment debug"
-     		style="
-					--floating-left: 77.0%; --floating-top: 48.2%; --floating-w: 380px; --floating-h: 388px;
-     		">
-     		<p>Continuous weights</p>
+		<!-- <div class="floating fragment debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 56.2%; --floating-top: 48.2%; --floating-w: 380px; --floating-h: 388px; -->
+  <!--    		"> -->
+  <!--    		<p>Continuous hiddens</p> -->
+		<!-- 		<div class="r-svg-layers"  -->
+		<!-- 			data-src="assets/multiRBM/TS_Ph.svg"  -->
+		<!-- 			data-base="Layer 1"  -->
+		<!-- 			data-include="Layer 1" -->
+		<!-- 		></div> -->
+		<!-- </div> -->
+
+		<!-- <div class="floating fragment debug" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 77.0%; --floating-top: 48.2%; --floating-w: 380px; --floating-h: 388px; -->
+  <!--    		"> -->
+  <!--    		<p>Continuous weights</p> -->
 				<!-- <div class="r-svg-layers"  -->
 				<!-- 	data-src="assets/multiRBM/TS_Ph.svg"  -->
 				<!-- 	data-base="Layer 1"  -->
 				<!-- 	data-include="Layer 1" -->
 				<!-- ></div> -->
-		</div>
+		<!-- </div> -->
 
   	<!-- <div class="entry">Geofrey Hinton</div> -->
   	<!-- <div class="mainmessage">Diagram and math + (v to multiple h, continuous h and distrib, ...) + Gibbs</div> -->
   	<!-- <div class="outlook">application to zebrafish by Thijs and Jerome</div> -->
 	</section>
 
-
 	<section>
-		<h1> Restricted Bolzmann Machines </h1>
-		<h2> The Theory </h2>
+		<h1> Restricted Boltzmann Machines </h1>
+		<h2> Theory : A Generative Model </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: -0.4%; --floating-top: 10.2%; --floating-w: 1216px; --floating-h: 374px;
+					--floating-left: -2.1%; --floating-top: 11.1%; --floating-w: 936px; --floating-h: 405px;
+     		">
+			<img src="assets/intro/RBM/diag_simple.svg" width="100%"/>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 50.5%; --floating-top: 2.4%; --floating-w: 919px; --floating-h: 529px;
+     		">
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/gibbs2.svg" 
+					data-base="Layer 1" 
+				></div>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: -2.0%; --floating-top: 52.0%; --floating-w: 2001px; --floating-h: 82px;
+     		">
+			same statistics ⇒ $\langle\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{h}\rangle$, $\langle\mathbf{h}\rangle$, $\langle\mathbf{h}\mathbf{h}\rangle$
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: -2.0%; --floating-top: 60.8%; --floating-w: 2001px; --floating-h: 83px;
+     		">
+			maximize $\mathcal{L} = \langle \log P(\mathbf{v}) \rangle_\text{data}$
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: -1.9%; --floating-top: 69.2%; --floating-w: 1990px; --floating-h: 271px;
+     		">
+			learn parameters $
+			\begin{cases}
+			&g_i\\
+			&\mathcal{U}_\mu\\
+			&w_{i\mu}
+			\end{cases}
+			$
+		</div>
+	</section>
+
+	<section>
+		<h1> Restricted Boltzmann Machines </h1>
+		<h2> from zebrafish larvae </h2>
+
+		<div class="floating"
+     		style="
+					--floating-left: -1.3%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 307px;
+     		">
+			<p style="font-size: 0.7em;">Thijs van der Plas</p>
+			<img src="https://research.wur.nl/files-asset/126634744/GetMedia.ashx_id_123483_ts_1743673080?w=160&f=jpg" width="100%"/>
+		</div>
+		<div class="floating"
+     		style="
+					--floating-left: 9.9%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 314px;
+     		">
+			<p style="font-size: 0.7em;">Jérôme Tubiana</p>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5M6DoNByKuL3ONCGAu2a3WH3Wke_DdHgPQ&s" width="100%"/>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 48.4%; --floating-top: 26.2%; --floating-w: 960px; --floating-h: 493px;
+     		">
+			<img src="assets/intro/RBM/stats2.svg" width="100%"/>
+		</div>
+
+
+		<div class="floating"
+     		style="
+					--floating-left: -2.5%; --floating-top: 22.1%; --floating-w: 1276px; --floating-h: 484px;
      		">
 				<div class="r-svg-layers" 
 					data-src="assets/intro/RBM/diag.svg" 
@@ -408,87 +503,15 @@
 				></div>
 		</div>
 
-		<div class="floating"
-     		style="
-					--floating-left: 51.3%; --floating-top: 5.4%; --floating-w: 621px; --floating-h: 98px;
-     		">
-			maximize $\mathcal{L} = \langle \log P(\mathbf{v}) \rangle_\text{data}$
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 51.4%; --floating-top: 14.9%; --floating-w: 616px; --floating-h: 96px;
-     		">
-			⇒ $\langle\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{h}\rangle$, $\langle\mathbf{h}\rangle$, $\langle\mathbf{h}\mathbf{h}\rangle$
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 0.7%; --floating-top: 43.0%; --floating-w: 925px; --floating-h: 586px;
-     		">
-     		<p>Generating new data</p>
-				<div class="r-svg-layers" 
-					data-src="assets/intro/RBM/gibbs.svg" 
-					data-base="Layer 1" 
-				></div>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 51.1%; --floating-top: 37.6%; --floating-w: 907px; --floating-h: 605px;
-     		">
-				<div class="r-svg-layers" 
-					data-src="assets/intro/RBM/stats.svg" 
-					data-base="Layer 1" 
-				></div>
-		</div>
-
-	</section>
-
-	<section>
-		<h1> Restricted Bolzmann Machines </h1>
-		<h2> in zebrafish larvae </h2>
-
-		<div class="floating"
-     		style="
-					--floating-left: 0.0%; --floating-top: 55%; --floating-w: 340px; --floating-h: 401px;
-     		">
-			<p>Thijs van der Plas</p>
-			<img src="https://research.wur.nl/files-asset/126634744/GetMedia.ashx_id_123483_ts_1743673080?w=160&f=jpg" width="100%"/>
-		</div>
-		<div class="floating"
-     		style="
-					--floating-left: 17%; --floating-top: 55%; --floating-w: 340px; --floating-h: 401px;
-     		">
-			<p>Jérôme Tubiana</p>
-			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5M6DoNByKuL3ONCGAu2a3WH3Wke_DdHgPQ&s" width="100%"/>
-		</div>
-
-		<div class="floating"
-     		style="
-					--floating-left: -0.4%; --floating-top: 10.2%; --floating-w: 1216px; --floating-h: 374px;
-     		">
-				<div class="r-svg-layers" 
-					data-src="assets/intro/RBM/diag.svg" 
-					data-base="Layer 1" 
-				></div>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 63.8%; --floating-top: -1.3%; --floating-w: 602px; --floating-h: 898px;
-     		">
-			<img src="assets/intro/RBM/elife.svg" width="100%"/>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 45.5%; --floating-top: 75.9%; --floating-w: 799px; --floating-h: 109px;
-     		">
-			<p>Representation of Neuronal Configuration</p>
-			<p>⠀</p>
-			<p>⇒ Hidden Units ≈ Cell Assemblies</p>
-		</div>
+		<!---->
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 45.5%; --floating-top: 75.9%; --floating-w: 799px; --floating-h: 109px; -->
+  <!--    		"> -->
+		<!-- 	<p>Representation of Neuronal Configuration</p> -->
+		<!-- 	<p>⠀</p> -->
+		<!-- 	<p>⇒ Hidden Units ≈ Cell Assemblies</p> -->
+		<!-- </div> -->
 
 
 		<ul class="citations" style="bottom: 100px">
@@ -503,21 +526,106 @@
 	</section>
 
 	<section>
-		<h1> Restricted Bolzmann Machines </h1>
-		<h2> in zebrafish larvae </h2>
+		<h1> Restricted Boltzmann Machines </h1>
+		<h2> Zebrafish Brain as a Composition of Cell Assemblies </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: 6.7%; --floating-top: 9.3%; --floating-w: 1660px; --floating-h: 996px;
+					--floating-left: -1.3%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 307px;
      		">
-			<video loop="true" src="assets/multiRBM/Movie2.mp4"></video>
+			<p style="font-size: 0.7em;">Thijs van der Plas</p>
+			<img src="https://research.wur.nl/files-asset/126634744/GetMedia.ashx_id_123483_ts_1743673080?w=160&f=jpg" width="100%"/>
 		</div>
+		<div class="floating"
+     		style="
+					--floating-left: 9.9%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 314px;
+     		">
+			<p style="font-size: 0.7em;">Jérôme Tubiana</p>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5M6DoNByKuL3ONCGAu2a3WH3Wke_DdHgPQ&s" width="100%"/>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -2.5%; --floating-top: 22.1%; --floating-w: 1276px; --floating-h: 484px;
+     		">
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/diag_complex.svg" 
+					data-base="Layer 1" 
+				></div>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 53.6%; --floating-top: 3.2%; --floating-w: 602px; --floating-h: 898px;
+     		">
+			<img src="assets/intro/RBM/elife.svg" width="100%"/>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 21.3%; --floating-top: 81.2%; --floating-w: 1540px; --floating-h: 70px;
+     		">
+			  <p>cell assembly = group of co-activating neurons, usually spatially localized</p>
+		</div>
+
+		<ul class="citations" style="bottom: 100px">
+  		<li><a href="https://elifesciences.org/articles/83139" target="_blank" rel="noopener">
+      		<span class="author">van der Plas & Tubiana et al.</span> <span class="journal">eLife</span> <span class="year">2023</span>
+    	</a></li>
+		</ul>
+
 	</section>
 
+	<section>
+		<h1> Restricted Boltzmann Machines </h1>
+		<h2> Zebrafish Brain as a Composition of Cell Assemblies </h2>
+
+		<div class="floating"
+     		style="
+					--floating-left: -1.3%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 307px;
+     		">
+			<p style="font-size: 0.7em;">Thijs van der Plas</p>
+			<img src="https://research.wur.nl/files-asset/126634744/GetMedia.ashx_id_123483_ts_1743673080?w=160&f=jpg" width="100%"/>
+		</div>
+		<div class="floating"
+     		style="
+					--floating-left: 9.9%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 314px;
+     		">
+			<p style="font-size: 0.7em;">Jérôme Tubiana</p>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5M6DoNByKuL3ONCGAu2a3WH3Wke_DdHgPQ&s" width="100%"/>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 9.6%; --floating-top: 20.5%; --floating-w: 1519px; --floating-h: 583px;
+     		">
+			<img src="assets/intro/RBM/compositionality.jpg" width="100%"/>
+		</div>
+		<div class="floating fragment"
+     		style="
+					--floating-left: 9.6%; --floating-top: 22.2%; --floating-w: 1519px; --floating-h: 583px;
+     		">
+			<video loop="true" src="assets/intro/RBM/compositionality.mp4" width="100%"></video>
+		</div>
+
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 21.3%; --floating-top: 81.2%; --floating-w: 1540px; --floating-h: 70px; -->
+  <!--    		"> -->
+		<!-- 	  <p>cell assembly = group of co-activating neurons, usually spatially localized</p> -->
+		<!-- </div> -->
+
+		<ul class="citations" style="bottom: 100px">
+  		<li><a href="https://elifesciences.org/articles/83139" target="_blank" rel="noopener">
+      		<span class="author">van der Plas & Tubiana et al.</span> <span class="journal">eLife</span> <span class="year">2023</span>
+    	</a></li>
+		</ul>
+
+	</section>
 
 	<section>
-		<h1> Restricted Bolzmann Machines </h1>
-		<h2> Concistency of the latent representation </h2>
+		<h1> Restricted Boltzmann Machines </h1>
+		<h2> provide Degenerate Representations </h2>
 
 		<div class="floating"
      		style="
@@ -528,7 +636,7 @@
 
 		<div class="floating"
      		style="
-					--floating-left: -1.7%; --floating-top: 33.3%; --floating-w: 1033px; --floating-h: 212px;
+					--floating-left: -2.0%; --floating-top: 22.0%; --floating-w: 1033px; --floating-h: 212px;
      		">
 			<ul>
 				<li class="fragment">Hidden Units ≈ known Functional Networks</li>
@@ -540,48 +648,28 @@
 
 		<div class="floating"
      		style="
-					--floating-left: -1.6%; --floating-top: 66.9%; --floating-w: 1029px; --floating-h: 73px;
+					--floating-left: 57.7%; --floating-top: 27.0%; --floating-w: 758px; --floating-h: 69px;
      		">
 			<p class="fragment">RBMs are stochastic ⇒ variable solutions</p>
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 51.2%; --floating-top: 33.3%; --floating-w: 904px; --floating-h: 544px;
+					--floating-left: -0.2%; --floating-top: 46.9%; --floating-w: 774px; --floating-h: 472px;
      		">
 			<img src="assets/intro/RBM/singlefish_multiRBMs.svg" width="100%"/>
 		</div>
 
-
-
-  	<!-- <div class="entry"></div> -->
-  	<!-- <div class="mainmessage">?degen? + need for models that naturally aligned representations + big methodological question of my PhD</div> -->
-  	<!-- <div class="outlook">2 families of methods</div> -->
-	</section>
-
-	<section>
-		<h1> Restricted Bolzmann Machines </h1>
-		<h2> Concistency of the latent representation </h2>
-
-		<div class="floating"
+		<div class="floating fragment"
      		style="
-				--floating-left: 0.0%; --floating-top: 9.9%; --floating-w: 522px; --floating-h: 318px;
-     		">
-			<img src="assets/intro/RBM/singlefish_multiRBMs.svg" width="100%"/>
-		</div>
-
-		<div class="floating debug"
-     		style="
-				--floating-left: 37.9%; --floating-top: 8.9%; --floating-w: 1086px; --floating-h: 486px;
+				--floating-left: 42.2%; --floating-top: 48.1%; --floating-w: 1090px; --floating-h: 446px;
      		">
 			<img src="assets/multiRBM/degen_weights.svg" width="100%"/>
-			<p>Degenerate set of Latent Features</p>
 		</div>
-
 	</section>
 
 	<section>
-		<h1> Restricted Bolzmann Machines </h1>
+		<h1> Restricted Boltzmann Machines </h1>
 		<h2> Multi-Individual Model </h2>
 		<div class="floating"
      		style="
