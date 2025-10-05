@@ -25,15 +25,15 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.6123879"
-     inkscape:cx="157.22023"
-     inkscape:cy="134.2729"
-     inkscape:window-width="1360"
-     inkscape:window-height="738"
+     inkscape:zoom="2.2802608"
+     inkscape:cx="157.21886"
+     inkscape:cy="137.92282"
+     inkscape:window-width="1914"
+     inkscape:window-height="1050"
      inkscape:window-x="768"
-     inkscape:window-y="24"
+     inkscape:window-y="792"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      showguides="true">
     <sodipodi:guide
        position="24.317962,58.378824"
@@ -2597,13 +2597,12 @@
      inkscape:label="Layer 3"
      style="display:inline">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
+       style="fill:#ffffff;stroke:none;stroke-width:0.305539;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
        id="rect8-5"
-       width="47.577583"
-       height="57.320503"
-       x="515.03931"
-       y="87.617294"
-       rx="1.6"
-       transform="translate(-465.77417,-87.088136)" />
+       width="48.456013"
+       height="58.378822"
+       x="0.089952573"
+       y="-3.7747583e-15"
+       rx="1.6295412" />
   </g>
 </svg>
