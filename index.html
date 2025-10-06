@@ -932,7 +932,7 @@
 	</section>
 
 	<section>
-		<h1> Latent-aligned RBMs </h1>
+		<h1> Multi-fish Neuronal Model </h1>
 		<h2> Translating Activity from one Fish to Another </h2>
 
 		<div class="floating"
@@ -946,21 +946,22 @@
 			<p>⇒ Translate configuration through the latent space</p>
 		</div>
 
-		<div class="fragment">
-		<div class="floating"
+		<div class="floating fragment"
      		style="
-					--floating-left: -0.3%; --floating-top: 24.6%; --floating-w: 1154px; --floating-h: 690px;
+					--floating-left: 19.2%; --floating-top: 28.1%; --floating-w: 1154px; --floating-h: 690px;
      		">
-			<img src="assets/multiRBM/deepfake_diag.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/multiRBM/deepfake_diag.svg" 
+					data-base="Layer 1" 
+				></div>
 		</div>
 
-		<div class="floating"
-     		style="
-					--floating-left: 60.2%; --floating-top: 37.1%; --floating-w: 715px; --floating-h: 409px;
-     		">
-			<img src="assets/multiRBM/deepfake_eq.svg" width="100%"/>
-		</div>
-		</div>
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 60.2%; --floating-top: 37.1%; --floating-w: 715px; --floating-h: 409px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiRBM/deepfake_eq.svg" width="100%"/> -->
+		<!-- </div> -->
 
   	<!-- <div class="entry">bidirectional generative model + same latent space → deepfake</div> -->
   	<!-- <div class="mainmessage">method → we can translate activity from on fish to the other</div> -->
@@ -968,7 +969,7 @@
 	</section>
 
 	<section>
-		<h1> Latent-aligned RBMs </h1>
+		<h1> Multi-fish Neuronal Model </h1>
 		<h2> Translating Activity from one Fish to Another </h2>
 		<div class="floating"
      		style="
@@ -979,107 +980,88 @@
 	</section>
 
 
-	<section>
-		<h1> Latent-aligned RBMs </h1>
-		<h2> Translating Activity from one Fish to Another </h2>
+	<!-- <section> -->
+	<!-- 	<h1> Latent-aligned RBMs </h1> -->
+	<!-- 	<h2> Translating Activity from one Fish to Another </h2> -->
+	<!---->
+	<!-- 	<div class="floating" -->
+ <!--     		style=" -->
+	<!-- 				--floating-left: 48.7%; --floating-top: 3.2%; --floating-w: 927px; --floating-h: 176px; -->
+ <!--     		"> -->
+	<!-- 		<p>How <i>credible</i> is the translated activity?</p> -->
+	<!-- 	</div> -->
+	<!---->
+	<!-- 	<div class="floating fragment" -->
+ <!--     		style=" -->
+	<!-- 				--floating-left: 8.2%; --floating-top: 19.1%; --floating-w: 1583px; --floating-h: 664px; -->
+ <!--     		"> -->
+	<!-- 		<img src="assets/multiRBM/deepfake_stats.svg" width="100%"/> -->
+	<!-- 	</div> -->
+	<!---->
+	<!-- 	<div class="floating fragment debug" -->
+ <!--     		style=" -->
+	<!-- 				--floating-left: 47.8%; --floating-top: 80.9%; --floating-w: 950px; --floating-h: 64px; -->
+ <!--     		"> -->
+	<!-- 		<p>Translated configurations match recipient statistics</p> -->
+	<!-- 	</div> -->
+	<!---->
+	<!-- </section> -->
 
-		<div class="floating"
-     		style="
-					--floating-left: 48.7%; --floating-top: 3.2%; --floating-w: 927px; --floating-h: 176px;
-     		">
-			<p>How <i>credible</i> is the translated activity?</p>
-		</div>
+	<section>
+		<h1> Multi-fish Neuronal Model </h1>
+		<h2> Translated Activity is Probable under the Recipient Model </h2>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 8.2%; --floating-top: 19.1%; --floating-w: 1583px; --floating-h: 664px;
+					--floating-left: 10.1%; --floating-top: 19.5%; --floating-w: 1509px; --floating-h: 856px;
      		">
-			<img src="assets/multiRBM/deepfake_stats.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/multiRBM/deepfake_freeenergy.svg" 
+					data-base="Layer 1" 
+				></div>
 		</div>
 
-		<div class="floating fragment debug"
-     		style="
-					--floating-left: 47.8%; --floating-top: 80.9%; --floating-w: 950px; --floating-h: 64px;
-     		">
-			<p>Translated configurations match recipient statistics</p>
-		</div>
-
-		<!-- <div class="floating debug" -->
-  <!--    		style=" -->
-		<!-- 			--floating-left: 50.9%; --floating-top: 1.9%; --floating-w: 714px; --floating-h: 472px; -->
-  <!--    		"> -->
-		<!-- 	<img src="assets/multiRBM/deepfake_rho.svg" width="100%"/> -->
-		<!-- </div> -->
-		<!---->
-
-  	<!-- <div class="entry"></div> -->
-  	<!-- <div class="mainmessage">stats + structure + proba maintained upon translation</div> -->
-  	<!-- <div class="outlook"></div> -->
 	</section>
 
 	<section>
-		<h1> Latent-aligned RBMs </h1>
-		<h2> Translating Activity from one Fish to Another </h2>
-
-		<div class="floating"
-     		style="
-					--floating-left: 48.7%; --floating-top: 3.2%; --floating-w: 927px; --floating-h: 176px;
-     		">
-			<p>How <i>credible</i> is the translated activity?</p>
-		</div>
-
-		<div class="floating"
-     		style="
-					--floating-left: 0.6%; --floating-top: 20.6%; --floating-w: 1171px; --floating-h: 611px;
-     		">
-			<img src="assets/multiRBM/deepfake_freeenergy.svg" width="100%"/>
-		</div>
-
-		<div class="floating"
-     		style="
-					--floating-left: 62.7%; --floating-top: 38.8%; --floating-w: 661px; --floating-h: 162px;
-     		">
-			$$F(\mathbf{v}) = -\log Z -\log P(\mathbf{v})$$
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 40.1%; --floating-top: 80.5%; --floating-w: 1067px; --floating-h: 65px;
-     		">
-			<p>Translated configurations are probable under the recipient</p>
-		</div>
-	</section>
-
-	<section>
-		<h1> Latent-aligned RBMs </h1>
+		<h1> Multi-fish Neuronal Model </h1>
 		<h2> Summary </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: 19.7%; --floating-top: 25.0%; --floating-w: 1133px; --floating-h: 319px;
+					--floating-left: 4.3%; --floating-top: 13.0%; --floating-w: 1344px; --floating-h: 250px;
      		">
      	<ul>
-			<p>⇒ Building of a shared latent space from neuronal recordings</p>
-			<li>shared representation space of functional assemblies</li>
-			<li>allows for translation of neuronal configurations</li>
+			<li>statistical model of whole-brain spontaneous neuronal activity → RBMs</li>
+			<li>RBMs representation = composition of cell assemblies</li>
+			<li>align the space of representation across multiple fish</li>
+			<li>translate activity from one brain to another</li>
      	</ul>
-			<p>⠀</p>
-			<p>⠀</p>
-			<p>⇒ Spontaneous activity can be represented</p>
-			<p>⠀</p>
-			<p>by a shared repertoire of cell assemblies</p>
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 66.5%; --floating-top: 79.8%; --floating-w: 551px; --floating-h: 83px;
+					--floating-left: 72.0%; --floating-top: 11.1%; --floating-w: 82px; --floating-h: 299px;
+     		">
+			<img src="assets/bracket.svg" width="100%"/>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 76.9%; --floating-top: 19.0%; --floating-w: 249px; --floating-h: 125px;
+     		">
+			<p>only static</p>
+			<p>⠀</p>
+			<p>description</p>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 33.4%; --floating-top: 74.1%; --floating-w: 551px; --floating-h: 83px;
      		">
 			<p>What about the dynamics?</p>
 		</div>
 
-  	<!-- <div class="entry"></div> -->
-  	<!-- <div class="mainmessage">we succesfully constrained the model to same spatial and latent representation and showed that this could be used to translate activity from one fish to another</div> -->
-  	<!-- <div class="outlook">use to compare dynamics</div> -->
 	</section>
 
 </section> <!-- LARBM SECTION -->
@@ -1090,43 +1072,39 @@
 <section> <!-- DYNAMICS SECTION -->
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<!-- <h2> Summary </h2> -->
+
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 66.5%; --floating-top: 79.8%; --floating-w: 551px; --floating-h: 83px; -->
+  <!--    		"> -->
+		<!-- 	<p>same vocabulary ? same sentence structure ?</p> -->
+		<!-- </div> -->
+
+		<div class="floating"
+     		style="
+					--floating-left: -1.2%; --floating-top: 31.1%; --floating-w: 1034px; --floating-h: 488px;
+     		">
+			<img src="assets/intro/behavior/fly_smal.svg" width="100%"/>
+		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 66.5%; --floating-top: 79.8%; --floating-w: 551px; --floating-h: 83px;
+					--floating-left: 60.9%; --floating-top: 27.1%; --floating-w: 660px; --floating-h: 623px;
      		">
-			<p>same vocabulary ? same sentence structure ?</p>
+				<p>Shared space of Representation</p>
+				<p>⠀</p>
+				<div class="r-svg-layers" 
+					data-src="assets/multiDYN/HU_space_occupation.svg" 
+					data-base="Layer 1"
+					data-include="Layer 1, Layer 2, Layer 4, Layer 5"
+				></div>
 		</div>
 
-
-		<div class="floating"
-     		style="
-					--floating-left: 47.2%; --floating-top: 35.0%; --floating-w: 920px; --floating-h: 378px;
-     		">
-			<img src="assets/multiDYN/hidden_act.svg" width="100%"/>
-			<!-- <p>characteristic auto-correlation $\approx\! 2\!-\!3s$</p> -->
-			<!-- <p>↓</p> -->
-			<!-- <p>predictable over short time scales</p> -->
-		</div>
-
-		<div class="floating"
-     		style="
-					--floating-left: 5.6%; --floating-top: 26.6%; --floating-w: 656px; --floating-h: 588px;
-     		">
-			<img src="assets/multiDYN/HU_space_occupation.svg" width="100%"/>
-			<!-- <p>stereotyped accessible subspace</p> -->
-			<!-- <p>different subspace exploration</p> -->
-		</div>
-
-  	<!-- <div class="entry">A common space to compare dynamics across individuals</div> -->
-  	<!-- <div class="mainmessage">Start with naive comparison (autocor + explored regions) (qualitative)</div> -->
-  	<!-- <div class="outlook">same position in latent space ?=? same "brain state"</div> -->
 	</section>
 
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<h2> Partitioning the Latent Space </h2>
+		<h2> Segmenting the hidden space into a vocabulary of brain states </h2>
 		
 		<div class="floating"
      		style="
@@ -1142,38 +1120,11 @@
 			<img src="assets/multiDYN/sRBM_train.svg" width="100%"/>
 		</div>
 
-		<div class="floating fragment"
-     		style="
-					--floating-left: 2.5%; --floating-top: 77.4%; --floating-w: 1175px; --floating-h: 74px;
-     		">
-			<p>Capture coordinated activation of hidden units</p>
-		</div>
-
-		<!-- <div class="floating debug" -->
-  <!--    		style=" -->
-		<!-- 			--floating-left: 65.2%; --floating-top: 8.9%; --floating-w: 604px; --floating-h: 554px; -->
-  <!--    		"> -->
-		<!-- 	<img src="assets/multiDYN/sRBM_qq.svg" width="100%"/> -->
-		<!-- 	<p>h-bRBM ≈ h-sRBM</p> -->
-		<!-- </div> -->
-
-
-		<!-- <div class="floating debug" -->
-  <!--    		style=" -->
-		<!-- 			--floating-left: 12.4%; --floating-top: 54.7%; --floating-w: 1434px; --floating-h: 473px; -->
-  <!--    		"> -->
-		<!-- 	$$P(s\mid\mathbf{v}_t) = \mathbb{E}\Big[ P\big( s\mid P(\mathbf{h}\mid\mathbf{v}_t) \big) \Big]$$ -->
-		<!-- 	<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/> -->
-		<!-- </div> -->
-
-  	<!-- <div class="entry">??</div> -->
-  	<!-- <div class="mainmessage">segmentation of latent space into brain states → sRBM → method (+ fails to reproduce hh)</div> -->
-  	<!-- <div class="outlook">sequence of states</div> -->
 	</section>
 	
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<h2> State sequence </h2>
+		<h2> State sequence decoding from Neuronal Data </h2>
 
 		<div class="floating"
      		style="
@@ -1196,12 +1147,6 @@
 			<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/>
 		</div>
 
-		<div class="floating fragment"
-     		style="
-					--floating-left: 51.8%; --floating-top: 79.8%; --floating-w: 860px; --floating-h: 74px;
-     		">
-			<p>Most neuronal configurations map to ⪆1 state</p>
-		</div>
 
 		<!-- <div class="floating debug" -->
   <!--    		style=" -->
@@ -1224,74 +1169,51 @@
 
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<h2> State sequence </h2>
+		<h2> States Capture Large Scale Feature of Brain Activity </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: 3.1%; --floating-top: 10.7%; --floating-w: 1227px; --floating-h: 949px;
+					--floating-left: 16.9%; --floating-top: 11.9%; --floating-w: 1227px; --floating-h: 949px;
      		">
 			<video loop="true" src="assets/multiDYN/Movie1.mp4"></video>
 		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 65.7%; --floating-top: 41.7%; --floating-w: 603px; --floating-h: 272px;
-     		">
-			<p>brain activity → state sequence</p>
-			<p>⠀</p>
-     	<ul>
-				<li>stereoypical states ?</li>
-				<li>stereoypical use ?</li>
-				<li>stereotypical structure ?</li>
-     	</ul>
-		</div>
-
-  	<!-- <div class="entry"></div> -->
-  	<!-- <div class="mainmessage">capture large scale features</div> -->
-  	<!-- <div class="outlook">are those features similar across fish ?</div> -->
 	</section>
 
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<h2> Neuronal Composition of States </h2>
+		<h2> Across Individuals ? </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: 20.5%; --floating-top: 10.8%; --floating-w: 1190px; --floating-h: 813px;
+					--floating-left: 28.2%; --floating-top: 36.9%; --floating-w: 818px; --floating-h: 199px;
+     		">
+     	<ul>
+				<li>Are states stereoypical ?</li>
+				<li>Are states used similarly ?</li>
+				<li>Are states sequences stereotypical ?</li>
+     	</ul>
+		</div>
+
+	</section>
+
+	<section>
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> States represent Stereotyped Brain States </h2>
+
+		<div class="floating"
+     		style="
+					--floating-left: 19.9%; --floating-top: 19.2%; --floating-w: 1190px; --floating-h: 813px;
      		">
 			<img src="assets/multiDYN/state_maps.svg" width="100%"/>
 		</div>
 
-		<div class="floating fragment"
-     		style="
-					--floating-left: 15.4%; --floating-top: 81.7%; --floating-w: 1381px; --floating-h: 71px;
-     		">
-			<p>States capture stereotypic brain-wide features of Spontaneous Brain Activity</p>
-		</div>
-
-		<!-- <div class="floating debug" -->
-  <!--    		style=" -->
-		<!-- 			--floating-left: 69.3%; --floating-top: 18.0%; --floating-w: 530px; --floating-h: 772px; -->
-  <!--    		"> -->
-		<!-- 	<img src="assets/multiDYN/states_rho.svg" width="100%"/> -->
-		<!-- </div> -->
-
-		<!-- <div class="floating debug" -->
-  <!--    		style=" -->
-		<!-- 			--floating-left: 69.2%; --floating-top: 40.3%; --floating-w: 539px; --floating-h: 412px; -->
-  <!--    		"> -->
-		<!-- 	<img src="assets/multiDYN/sRBM_hh.svg" width="100%"/> -->
-		<!-- </div> -->
-
-  	<!-- <div class="entry">what do those states look like spatially across fish?</div> -->
-  	<!-- <div class="mainmessage">compositionality + stable large scales features across fish</div> -->
-  	<!-- <div class="outlook">??</div> -->
 	</section>
 	
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<h2> State Probabilities </h2>
+		<h2> States are Used Similarly by All Fish </h2>
 
+		<div class="fragment">
 		<div class="floating"
      		style="
 					--floating-left: 12.8%; --floating-top: 13.5%; --floating-w: 557px; --floating-h: 221px;
@@ -1305,26 +1227,13 @@
      		">
 			<img src="assets/multiDYN/Ps_id.svg" width="100%"/>
 		</div>
+		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 15.4%; --floating-top: 81.7%; --floating-w: 1381px; --floating-h: 71px;
-     		">
-			<p>States-use is stereotyped</p>
-		</div>
-
-		<div class="floating debug fragment"
-     		style="
-					--floating-left: 52.8%; --floating-top: 24.1%; --floating-w: 646px; --floating-h: 528px;
+					--floating-left: 52.8%; --floating-top: 29.0%; --floating-w: 731px; --floating-h: 614px;
      		">
 			<img src="assets/multiDYN/Ps_matrix.svg" width="100%"/>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 15.4%; --floating-top: 86.3%; --floating-w: 1381px; --floating-h: 71px;
-     		">
-			<p>particularly for fish from the same clutch</p>
 		</div>
 
 		<!-- <div class="floating debug" -->
@@ -1342,18 +1251,18 @@
 
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
-		<h2> Markovian Dynamics </h2>
+		<h2> Markovian Transition Rates are partially Conserved across fish </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: 0.5%; --floating-top: 16.0%; --floating-w: 942px; --floating-h: 232px;
+					--floating-left: 47.1%; --floating-top: 21.2%; --floating-w: 942px; --floating-h: 232px;
      		">
 			$$P(s\to s') = \frac{ \sum_{t=1}^{T-1} P(s\mid\mathbf{v}_t) \cdot P(s'\mid\mathbf{v}_{t+1}) }{ \sum_{t=1}^{T-1} P(s\mid\mathbf{v}_t) }$$
 		</div>
 
 		<div class="floating"
      		style="
-					--floating-left: 66.7%; --floating-top: 4.2%; --floating-w: 392px; --floating-h: 387px;
+					--floating-left: 16.2%; --floating-top: 15.0%; --floating-w: 392px; --floating-h: 387px;
      		">
 				<div class="r-svg-layers" 
 					data-src="assets/multiDYN/markov_diag.svg" 
@@ -1363,23 +1272,16 @@
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 0.3%; --floating-top: 43.2%; --floating-w: 941px; --floating-h: 464px;
+					--floating-left: 3.7%; --floating-top: 54.0%; --floating-w: 941px; --floating-h: 464px;
      		">
 			<img src="assets/multiDYN/Pss.svg" width="100%"/>
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 63.7%; --floating-top: 43.7%; --floating-w: 473px; --floating-h: 462px;
+					--floating-left: 64.1%; --floating-top: 54.0%; --floating-w: 473px; --floating-h: 462px;
      		">
 			<img src="assets/multiDYN/Pss_id.svg" width="100%"/>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 13.2%; --floating-top: 86.1%; --floating-w: 1381px; --floating-h: 71px;
-     		">
-			<p>Transition rates are stereotyped whenever they are observed</p>
 		</div>
 
   	<!-- <div class="entry">what is the structure of sequence ?</div> -->
@@ -1391,48 +1293,72 @@
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Markovian Dynamics - sub-structure and hub-states </h2>
 
-		<div class="floating"
-     		style="
-					--floating-left: 0.2%; --floating-top: 11.2%; --floating-w: 404px; --floating-h: 442px;
-     		">
-			<img src="assets/multiDYN/PS_vs_S.svg" width="100%"/>
-		</div>
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 0.2%; --floating-top: 11.2%; --floating-w: 404px; --floating-h: 442px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/multiDYN/PS_vs_S.svg" width="100%"/> -->
+		<!-- </div> -->
+		<!---->
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 0.2%; --floating-top: 49.1%; --floating-w: 404px; --floating-h: 428px; -->
+  <!--    		"> -->
+		<!-- 		<div class="r-svg-layers"  -->
+		<!-- 			data-src="assets/multiDYN/Pss_vs_S.svg"  -->
+		<!-- 			data-base="Layer 1" -->
+		<!-- 		></div> -->
+		<!-- </div> -->
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 0.2%; --floating-top: 49.1%; --floating-w: 404px; --floating-h: 428px;
-     		">
-			<!-- <img src="assets/multiDYN/Pss_vs_S.svg" width="100%"/> -->
-				<div class="r-svg-layers" 
-					data-src="assets/multiDYN/Pss_vs_S.svg" 
-					data-base="Layer 1"
-				></div>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 2.9%; --floating-top: 85.7%; --floating-w: 288px; --floating-h: 65px;
-     		">
-			<p>~6 hub states</p>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 25.0%; --floating-top: 11.0%; --floating-w: 1408px; --floating-h: 954px;
+					--floating-left: 12.8%; --floating-top: 11.7%; --floating-w: 1408px; --floating-h: 954px;
      		">
 			<img src="assets/multiDYN/FamillyTransitions.svg" width="100%"/>
 		</div>
-
-
-  	<!-- <div class="entry">??</div> -->
-  	<!-- <div class="mainmessage">hub states (n* and nn* vs S)</div> -->
-  	<!-- <div class="outlook">??</div> -->
 	</section>
 	 
 </section> <!-- DYNAMICS SECTION -->
 
 
-<section> <!-- HMM paper SECTION -->
+
+<section> <!-- CONCLUSION + END SECTION -->
+	<section>
+		<h1> Conclusion & Perspectives</h1>
+
+		<div class="floating"
+     		style="
+					--floating-left: 3.7%; --floating-top: 12.5%; --floating-w: 1730px; --floating-h: 96px;
+     		">
+			<p><b>Goal :</b> Is Spontaneous Brain Activity stereotypical across individuals?</p>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -2.4%; --floating-top: 29.8%; --floating-w: 2010px; --floating-h: 280px;
+     		">
+     	<ul>
+				<li>Spontaneous Activity is challenging to compare between individuals</li>
+				<li>RBMs provide a representation of whole brain activity as a composition of cell assemblies</li>
+				<li>Method : align this representation across multiple zebrafish larvae</li>
+				<li>Method : define shared brain states and compare their temporal organization</li>
+				<li>Spontaneous Brain Dynamics is partially conserved across individuals</li>
+     	</ul>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -1.9%; --floating-top: 75.5%; --floating-w: 2002px; --floating-h: 191px;
+     		">
+     	<ul>
+				<li>Joint training of RBMs (instead of Teacher/Student)</li>
+				<li>Integrate a temporal model directly into the RBM (eg. HMM)</li>
+				<li>Joint neuronal and behavioral studies to improve model interpretation</li>
+     	</ul>
+		</div>
+
+	</section>
+
 	<section>
 		<h1> Shared Behavioral and Neuronal Representation </h1>
 		<h2> Zebrafish Reorientation </h2>
@@ -1449,17 +1375,6 @@
       		<span class="author">Dommanget-Kott & Fernandez-de-Cossio-Diaz, Coraggioso, Bormuth, Monasson, Debrégeas, and Cocco</span> <span class="journal">bioRxiv</span> <span class="year">2024</span>
     	</a></li>
 		</ul>
-	</section>
-</section> <!-- HMM Paper SECTION-->
-
-
-
-<section> <!-- CONCLUSION + END SECTION -->
-	<section>
-		<h1> Conclusion </h1>
-  	<div class="entry"></div>
-  	<div class="mainmessage">hub states (→ microstates EEG in humans) → (weaknesses) + it opens new ways of studying whole brain dynamics → motivates: plus de poisons + multitraining + combined with evoked</div>
-  	<div class="outlook"></div>
 	</section>
 
 	<section>

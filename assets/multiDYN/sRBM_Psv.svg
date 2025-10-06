@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="630.33588"
-   height="112.71875"
-   viewBox="0 0 630.33588 112.71875"
+   height="133.71899"
+   viewBox="0 0 630.33588 133.71899"
    version="1.1"
    id="svg1816"
+   sodipodi:docname="sRBM_Psv.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showguides="true"
+     inkscape:zoom="1.997391"
+     inkscape:cx="317.66439"
+     inkscape:cy="66.336535"
+     inkscape:window-width="1914"
+     inkscape:window-height="1050"
+     inkscape:window-x="768"
+     inkscape:window-y="792"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1816">
+    <sodipodi:guide
+       position="44.881524,65.685839"
+       orientation="1,0"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="133.90191,-23.520845"
+       orientation="1,0"
+       id="guide295"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="222.9223,-2.5131056"
+       orientation="1,0"
+       id="guide297"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="44.881524,-23.520842"
+       orientation="0,-1"
+       id="guide298"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <defs
      id="defs895">
     <g
@@ -2256,4 +2300,18 @@
      stroke-miterlimit="1.1547"
      d="M 39.054462,109.34247 V 3.0065295"
      id="path1815" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none"
+     d="M 44.881524,114.23984 H 133.90191"
+     id="path298" />
+  <text
+     xml:space="preserve"
+     style="font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none"
+     x="89.364372"
+     y="129.88828"
+     id="text298"><tspan
+       sodipodi:role="line"
+       id="tspan298"
+       x="89.364372"
+       y="129.88828">30s</tspan></text>
 </svg>

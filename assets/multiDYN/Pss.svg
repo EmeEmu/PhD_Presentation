@@ -5,9 +5,38 @@
    viewBox="0 0 355.33591 156.68716"
    version="1.1"
    id="svg1109"
+   sodipodi:docname="Pss.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showguides="true"
+     inkscape:zoom="4.9727595"
+     inkscape:cx="290.28148"
+     inkscape:cy="78.326732"
+     inkscape:window-width="1914"
+     inkscape:window-height="1050"
+     inkscape:window-x="768"
+     inkscape:window-y="792"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1109">
+    <sodipodi:guide
+       position="309.05446,87.339788"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <defs
      id="defs334">
     <g
@@ -2664,63 +2693,8 @@
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g747"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-105-0-1a3e524d"
-       x="393.45331"
-       y="137.18666"
-       id="use747" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g748"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-106-0-1a3e524d"
-       x="393.45334"
-       y="128.29332"
-       id="use748" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g749"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-106-0-1a3e524d"
-       x="393.45334"
-       y="121.62666"
-       id="use749" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g750"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-107-0-1a3e524d"
-       x="393.45334"
-       y="114.96"
-       id="use750" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g752"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-106-1-1a3e524d"
-       x="393.45334"
-       y="108.70667"
-       id="use752" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
      id="g754"
-     transform="translate(-40.945541,-20.652627)">
+     transform="translate(-40.945541,-0.652627)">
     <use
        xlink:href="#glyph-50-2-1a3e524d"
        x="393.45334"
@@ -2731,7 +2705,7 @@
      fill="#000000"
      fill-opacity="1"
      id="g755"
-     transform="translate(-40.945541,-20.652627)">
+     transform="translate(-40.945541,-0.652627)">
     <use
        xlink:href="#glyph-107-2-1a3e524d"
        x="393.45334"
@@ -2742,7 +2716,7 @@
      fill="#000000"
      fill-opacity="1"
      id="g756"
-     transform="translate(-40.945541,-20.652627)">
+     transform="translate(-40.945541,-0.652627)">
     <use
        xlink:href="#glyph-106-0-1a3e524d"
        x="393.45334"
@@ -2753,7 +2727,7 @@
      fill="#000000"
      fill-opacity="1"
      id="g758"
-     transform="translate(-40.945541,-20.652627)">
+     transform="translate(-40.945541,-0.652627)">
     <use
        xlink:href="#glyph-106-3-1a3e524d"
        x="393.45334"
@@ -2764,7 +2738,7 @@
      fill="#000000"
      fill-opacity="1"
      id="g760"
-     transform="translate(-40.945541,-20.652627)">
+     transform="translate(-40.945541,-0.652627)">
     <use
        xlink:href="#glyph-109-0-1a3e524d"
        x="393.45334"
@@ -2775,7 +2749,7 @@
      fill="#000000"
      fill-opacity="1"
      id="g761"
-     transform="translate(-40.945541,-20.652627)">
+     transform="translate(-40.945541,-0.652627)">
     <use
        xlink:href="#glyph-110-0-1a3e524d"
        x="393.45334"
@@ -2786,7 +2760,7 @@
      fill="#000000"
      fill-opacity="1"
      id="g762"
-     transform="translate(-40.945541,-20.652627)">
+     transform="translate(-40.945541,-0.652627)">
     <use
        xlink:href="#glyph-111-0-1a3e524d"
        x="393.45334"
