@@ -502,7 +502,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   max-height: 100%;
 }
 
-.reveal .floating ul{
+.reveal .floating ul,
+.reveal .floating ol{
   line-height: 1.2;
 }
 
