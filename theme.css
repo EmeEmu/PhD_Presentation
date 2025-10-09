@@ -621,3 +621,205 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     height: auto !important; /* keep aspect ratio (needs a viewBox) */
     display: block;
   }
+
+
+
+
+
+
+
+/* Title slide layout for reveal.js
+ * Usage:
+ * <section class="title-slide">
+ *   <div class="title-logos">
+ *     <img src="logo1.png" alt="Org 1"/>
+ *     <img src="logo2.png" alt="Org 2"/>
+ *   </div>
+ *   <h1 class="title-main">Your Dissertation Title</h1>
+ *   <div class="title-author">Your Name</div>
+ *   <ul class="title-jury">
+ *     <li><span class="person">Prof. A. Expert</span> — <span class="role">Chair</span>, <span class="aff">University X</span></li>
+ *     <li><span class="person">Dr. B. Reviewer</span> — <span class="role">Rapporteur</span>, <span class="aff">Institute Y</span></li>
+ *     <li><span class="person">Dr. C. Reviewer</span> — <span class="role">Rapporteur</span>, <span class="aff">Lab Z</span></li>
+ *   </ul>
+ *   <div class="title-date">9 October 2025 — Paris</div>
+ * </section>
+ */
+
+:root{
+  /* Spacing & sizing */
+  --ts-padding-x: 48px;           /* horizontal page padding */
+  --ts-padding-top: 128px;         /* distance from top to title area (leaves room for logos) */
+  --ts-gap: 56px;                  /* gap between stacked blocks */
+
+  /* Typography */
+  --ts-title-size: 1.6em;         /* main title size */
+  --ts-author-size: 1.2em;        /* author name size */
+  --ts-jury-size: 0.7em;          /* jury text size */
+  --ts-date-size: 0.9em;          /* date size */
+  --ts-muted: #555;               /* muted grey for meta text */
+
+  /* Logos */
+  --ts-logos-top: 20px;
+  --ts-logo-max-h: 150px;          /* maximum logo height */
+  --ts-logo-gap: 20px;            /* gap between logos */
+
+  /* Section headings & extra blocks */
+  --ts-sec-heading-size: 0.9em;   /* "Supervisors" / "Jury" labels */
+  --ts-sec-heading-weight: 700;
+  --ts-supervisors-size: 0.9em;
+  --ts-supervisors-gap: 50px;
+
+  /* Date placement */
+  --ts-date-bottom: 24px;         /* distance from bottom edge for date */
+}
+
+
+/* Ensure the title slide isn't affected by custom top-left heading rules */
+/* .reveal section.title-slide { position: relative; padding: 0 var(--ts-padding-x); } */
+.reveal section.title-slide > h1.title-main { position: static !important; }
+.reveal section.title-slide h1, 
+.reveal section.title-slide h2 { text-align: center; text-transform: none; }
+
+/* Logos row at the very top */
+.reveal section.title-slide .title-logos{
+  position: absolute;
+  top: var(--ts-logos-top);
+  left: var(--ts-padding-x);
+  right: var(--ts-padding-x);
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center row; switch to space-between with .spread */
+  gap: var(--ts-logo-gap);
+}
+.reveal section.title-slide .title-logos.spread{ justify-content: space-between; }
+.reveal section.title-slide .title-logos img{
+  max-height: var(--ts-logo-max-h);
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+
+/* Central stacked content */
+.reveal section.title-slide .title-stack{
+  /* optional wrapper if you prefer; otherwise elements may be placed directly */
+  position: relative;
+  top: var(--ts-padding-top);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--ts-gap);
+}
+
+/* Title */
+.reveal section.title-slide .title-main{
+  font-size: var(--ts-title-size);
+  margin: 0;
+}
+
+/* Author */
+.reveal section.title-slide .title-author{
+  font-size: var(--ts-author-size);
+  color: var(--ts-muted);
+}
+
+/* Supervisors */
+.reveal section.title-slide .title-supervisors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--ts-muted);
+}
+.reveal section.title-slide .title-supervisors .sec-heading{
+  font-size: var(--ts-sec-heading-size);
+  font-weight: var(--ts-sec-heading-weight);
+  letter-spacing: .02em;
+}
+.reveal section.title-slide .title-supervisors .sup-list{
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: var(--ts-supervisors-gap);
+  font-size: var(--ts-supervisors-size);
+}
+.reveal section.title-slide .title-supervisors .sup-list > li{ margin: 0; }
+
+/* Jury block (container with internal heading + list) */
+.reveal section.title-slide .title-jury-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--ts-muted);
+}
+.reveal section.title-slide .title-jury-block .sec-heading{
+  font-size: var(--ts-sec-heading-size);
+  font-weight: var(--ts-sec-heading-weight);
+  letter-spacing: .02em;
+}
+
+/* (Legacy) external jury title kept for backward compatibility */
+.reveal section.title-slide .title-jury-title{
+  font-size: var(--ts-sec-heading-size);
+  font-weight: var(--ts-sec-heading-weight);
+  color: var(--ts-muted);
+  margin-top: 6px;
+}
+
+/* Jury list */
+
+.reveal section.title-slide .title-jury{
+  list-style: none;
+  margin: 4px 0 0 0;
+  padding: 0;
+  font-size: var(--ts-jury-size);
+  color: var(--ts-muted);
+  line-height: 1.35;
+}
+/* Each jury entry as a 2-column grid: left=name, right=role+aff (aligned right) */
+.reveal section.title-slide .title-jury > li{
+  margin: 0.15em 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+  column-gap: 76px;
+}
+.reveal section.title-slide .title-jury .person{ font-weight: 600; color: inherit; text-align: left; }
+.reveal section.title-slide .title-jury .meta{ text-align: right; }
+.reveal section.title-slide .title-jury .role{ font-style: italic; }
+.reveal section.title-slide .title-jury .aff{ font-style: normal; }
+
+/* Optional two-column jury layout on wide titles */
+/* Optional two-column jury layout on wide titles */
+.reveal section.title-slide .title-jury.cols-2{
+  column-count: 2;
+  column-gap: 40px;
+}
+
+
+/* Date (bottom of slide) */
+.reveal section.title-slide .title-date{
+  position: absolute;
+  left: var(--ts-padding-x);
+  right: var(--ts-padding-x);
+  bottom: var(--ts-date-bottom);
+  text-align: center;
+  font-size: var(--ts-date-size);
+  color: var(--ts-muted);
+  margin: 0;
+}
+
+/* Dark background tuning */
+section.has-dark-background.title-slide .title-author,
+section.has-dark-background.title-slide .title-supervisors,
+section.has-dark-background.title-slide .title-jury-block,
+section.has-dark-background.title-slide .title-jury,
+section.has-dark-background.title-slide .title-date{ color: rgba(255,255,255,0.85); }
+
+/* Print tweaks */
+@media print {
+  .reveal section.title-slide .title-logos{ position: static; justify-content: space-between; margin-bottom: 16px; }
+  .reveal section.title-slide .title-stack{ top: 0; }
+  .reveal section.title-slide .title-date{ position: static; margin-top: 12px; }
+}
