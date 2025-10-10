@@ -650,7 +650,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   /* Spacing & sizing */
   --ts-padding-x: 48px;           /* horizontal page padding */
   --ts-padding-top: 128px;         /* distance from top to title area (leaves room for logos) */
-  --ts-gap: 56px;                  /* gap between stacked blocks */
+  --ts-gap: 200px;                  /* gap between stacked blocks */
 
   /* Typography */
   --ts-title-size: 1.6em;         /* main title size */

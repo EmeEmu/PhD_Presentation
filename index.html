@@ -36,27 +36,27 @@
       </ul>
     </div>
 
-    <div class="title-jury-block">
-      <div class="sec-heading">Jury</div>
-    	<ul class="title-jury">
-      	<li>
-        	<span class="person">Lilach AVITAN</span>
-        	<span class="meta"><span class="role">Rapportrice</span>
-      	</li>
-      	<li>
-        	<span class="person">Ruben PORTUGUES</span>
-        	<span class="meta"><span class="role">Rapporteur</span>
-      	</li>
-      	<li>
-        	<span class="person">N. Alex CAYCO GAJIC</span>
-        	<span class="meta"><span class="role">Examinatrice</span>
-      	</li>
-      	<li>
-        	<span class="person">Brice BATHELLIER</span>
-        	<span class="meta"><span class="role">Examinateur</span>
-      	</li>
-    	</ul>
-    </div>
+    <!-- <div class="title-jury-block"> -->
+    <!--   <div class="sec-heading">Jury</div> -->
+    <!-- 	<ul class="title-jury"> -->
+    <!--   	<li> -->
+    <!--     	<span class="person">Lilach AVITAN</span> -->
+    <!--     	<span class="meta"><span class="role">Rapportrice</span> -->
+    <!--   	</li> -->
+    <!--   	<li> -->
+    <!--     	<span class="person">Ruben PORTUGUES</span> -->
+    <!--     	<span class="meta"><span class="role">Rapporteur</span> -->
+    <!--   	</li> -->
+    <!--   	<li> -->
+    <!--     	<span class="person">N. Alex CAYCO GAJIC</span> -->
+    <!--     	<span class="meta"><span class="role">Examinatrice</span> -->
+    <!--   	</li> -->
+    <!--   	<li> -->
+    <!--     	<span class="person">Brice BATHELLIER</span> -->
+    <!--     	<span class="meta"><span class="role">Examinateur</span> -->
+    <!--   	</li> -->
+    <!-- 	</ul> -->
+    <!-- </div> -->
 
     <!-- <ul class="title-jury"> -->
     <!--   <li><span class="person">Lilach AVITAN</span> — <span class="role">Rapportrice</span>, <span class="aff">Institute Y</span></li> -->
@@ -280,7 +280,11 @@
      		style="
 					--floating-left: 0.0%; --floating-top: 13.8%; --floating-w: 517px; --floating-h: 434px;
      		">
-			<img src="assets/intro/neuro/network.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/intro/neuro/network.svg" 
+					data-base="Layer 1" 
+					data-include="Layer 1"
+				></div>
 		</div>
 
 		<div class="floating debug"
@@ -352,10 +356,23 @@
      		style="
 					--floating-left: -2.2%; --floating-top: 11.3%; --floating-w: 2007px; --floating-h: 128px;
      		">
-			<p><b>Goal :</b> Find a Common Representation for the Spontaneous Brain Activity of multiple Individuals</p>
+			<p><b>Question :</b> Is Spontaneous Activity (SA) comparable across individuals?</p>
 			<p>⠀</p>
 			<p>⠀</p>
-			<p>⇒ across the whole-brain at neuron-scale</p>
+			<p>⇒ over the whole-brain at neuron-scale</p>
+		</div>
+
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: -2.2%; --floating-top: 35.3%; --floating-w: 2008px; --floating-h: 420px;
+     		">
+			<ul>
+				<li>Recording whole-brain single-neuron SA</li>
+				<li>Statistical model → representation of SA</li>
+				<li>Align representation across individuals</li>
+				<li>Compare SA dynamics across individuals</li>
+			</ul>
 		</div>
 
 	</section>
@@ -907,21 +924,28 @@
      		style="
 					--floating-left: -2.0%; --floating-top: 22.1%; --floating-w: 1998px; --floating-h: 67px;
      		">
-			<p>Spontaneous Brain Activity ⇒ no alignment</p>
+			<p style="color:red;">Spontaneous Brain Activity ⇒ no alignment</p>
+		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: -2.1%; --floating-top: 27.6%; --floating-w: 2000px; --floating-h: 113px;
+     		">
+			<p style="color:red;">Neurons are not comparable across individuals</p>
 		</div>
 
 		<div class="floating fragment"
      		style="
 					--floating-left: -2.1%; --floating-top: 48.5%; --floating-w: 2005px; --floating-h: 67px;
      		">
-			<p>RBMs representation ⇒ composition of cell assemblies</p>
+			<p style="color:green;">RBMs representation ⇒ composition of cell assemblies</p>
 		</div>
 
 		<div class="floating fragment"
      		style="
 					--floating-left: -2.3%; --floating-top: 54.9%; --floating-w: 2011px; --floating-h: 73px;
      		">
-			<p>RBMs representation ⇒ degenerate</p>
+			<p style="color:red;">RBMs representation ⇒ degenerate</p>
 		</div>
 
 
@@ -1010,20 +1034,19 @@
 		<h1> Neuronal Models With Shared Hidden Space </h1>
 		<!-- <h2> Stereotypy of representation </h2> -->
 
-		<div class="floating"
-     		style="
-					--floating-left: -2.1%; --floating-top: 9.3%; --floating-w: 2000px; --floating-h: 113px;
-     		">
-			<p>At the single neuron scale ?</p>
-			<p>⠀</p>
-			<p><b>Problem : </b> neurons are not comparable across individuals</p>
-		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: -2.1%; --floating-top: 24.9%; --floating-w: 2000px; --floating-h: 113px;
+					--floating-left: -2.0%; --floating-top: 14.1%; --floating-w: 1998px; --floating-h: 236px;
      		">
-			<p><b>Hypothesis : </b>cell assemblies are shared across individuals</p>
+			<p><b>Hypothesis :</b></p>
+			<p>⠀</p>
+			<p>⠀</p>
+			<p>cell assemblies are shared across individuals</p>
+			<p>⠀</p>
+			<p>⠀</p>
+			<p>they have the same location across individuals</p>
+			<!-- <p>⇒ over the whole-brain at neuron-scale</p> -->
 		</div>
 
 		<div class="floating fragment"
@@ -1278,6 +1301,15 @@
 
 		<div class="floating fragment"
      		style="
+					--floating-left: -2.4%; --floating-top: 52.2%; --floating-w: 2006px; --floating-h: 107px;
+     		">
+			<p>The functional organization of Spontaneous Activity</p>
+			<p>⠀</p>
+			<p>is conserved at the level of neuronal populations</p>
+		</div>
+
+		<div class="floating fragment"
+     		style="
 					--floating-left: 72.0%; --floating-top: 11.1%; --floating-w: 82px; --floating-h: 299px;
      		">
 			<img src="assets/bracket.svg" width="100%"/>
@@ -1323,16 +1355,16 @@
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 
-		<div class="floating"
-     		style="
-					--floating-left: -1.2%; --floating-top: 31.1%; --floating-w: 1034px; --floating-h: 488px;
-     		">
-			<img src="assets/intro/behavior/fly_smal.svg" width="100%"/>
-		</div>
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -1.2%; --floating-top: 31.1%; --floating-w: 1034px; --floating-h: 488px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/intro/behavior/fly_smal.svg" width="100%"/> -->
+		<!-- </div> -->
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 60.9%; --floating-top: 27.1%; --floating-w: 660px; --floating-h: 623px;
+					--floating-left: 19.7%; --floating-top: 12.2%; --floating-w: 1063px; --floating-h: 898px;
      		">
 				<p>Shared space of Representation</p>
 				<p>⠀</p>
