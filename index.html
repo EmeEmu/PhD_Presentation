@@ -1281,18 +1281,21 @@
 
 		<div class="floating"
      		style="
-					--floating-left: 48.7%; --floating-top: 3.2%; --floating-w: 927px; --floating-h: 176px;
+					--floating-left: 59.3%; --floating-top: -0.4%; --floating-w: 625px; --floating-h: 263px;
      		">
      	<ul>
-			<li>Shared latent space across multiple individuals</li>
+			<li>Shared representation space</li>
 			<li>Generative Model</li>
      	</ul>
-			<p>⇒ Translate configuration through the latent space</p>
+			<p>⠀</p>
+			<p>⇒ Same encoding ?</p>
+			<p>⠀</p>
+			<p>⇒ Translation</p>
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 19.2%; --floating-top: 28.1%; --floating-w: 1154px; --floating-h: 690px;
+					--floating-left: 15.2%; --floating-top: 24.0%; --floating-w: 1346px; --floating-h: 797px;
      		">
 				<div class="r-svg-layers" 
 					data-src="assets/multiRBM/deepfake_diag.svg" 
@@ -1373,40 +1376,56 @@
 
 		<div class="floating"
      		style="
-					--floating-left: 4.3%; --floating-top: 13.0%; --floating-w: 1344px; --floating-h: 250px;
+					--floating-left: -2.1%; --floating-top: 11.9%; --floating-w: 2007px; --floating-h: 133px;
      		">
      	<ul>
-			<li>statistical model of whole-brain spontaneous neuronal activity → RBMs</li>
-			<li>RBMs representation = composition of cell assemblies</li>
-			<li>align the space of representation across multiple fish</li>
-			<li>translate activity from one brain to another</li>
+				<li>statistical model of whole-brain spontaneous neuronal activity → RBMs</li>
+				<li>RBMs representation = composition of cell assemblies</li>
      	</ul>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -2.9%; --floating-top: 26.8%; --floating-w: 2026px; --floating-h: 77px;
+     		">
+			<p>align the space of representation across multiple fish</p>
+		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: -2.8%; --floating-top: 38.8%; --floating-w: 2023px; --floating-h: 248px;
+     		">
+			<p>translate activity from one brain to another</p>
+			<p>⠀</p>
+			<p>⇒ same encoding across individuals</p>
+			<p>⠀</p>
+			<p>⇒ indistinguishable representation</p>
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: -2.4%; --floating-top: 52.2%; --floating-w: 2006px; --floating-h: 107px;
+					--floating-left: -2.1%; --floating-top: 59.5%; --floating-w: 2006px; --floating-h: 107px;
      		">
 			<p>The functional organization of Spontaneous Activity</p>
 			<p>⠀</p>
 			<p>is conserved at the level of neuronal populations</p>
 		</div>
 
-		<div class="floating fragment"
-     		style="
-					--floating-left: 72.0%; --floating-top: 11.1%; --floating-w: 82px; --floating-h: 299px;
-     		">
-			<img src="assets/bracket.svg" width="100%"/>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: 76.9%; --floating-top: 19.0%; --floating-w: 249px; --floating-h: 125px;
-     		">
-			<p>only static</p>
-			<p>⠀</p>
-			<p>description</p>
-		</div>
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 72.0%; --floating-top: 11.1%; --floating-w: 82px; --floating-h: 299px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/bracket.svg" width="100%"/> -->
+		<!-- </div> -->
+		<!---->
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 76.9%; --floating-top: 19.0%; --floating-w: 249px; --floating-h: 125px; -->
+  <!--    		"> -->
+		<!-- 	<p>only static</p> -->
+		<!-- 	<p>⠀</p> -->
+		<!-- 	<p>description</p> -->
+		<!-- </div> -->
 
 		<div class="floating fragment"
      		style="
@@ -1425,15 +1444,25 @@
 <section> <!-- DYNAMICS SECTION -->
 
 	<section>
-		<h1> Introduction </h1>
-		<h2> Comparing behavior across individuals </h2> 
+		<h1> Dynamics of Spontaneous Activity </h1>
+		<h2> an Analogy with Behavior </h2> 
 
 		<div class="floating"
      		style="
 					--floating-left: 21.7%; --floating-top: 10.7%; --floating-w: 1120px; --floating-h: 937px;
      		">
-			<img src="assets/intro/behavior/Mueller2019.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/intro/behavior/Mueller2019.svg" 
+					data-base="Layer 1" 
+				></div>
 		</div>
+
+		<ul class="citations" style="bottom: 100px">
+  		<li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007105" target="_blank" rel="noopener">
+      		<span class="author">Mueller & Ravbar et al.</span> <span class="journal">PLOS Comp. Bio.</span> <span class="year">2019</span>
+    	</a></li>
+		</ul>
+
 	</section>
 
 	<section>
@@ -1741,50 +1770,111 @@
 
 <section> <!-- CONCLUSION + END SECTION -->
 	<section>
-		<h1> Conclusion & Perspectives</h1>
+		<h1> Conclusion</h1>
 
-		<div class="floating"
+		<div class="floating fragment"
      		style="
-					--floating-left: 3.7%; --floating-top: 12.5%; --floating-w: 1730px; --floating-h: 96px;
+					--floating-left: 0.4%; --floating-top: 3.1%; --floating-w: 1844px; --floating-h: 1008px;
      		">
-			<p><b>Goal :</b> Is Spontaneous Brain Activity stereotypical across individuals?</p>
+				<div class="r-svg-layers" 
+					data-src="assets/conclusion.svg" 
+					data-base="Layer 1"
+				></div>
 		</div>
 
-		<div class="floating"
-     		style="
-					--floating-left: -2.4%; --floating-top: 29.8%; --floating-w: 2010px; --floating-h: 280px;
-     		">
-     	<ul>
-				<li>Spontaneous Activity is challenging to compare between individuals</li>
-				<li>RBMs provide a representation of whole brain activity as a composition of cell assemblies</li>
-				<li>Method : align this representation across multiple zebrafish larvae</li>
-				<li>Method : define shared brain states and compare their temporal organization</li>
-				<li>Spontaneous Brain Dynamics is partially conserved across individuals</li>
-     	</ul>
-		</div>
-
-		<div class="floating"
-     		style="
-					--floating-left: -1.9%; --floating-top: 75.5%; --floating-w: 2002px; --floating-h: 191px;
-     		">
-     	<ul>
-				<li>Joint training of RBMs (instead of Teacher/Student)</li>
-				<li>Integrate a temporal model directly into the RBM (eg. HMM)</li>
-				<li>Joint neuronal and behavioral studies to improve model interpretation</li>
-     	</ul>
-		</div>
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -2.1%; --floating-top: 13.3%; --floating-w: 2001px; --floating-h: 67px; -->
+  <!--    		"> -->
+		<!-- 	<p><b>New Method ⇒ </b>shared representation of SA across individuals</p> -->
+		<!-- </div> -->
+		<!---->
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -2.5%; --floating-top: 35.4%; --floating-w: 2008px; --floating-h: 73px; -->
+  <!--    		"> -->
+		<!-- 	<p><b>Translation ⇒ </b>shared encoding of brain configurations</p> -->
+		<!-- </div> -->
+		<!---->
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -2.2%; --floating-top: 58.2%; --floating-w: 2005px; --floating-h: 74px; -->
+  <!--    		"> -->
+		<!-- 	<p><b>Shared States ⇒ </b>compared dynamics of SA</p> -->
+		<!-- </div> -->
 
 	</section>
 
 	<section>
-		<h1> Shared Behavioral and Neuronal Representation </h1>
+		<h1>Perspectives</h1>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 0.4%; --floating-top: 3.1%; --floating-w: 1844px; --floating-h: 1008px;
+     		">
+				<div class="r-svg-layers" 
+					data-src="assets/perspectives.svg" 
+					data-base="Layer 1"
+				></div>
+		</div>
+
+		<!-- Methods -->
+		<!-- Teacher/Student → parallel training -->
+		<!-- Segmentation + Markov Chain → HMM -->
+		<!---->
+		<!-- Applications -->
+		<!-- Predicting :  -->
+		<!-- 	- evoked responses across individuals -->
+		<!-- 	- responses to optogenetic perturbations -->
+		<!-- Phenotyping :  -->
+		<!-- 	- mutants -->
+		<!-- 	- pharmacological screenings -->
+		<!-- Multi-session / Multi-individuals :  -->
+		<!-- 	- learning and memory -->
+		<!-- 	- development -->
+		<!-- 	- increased statistical power -->
+		<!---->
+		<!-- Question : -->
+		<!-- 	Functional interpretability of states and transitions -->
+
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -2.4%; --floating-top: 29.8%; --floating-w: 2010px; --floating-h: 280px; -->
+  <!--    		"> -->
+  <!--    	<ul> -->
+				<!-- <li>Spontaneous Activity is challenging to compare between individuals</li> -->
+		<!-- 		<li>RBMs provide a representation of whole brain activity as a composition of cell assemblies</li> -->
+		<!-- 		<li>Method : align this representation across multiple zebrafish larvae</li> -->
+		<!-- 		<li>Method : define shared brain states and compare their temporal organization</li> -->
+		<!-- 		<li>Spontaneous Brain Dynamics is partially conserved across individuals</li> -->
+  <!--    	</ul> -->
+		<!-- </div> -->
+		<!---->
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -1.9%; --floating-top: 75.5%; --floating-w: 2002px; --floating-h: 191px; -->
+  <!--    		"> -->
+  <!--    	<ul> -->
+		<!-- 		<li>Joint training of RBMs (instead of Teacher/Student)</li> -->
+		<!-- 		<li>Integrate a temporal model directly into the RBM (eg. HMM)</li> -->
+		<!-- 		<li>Joint neuronal and behavioral studies to improve model interpretation</li> -->
+  <!--    	</ul> -->
+		<!-- </div> -->
+
+	</section>
+
+	<section>
+		<h1> Joint Behavioral and Neuronal States </h1>
 		<h2> Zebrafish Reorientation </h2>
 
 		<div class="floating"
      		style="
-					--floating-left: 13.1%; --floating-top: 9.3%; --floating-w: 1408px; --floating-h: 954px;
+					--floating-left: 4.0%; --floating-top: 11.7%; --floating-w: 1712px; --floating-h: 891px;
      		">
-			<img src="assets/hmm.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/hmm.svg" 
+					data-base="Layer 1"
+				></div>
 		</div>
 
 		<ul class="citations" style="bottom: 100px">
@@ -1796,17 +1886,20 @@
 
 	<section>
 		<h1> Ethics </h1>
-  	<div class="entry"></div>
-  	<div class="mainmessage"></div>
-  	<div class="outlook"></div>
+		<div class="floating"
+     		style="
+					--floating-left: 1.1%; --floating-top: -5.4%; --floating-w: 1859px; --floating-h: 1244px;
+     		">
+			<video loop="true" style="transform: rotate(90deg)" src="assets/intro/zebra/lots_of_little_fish.mp4" width="100%"></video>
+		</div>
 	</section>
 
-	<section>
-		<h1> SciComm </h1>
-  	<div class="entry"></div>
-  	<div class="mainmessage"></div>
-  	<div class="outlook"></div>
-	</section>
+	<!-- <section> -->
+	<!-- 	<h1> SciComm </h1> -->
+ <!--  	<div class="entry"></div> -->
+ <!--  	<div class="mainmessage"></div> -->
+ <!--  	<div class="outlook"></div> -->
+	<!-- </section> -->
 
 	<section>
 		<h1> Thanks </h1>
