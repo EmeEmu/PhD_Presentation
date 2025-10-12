@@ -11,6 +11,7 @@
    inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -23,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="9.273878"
-     inkscape:cx="78.446148"
-     inkscape:cy="79.416615"
+     inkscape:zoom="3.2363391"
+     inkscape:cx="86.980998"
+     inkscape:cy="33.525535"
      inkscape:window-width="1914"
      inkscape:window-height="1050"
-     inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-x="768"
+     inkscape:window-y="792"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer6"
      showguides="true">
     <sodipodi:guide
        position="12.153762,18.910662"
@@ -128,594 +129,325 @@
      id="layer1"
      transform="translate(-15.874994,-87.210777)"
      style="display:inline">
+    <path
+       id="use1"
+       d="m 31.5182,89.008229 h -1.584112 c -0.113858,0 -0.168312,0.0049 -0.168312,0.113858 0,0.05445 0.05445,0.07921 0.163362,0.07921 0.09901,0 0.297021,-0.01485 0.297021,0.06435 0,0.0099 -0.0049,0.0396 -0.0198,0.08911 l -0.653446,2.628636 c -0.0297,0.108908 -0.07921,0.173263 -0.14851,0.198014 -0.03465,0.0099 -0.123759,0.01485 -0.27722,0.01485 -0.108908,0 -0.158411,0.0099 -0.158411,0.113858 0,0.05445 0.0297,0.07921 0.09406,0.07921 l 0.618793,-0.01485 0.316823,0.005 c 0.05445,0 0.252468,0.0099 0.316822,0.0099 0.07921,0 0.118809,-0.0396 0.118809,-0.118808 0,-0.0495 -0.05445,-0.07426 -0.158412,-0.07426 -0.198014,0 -0.297021,-0.0198 -0.297021,-0.06435 0,0 0.005,-0.01485 0.01485,-0.07921 l 0.297021,-1.207885 h 0.816808 c 0.321773,0 0.628695,-0.09901 0.915815,-0.292071 0.321773,-0.212865 0.480184,-0.475233 0.480184,-0.787105 0,-0.490085 -0.465333,-0.757404 -0.98512,-0.757404 m -0.153461,0.193064 c 0.430681,0 0.643546,0.14851 0.643546,0.445531 0,0.27722 -0.13861,0.648496 -0.28217,0.777205 -0.188113,0.168312 -0.435631,0.252468 -0.742553,0.252468 H 30.32022 l 0.326723,-1.306892 c 0.0396,-0.168312 0.0396,-0.168312 0.247517,-0.168312 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <path
+       id="use2"
+       d=""
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <path
+       id="use3"
+       d="m 34.077531,93.617005 c 0.04455,0 0.0693,-0.02475 0.0693,-0.0693 0,-0.01485 -0.0099,-0.03465 -0.02475,-0.05445 -0.257418,-0.198014 -0.465332,-0.524737 -0.618793,-0.975219 -0.13366,-0.391078 -0.202965,-0.777205 -0.202965,-1.158382 v -0.415829 c 0,-0.381177 0.0693,-0.767304 0.202965,-1.158382 0.153461,-0.450482 0.361375,-0.777205 0.618793,-0.975219 0.01485,-0.01485 0.02475,-0.03465 0.02475,-0.05445 0,-0.04455 -0.02475,-0.0693 -0.0693,-0.0693 -0.005,0 -0.0198,0.005 -0.03465,0.01485 -0.297021,0.227716 -0.544539,0.56434 -0.747503,1.014822 -0.193064,0.43068 -0.292071,0.836609 -0.292071,1.227687 v 0.415829 c 0,0.391078 0.09901,0.797007 0.292071,1.227687 0.202964,0.450482 0.450482,0.787106 0.747503,1.014822 0.01485,0.0099 0.0297,0.01485 0.03465,0.01485 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
     <g
-       data-mml-node="mrow"
-       data-semantic-added="true"
-       data-semantic-type="appl"
-       data-semantic-role="simple function"
-       data-semantic-annotation="depth:2"
-       data-semantic-id="33"
-       data-semantic-children="0,23"
-       data-semantic-content="32,0"
-       data-semantic-parent="36"
-       data-semantic-owns="0 32 23"
-       aria-level="1"
-       data-speech-node="true"
-       id="g12"
-       transform="matrix(0.00495035,0,0,-0.00495035,28.770756,92.389318)"
-       style="fill:#000000;stroke:#000000;stroke-width:0">
+       data-mml-node="TeXAtom"
+       data-mjx-texclass="ORD"
+       data-latex="\mathbf v"
+       id="g5"
+       transform="matrix(0.00495035,0,0,-0.00495035,34.429006,92.389318)"
+       style="fill:#00bf16;stroke:#000000;stroke-width:0;fill-opacity:1">
       <g
          data-mml-node="mi"
-         data-latex="P"
+         data-latex="v"
          data-semantic-type="identifier"
-         data-semantic-role="simple function"
-         data-semantic-font="italic"
-         data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3"
-         data-semantic-id="0"
-         data-semantic-parent="33"
-         data-semantic-attributes="latex:P"
-         data-semantic-operator="appl"
-         aria-level="2"
+         data-semantic-role="latinletter"
+         data-semantic-font="bold"
+         data-semantic-annotation="clearspeak:simple;depth:5"
+         data-semantic-id="2"
+         data-semantic-parent="22"
+         data-semantic-attributes="latex:\mathbf v;texclass:ORD"
+         aria-level="4"
          data-speech-node="true"
-         id="g1">
+         id="g4"
+         style="fill:#00bf16;fill-opacity:1">
         <path
-           id="use1"
-           d="M 555,683 H 235 c -23,0 -34,-1 -34,-23 0,-11 11,-16 33,-16 20,0 60,3 60,-13 0,-2 -1,-8 -4,-18 L 158,82 C 152,60 142,47 128,42 121,40 103,39 72,39 50,39 40,37 40,16 40,5 46,0 59,0 l 125,3 64,-1 c 11,0 51,-2 64,-2 16,0 24,8 24,24 0,10 -11,15 -32,15 -40,0 -60,4 -60,13 0,0 1,3 3,16 l 60,244 h 165 c 65,0 127,20 185,59 65,43 97,96 97,159 0,99 -94,153 -199,153 m -31,-39 c 87,0 130,-30 130,-90 0,-56 -28,-131 -57,-157 -38,-34 -88,-51 -150,-51 H 313 l 66,264 c 8,34 8,34 50,34 z" />
-      </g>
-      <g
-         data-mml-node="mo"
-         data-semantic-type="punctuation"
-         data-semantic-role="application"
-         data-semantic-annotation="nemeth:number;depth:3"
-         data-semantic-id="32"
-         data-semantic-parent="33"
-         data-semantic-added="true"
-         data-semantic-operator="appl"
-         aria-level="2"
-         data-speech-node="true"
-         transform="translate(754)"
-         id="g2">
-        <path
-           id="use2"
-           d="" />
-      </g>
-      <g
-         data-mml-node="mrow"
-         data-semantic-added="true"
-         data-semantic-type="fenced"
-         data-semantic-role="leftright"
-         data-semantic-annotation="depth:3"
-         data-semantic-id="23"
-         data-semantic-children="22"
-         data-semantic-content="1,5"
-         data-semantic-parent="33"
-         data-semantic-owns="1 22 5"
-         aria-level="2"
-         data-speech-node="true"
-         transform="translate(754)"
-         id="g11">
-        <g
-           data-mml-node="mo"
-           data-latex="("
-           data-semantic-type="fence"
-           data-semantic-role="open"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="1"
-           data-semantic-parent="23"
-           data-semantic-attributes="latex:("
-           data-semantic-operator="fenced"
-           aria-level="3"
-           data-speech-node="true"
-           id="g3">
-          <path
-             id="use3"
-             d="m 318,-248 c 9,0 14,5 14,14 0,3 -2,7 -5,11 -52,40 -94,106 -125,197 -27,79 -41,157 -41,234 v 84 c 0,77 14,155 41,234 31,91 73,157 125,197 3,3 5,7 5,11 0,9 -5,14 -14,14 -1,0 -4,-1 -7,-3 C 251,699 201,631 160,540 121,453 101,371 101,292 v -84 c 0,-79 20,-161 59,-248 41,-91 91,-159 151,-205 3,-2 6,-3 7,-3 z" />
-        </g>
-        <g
-           data-mml-node="mrow"
-           data-semantic-added="true"
-           data-semantic-type="punctuated"
-           data-semantic-role="sequence"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="22"
-           data-semantic-children="2,3,4"
-           data-semantic-content="3"
-           data-semantic-parent="23"
-           data-semantic-owns="2 3 4"
-           aria-level="3"
-           data-speech-node="true"
-           transform="translate(389)"
-           id="g9">
-          <g
-             data-mml-node="TeXAtom"
-             data-mjx-texclass="ORD"
-             data-latex="\mathbf v"
-             id="g5">
-            <g
-               data-mml-node="mi"
-               data-latex="v"
-               data-semantic-type="identifier"
-               data-semantic-role="latinletter"
-               data-semantic-font="bold"
-               data-semantic-annotation="clearspeak:simple;depth:5"
-               data-semantic-id="2"
-               data-semantic-parent="22"
-               data-semantic-attributes="latex:\mathbf v;texclass:ORD"
-               aria-level="4"
-               data-speech-node="true"
-               id="g4">
-              <path
-                 id="use4"
-                 d="m 580,397 v 47 c -25,-2 -54,-3 -79,-3 l -91,3 v -47 c 19,0 48,-3 48,-11 0,0 0,-2 -5,-12 L 337,124 210,397 h 54 v 47 L 140,441 26,444 V 397 H 90 L 265,21 c 12,-25 25,-25 38,-25 17,0 27,3 37,24 l 166,356 c 6,14 10,21 74,21 z" />
-            </g>
-          </g>
-          <g
-             data-mml-node="mo"
-             data-latex=","
-             data-semantic-type="punctuation"
-             data-semantic-role="comma"
-             data-semantic-annotation="depth:5"
-             data-semantic-id="3"
-             data-semantic-parent="22"
-             data-semantic-attributes="latex:,"
-             data-semantic-operator="punctuated"
-             aria-level="4"
-             data-speech-node="true"
-             transform="translate(607)"
-             id="g6">
-            <path
-               id="use5"
-               d="m 139,106 c -32,0 -53,-24 -53,-56 0,-30 23,-55 53,-55 14,0 26,4 35,13 l 1,-8 c 0,-63 -21,-117 -63,-160 -7,-8 -11,-14 -11,-18 0,-10 4,-15 13,-15 9,0 21,12 38,35 34,48 51,101 51,158 0,53 -18,106 -64,106 z" />
-          </g>
-          <g
-             data-mml-node="TeXAtom"
-             data-mjx-texclass="ORD"
-             data-latex="\mathbf h"
-             transform="translate(1051.7)"
-             id="g8">
-            <g
-               data-mml-node="mi"
-               data-latex="h"
-               data-semantic-type="identifier"
-               data-semantic-role="simple function"
-               data-semantic-font="bold"
-               data-semantic-annotation="clearspeak:simple;depth:5"
-               data-semantic-id="4"
-               data-semantic-parent="22"
-               data-semantic-attributes="latex:\mathbf h;texclass:ORD"
-               aria-level="4"
-               data-speech-node="true"
-               id="g7">
-              <path
-                 id="use6"
-                 d="m 615,0 v 47 h -69 v 259 c 0,105 -54,144 -154,144 -96,0 -147,-58 -169,-96 h -1 V 694 L 45,686 v -47 c 62,0 69,0 69,-39 V 47 H 45 V 0 L 171,3 297,0 v 47 h -69 v 209 c 0,109 86,158 149,158 34,0 55,-21 55,-97 V 47 H 363 V 0 l 126,3 z" />
-            </g>
-          </g>
-        </g>
-        <g
-           data-mml-node="mo"
-           data-latex=")"
-           data-semantic-type="fence"
-           data-semantic-role="close"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="5"
-           data-semantic-parent="23"
-           data-semantic-attributes="latex:)"
-           data-semantic-operator="fenced"
-           aria-level="3"
-           data-speech-node="true"
-           transform="translate(2079.7)"
-           id="g10">
-          <path
-             id="use9"
-             d="m 78,-245 c 60,46 110,114 151,205 39,87 59,169 59,248 v 84 c 0,79 -20,161 -59,248 -41,91 -91,159 -151,205 -3,2 -6,3 -7,3 -9,0 -14,-5 -14,-14 0,-4 2,-8 5,-11 52,-40 94,-106 125,-197 27,-79 41,-157 41,-234 v -84 c 0,-77 -14,-155 -41,-234 -31,-91 -73,-157 -125,-197 -3,-4 -5,-8 -5,-11 0,-9 5,-14 14,-14 1,0 4,1 7,3 z" />
-        </g>
+           id="use4"
+           d="m 580,397 v 47 c -25,-2 -54,-3 -79,-3 l -91,3 v -47 c 19,0 48,-3 48,-11 0,0 0,-2 -5,-12 L 337,124 210,397 h 54 v 47 L 140,441 26,444 V 397 H 90 L 265,21 c 12,-25 25,-25 38,-25 17,0 27,3 37,24 l 166,356 c 6,14 10,21 74,21 z"
+           style="fill:#00bf16;fill-opacity:1" />
       </g>
     </g>
+    <g
+       data-mml-node="mo"
+       data-latex=","
+       data-semantic-type="punctuation"
+       data-semantic-role="comma"
+       data-semantic-annotation="depth:5"
+       data-semantic-id="3"
+       data-semantic-parent="22"
+       data-semantic-attributes="latex:,"
+       data-semantic-operator="punctuated"
+       aria-level="4"
+       data-speech-node="true"
+       transform="matrix(0.00495035,0,0,-0.00495035,37.433868,92.389318)"
+       id="g6"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <path
+         id="use5"
+         d="m 139,106 c -32,0 -53,-24 -53,-56 0,-30 23,-55 53,-55 14,0 26,4 35,13 l 1,-8 c 0,-63 -21,-117 -63,-160 -7,-8 -11,-14 -11,-18 0,-10 4,-15 13,-15 9,0 21,12 38,35 34,48 51,101 51,158 0,53 -18,106 -64,106 z" />
+    </g>
+    <g
+       data-mml-node="TeXAtom"
+       data-mjx-texclass="ORD"
+       data-latex="\mathbf h"
+       transform="matrix(0.00495035,0,0,-0.00495035,39.635289,92.389318)"
+       id="g8"
+       style="fill:#bf4800;stroke:#000000;stroke-width:0;fill-opacity:1">
+      <g
+         data-mml-node="mi"
+         data-latex="h"
+         data-semantic-type="identifier"
+         data-semantic-role="simple function"
+         data-semantic-font="bold"
+         data-semantic-annotation="clearspeak:simple;depth:5"
+         data-semantic-id="4"
+         data-semantic-parent="22"
+         data-semantic-attributes="latex:\mathbf h;texclass:ORD"
+         aria-level="4"
+         data-speech-node="true"
+         id="g7"
+         style="fill:#bf4800;fill-opacity:1">
+        <path
+           id="use6"
+           d="m 615,0 v 47 h -69 v 259 c 0,105 -54,144 -154,144 -96,0 -147,-58 -169,-96 h -1 V 694 L 45,686 v -47 c 62,0 69,0 69,-39 V 47 H 45 V 0 L 171,3 297,0 v 47 h -69 v 209 c 0,109 86,158 149,158 34,0 55,-21 55,-97 V 47 H 363 V 0 l 126,3 z"
+           style="fill:#bf4800;fill-opacity:1" />
+      </g>
+    </g>
+    <path
+       id="use9"
+       d="m 43.18469,93.602154 c 0.297021,-0.227716 0.544539,-0.56434 0.747503,-1.014822 0.193064,-0.43068 0.292071,-0.836609 0.292071,-1.227687 v -0.415829 c 0,-0.391078 -0.09901,-0.797007 -0.292071,-1.227687 -0.202964,-0.450482 -0.450482,-0.787106 -0.747503,-1.014822 -0.01485,-0.0099 -0.0297,-0.01485 -0.03465,-0.01485 -0.04455,0 -0.0693,0.02475 -0.0693,0.0693 0,0.0198 0.0099,0.0396 0.02475,0.05445 0.257418,0.198014 0.465333,0.524737 0.618793,0.975219 0.13366,0.391078 0.202965,0.777205 0.202965,1.158382 v 0.415829 c 0,0.381177 -0.0693,0.767304 -0.202965,1.158382 -0.15346,0.450482 -0.361375,0.777205 -0.618793,0.975219 -0.01485,0.0198 -0.02475,0.0396 -0.02475,0.05445 0,0.04455 0.02475,0.0693 0.0693,0.0693 0.005,0 0.0198,-0.005 0.03465,-0.01485 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
      style="display:inline">
+    <path
+       id="use13"
+       d="m 25.572206,13.300308 h -1.399734 c -0.100606,0 -0.148722,0.0044 -0.148722,0.100606 0,0.04812 0.04812,0.06999 0.144348,0.06999 0.08748,0 0.26245,-0.01312 0.26245,0.05686 0,0.0087 -0.0044,0.03499 -0.0175,0.07874 l -0.57739,2.322684 c -0.02625,0.09623 -0.06999,0.153096 -0.131225,0.174967 -0.03062,0.0087 -0.109354,0.01312 -0.244954,0.01312 -0.09623,0 -0.139973,0.0087 -0.139973,0.100606 0,0.04812 0.02624,0.06999 0.08311,0.06999 l 0.546771,-0.01312 0.279947,0.0044 c 0.04812,0 0.223083,0.0087 0.279947,0.0087 0.06999,0 0.10498,-0.03499 0.10498,-0.10498 0,-0.04374 -0.04812,-0.06561 -0.139973,-0.06561 -0.174967,0 -0.262451,-0.0175 -0.262451,-0.05686 0,0 0.0044,-0.01312 0.01312,-0.06999 l 0.26245,-1.067297 h 0.721738 c 0.284321,0 0.55552,-0.08748 0.809222,-0.258076 0.284321,-0.188089 0.424294,-0.41992 0.424294,-0.695493 0,-0.433043 -0.411172,-0.669248 -0.87046,-0.669248 m -0.135599,0.170593 c 0.380553,0 0.568642,0.131225 0.568642,0.393675 0,0.244953 -0.122477,0.573016 -0.249328,0.686745 -0.166218,0.148721 -0.384926,0.223082 -0.656125,0.223082 h -0.586139 l 0.288695,-1.154781 c 0.03499,-0.148721 0.03499,-0.148721 0.218709,-0.148721 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <path
+       id="use14"
+       d=""
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <path
+       id="use15"
+       d="m 27.833652,17.37266 c 0.03937,0 0.06124,-0.02187 0.06124,-0.06124 0,-0.01312 -0.0087,-0.03062 -0.02187,-0.04812 -0.227457,-0.174967 -0.411172,-0.463662 -0.546772,-0.861712 -0.118102,-0.345559 -0.179341,-0.686744 -0.179341,-1.023555 v -0.367431 c 0,-0.336811 0.06124,-0.677996 0.179341,-1.023555 0.1356,-0.39805 0.319315,-0.686745 0.546772,-0.861712 0.01312,-0.01312 0.02187,-0.03062 0.02187,-0.04812 0,-0.03937 -0.02187,-0.06124 -0.06124,-0.06124 -0.0044,0 -0.0175,0.0044 -0.03062,0.01312 -0.26245,0.201212 -0.481159,0.498656 -0.6605,0.896705 -0.170592,0.380553 -0.258076,0.739235 -0.258076,1.084794 v 0.367431 c 0,0.345559 0.08748,0.704241 0.258076,1.084794 0.179341,0.398049 0.39805,0.695493 0.6605,0.896705 0.01312,0.0087 0.02624,0.01312 0.03062,0.01312 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
     <g
-       data-mml-node="mrow"
-       data-semantic-added="true"
-       data-semantic-type="appl"
-       data-semantic-role="simple function"
-       data-semantic-annotation="depth:2"
-       data-semantic-id="31"
-       data-semantic-children="6,25"
-       data-semantic-content="30,6"
-       data-semantic-parent="36"
-       data-semantic-owns="6 30 25"
-       aria-level="1"
-       data-speech-node="true"
-       transform="matrix(0.00437417,0,0,-0.00437417,23.144542,16.287866)"
-       id="g27"
-       style="fill:#000000;stroke:#000000;stroke-width:0">
+       data-mml-node="TeXAtom"
+       data-mjx-texclass="ORD"
+       data-latex="\mathbf v"
+       id="g18"
+       transform="matrix(0.00437417,0,0,-0.00437417,28.144218,16.287866)"
+       style="fill:#00bf16;stroke:#000000;stroke-width:0;fill-opacity:1">
       <g
          data-mml-node="mi"
-         data-latex="P"
+         data-latex="v"
          data-semantic-type="identifier"
-         data-semantic-role="simple function"
-         data-semantic-font="italic"
-         data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3"
-         data-semantic-id="6"
-         data-semantic-parent="31"
-         data-semantic-attributes="latex:P"
-         data-semantic-operator="appl"
-         aria-level="2"
+         data-semantic-role="latinletter"
+         data-semantic-font="bold"
+         data-semantic-annotation="clearspeak:simple;depth:5"
+         data-semantic-id="8"
+         data-semantic-parent="24"
+         data-semantic-attributes="latex:\mathbf v;texclass:ORD"
+         aria-level="4"
          data-speech-node="true"
-         id="g14">
+         id="g17"
+         style="fill:#00bf16;fill-opacity:1">
         <path
-           id="use13"
-           d="M 555,683 H 235 c -23,0 -34,-1 -34,-23 0,-11 11,-16 33,-16 20,0 60,3 60,-13 0,-2 -1,-8 -4,-18 L 158,82 C 152,60 142,47 128,42 121,40 103,39 72,39 50,39 40,37 40,16 40,5 46,0 59,0 l 125,3 64,-1 c 11,0 51,-2 64,-2 16,0 24,8 24,24 0,10 -11,15 -32,15 -40,0 -60,4 -60,13 0,0 1,3 3,16 l 60,244 h 165 c 65,0 127,20 185,59 65,43 97,96 97,159 0,99 -94,153 -199,153 m -31,-39 c 87,0 130,-30 130,-90 0,-56 -28,-131 -57,-157 -38,-34 -88,-51 -150,-51 H 313 l 66,264 c 8,34 8,34 50,34 z" />
-      </g>
-      <g
-         data-mml-node="mo"
-         data-semantic-type="punctuation"
-         data-semantic-role="application"
-         data-semantic-annotation="nemeth:number;depth:3"
-         data-semantic-id="30"
-         data-semantic-parent="31"
-         data-semantic-added="true"
-         data-semantic-operator="appl"
-         aria-level="2"
-         data-speech-node="true"
-         transform="translate(754)"
-         id="g15">
-        <path
-           id="use14"
-           d="" />
-      </g>
-      <g
-         data-mml-node="mrow"
-         data-semantic-added="true"
-         data-semantic-type="fenced"
-         data-semantic-role="leftright"
-         data-semantic-annotation="depth:3"
-         data-semantic-id="25"
-         data-semantic-children="24"
-         data-semantic-content="7,13"
-         data-semantic-parent="31"
-         data-semantic-owns="7 24 13"
-         aria-level="2"
-         data-speech-node="true"
-         transform="translate(754)"
-         id="g26">
-        <g
-           data-mml-node="mo"
-           data-latex="("
-           data-semantic-type="fence"
-           data-semantic-role="open"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="7"
-           data-semantic-parent="25"
-           data-semantic-attributes="latex:("
-           data-semantic-operator="fenced"
-           aria-level="3"
-           data-speech-node="true"
-           id="g16">
-          <path
-             id="use15"
-             d="m 318,-248 c 9,0 14,5 14,14 0,3 -2,7 -5,11 -52,40 -94,106 -125,197 -27,79 -41,157 -41,234 v 84 c 0,77 14,155 41,234 31,91 73,157 125,197 3,3 5,7 5,11 0,9 -5,14 -14,14 -1,0 -4,-1 -7,-3 C 251,699 201,631 160,540 121,453 101,371 101,292 v -84 c 0,-79 20,-161 59,-248 41,-91 91,-159 151,-205 3,-2 6,-3 7,-3 z" />
-        </g>
-        <g
-           data-mml-node="mrow"
-           data-semantic-added="true"
-           data-semantic-type="punctuated"
-           data-semantic-role="sequence"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="24"
-           data-semantic-children="8,10,12"
-           data-semantic-content="10"
-           data-semantic-parent="25"
-           data-semantic-owns="8 10 12"
-           aria-level="3"
-           data-speech-node="true"
-           transform="translate(389)"
-           id="g24">
-          <g
-             data-mml-node="TeXAtom"
-             data-mjx-texclass="ORD"
-             data-latex="\mathbf v"
-             id="g18">
-            <g
-               data-mml-node="mi"
-               data-latex="v"
-               data-semantic-type="identifier"
-               data-semantic-role="latinletter"
-               data-semantic-font="bold"
-               data-semantic-annotation="clearspeak:simple;depth:5"
-               data-semantic-id="8"
-               data-semantic-parent="24"
-               data-semantic-attributes="latex:\mathbf v;texclass:ORD"
-               aria-level="4"
-               data-speech-node="true"
-               id="g17">
-              <path
-                 id="use16"
-                 d="m 580,397 v 47 c -25,-2 -54,-3 -79,-3 l -91,3 v -47 c 19,0 48,-3 48,-11 0,0 0,-2 -5,-12 L 337,124 210,397 h 54 v 47 L 140,441 26,444 V 397 H 90 L 265,21 c 12,-25 25,-25 38,-25 17,0 27,3 37,24 l 166,356 c 6,14 10,21 74,21 z" />
-            </g>
-          </g>
-          <g
-             data-mml-node="mspace"
-             data-latex="\!"
-             transform="translate(607)"
-             id="g19" />
-          <g
-             data-mml-node="mo"
-             data-latex="\mid"
-             data-semantic-type="punctuation"
-             data-semantic-role="vbar"
-             data-semantic-annotation="depth:5"
-             data-semantic-id="10"
-             data-semantic-parent="24"
-             data-semantic-attributes="latex:\mid"
-             data-semantic-operator="punctuated"
-             aria-level="4"
-             data-speech-node="true"
-             transform="translate(717.8)"
-             id="g20">
-            <path
-               id="use19"
-               d="m 139,-250 c 13,0 20,8 20,24 v 952 c 0,16 -7,24 -20,24 -13,0 -20,-8 -20,-24 v -952 c 0,-16 7,-24 20,-24 z" />
-          </g>
-          <g
-             data-mml-node="mspace"
-             data-latex="\!"
-             transform="translate(995.8)"
-             id="g21" />
-          <g
-             data-mml-node="TeXAtom"
-             data-mjx-texclass="ORD"
-             data-latex="\mathbf h"
-             transform="translate(1106.6)"
-             id="g23">
-            <g
-               data-mml-node="mi"
-               data-latex="h"
-               data-semantic-type="identifier"
-               data-semantic-role="simple function"
-               data-semantic-font="bold"
-               data-semantic-annotation="clearspeak:simple;depth:5"
-               data-semantic-id="12"
-               data-semantic-parent="24"
-               data-semantic-attributes="latex:\mathbf h;texclass:ORD"
-               aria-level="4"
-               data-speech-node="true"
-               id="g22">
-              <path
-                 id="use21"
-                 d="m 615,0 v 47 h -69 v 259 c 0,105 -54,144 -154,144 -96,0 -147,-58 -169,-96 h -1 V 694 L 45,686 v -47 c 62,0 69,0 69,-39 V 47 H 45 V 0 L 171,3 297,0 v 47 h -69 v 209 c 0,109 86,158 149,158 34,0 55,-21 55,-97 V 47 H 363 V 0 l 126,3 z" />
-            </g>
-          </g>
-        </g>
-        <g
-           data-mml-node="mo"
-           data-latex=")"
-           data-semantic-type="fence"
-           data-semantic-role="close"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="13"
-           data-semantic-parent="25"
-           data-semantic-attributes="latex:)"
-           data-semantic-operator="fenced"
-           aria-level="3"
-           data-speech-node="true"
-           transform="translate(2134.6)"
-           id="g25">
-          <path
-             id="use24"
-             d="m 78,-245 c 60,46 110,114 151,205 39,87 59,169 59,248 v 84 c 0,79 -20,161 -59,248 -41,91 -91,159 -151,205 -3,2 -6,3 -7,3 -9,0 -14,-5 -14,-14 0,-4 2,-8 5,-11 52,-40 94,-106 125,-197 27,-79 41,-157 41,-234 v -84 c 0,-77 -14,-155 -41,-234 -31,-91 -73,-157 -125,-197 -3,-4 -5,-8 -5,-11 0,-9 5,-14 14,-14 1,0 4,1 7,3 z" />
-        </g>
+           id="use16"
+           d="m 580,397 v 47 c -25,-2 -54,-3 -79,-3 l -91,3 v -47 c 19,0 48,-3 48,-11 0,0 0,-2 -5,-12 L 337,124 210,397 h 54 v 47 L 140,441 26,444 V 397 H 90 L 265,21 c 12,-25 25,-25 38,-25 17,0 27,3 37,24 l 166,356 c 6,14 10,21 74,21 z"
+           style="fill:#00bf16;fill-opacity:1" />
       </g>
     </g>
     <g
-       data-mml-node="mrow"
-       data-semantic-added="true"
-       data-semantic-type="appl"
-       data-semantic-role="simple function"
-       data-semantic-annotation="depth:2"
-       data-semantic-id="29"
-       data-semantic-children="14,27"
-       data-semantic-content="28,14"
-       data-semantic-parent="36"
-       data-semantic-owns="14 28 27"
-       aria-level="1"
+       data-mml-node="mspace"
+       data-latex="\!"
+       transform="matrix(0.00437417,0,0,-0.00437417,30.799339,16.287866)"
+       id="g19"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <g
+       data-mml-node="mo"
+       data-latex="\mid"
+       data-semantic-type="punctuation"
+       data-semantic-role="vbar"
+       data-semantic-annotation="depth:5"
+       data-semantic-id="10"
+       data-semantic-parent="24"
+       data-semantic-attributes="latex:\mid"
+       data-semantic-operator="punctuated"
+       aria-level="4"
        data-speech-node="true"
-       transform="matrix(0.00437417,0,0,-0.00437417,5.150324,16.287866)"
-       id="g42"
+       transform="matrix(0.00437417,0,0,-0.00437417,31.283997,16.287866)"
+       id="g20"
        style="fill:#000000;stroke:#000000;stroke-width:0">
+      <path
+         id="use19"
+         d="m 139,-250 c 13,0 20,8 20,24 v 952 c 0,16 -7,24 -20,24 -13,0 -20,-8 -20,-24 v -952 c 0,-16 7,-24 20,-24 z" />
+    </g>
+    <g
+       data-mml-node="mspace"
+       data-latex="\!"
+       transform="matrix(0.00437417,0,0,-0.00437417,32.500016,16.287866)"
+       id="g21"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <g
+       data-mml-node="TeXAtom"
+       data-mjx-texclass="ORD"
+       data-latex="\mathbf h"
+       transform="matrix(0.00437417,0,0,-0.00437417,32.984675,16.287866)"
+       id="g23"
+       style="fill:#bf4800;stroke:#000000;stroke-width:0;fill-opacity:1">
       <g
          data-mml-node="mi"
-         data-latex="P"
+         data-latex="h"
          data-semantic-type="identifier"
          data-semantic-role="simple function"
-         data-semantic-font="italic"
-         data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3"
-         data-semantic-id="14"
-         data-semantic-parent="29"
-         data-semantic-attributes="latex:P"
-         data-semantic-operator="appl"
-         aria-level="2"
+         data-semantic-font="bold"
+         data-semantic-annotation="clearspeak:simple;depth:5"
+         data-semantic-id="12"
+         data-semantic-parent="24"
+         data-semantic-attributes="latex:\mathbf h;texclass:ORD"
+         aria-level="4"
          data-speech-node="true"
-         id="g29">
+         id="g22"
+         style="fill:#bf4800;fill-opacity:1">
         <path
-           id="use28"
-           d="M 555,683 H 235 c -23,0 -34,-1 -34,-23 0,-11 11,-16 33,-16 20,0 60,3 60,-13 0,-2 -1,-8 -4,-18 L 158,82 C 152,60 142,47 128,42 121,40 103,39 72,39 50,39 40,37 40,16 40,5 46,0 59,0 l 125,3 64,-1 c 11,0 51,-2 64,-2 16,0 24,8 24,24 0,10 -11,15 -32,15 -40,0 -60,4 -60,13 0,0 1,3 3,16 l 60,244 h 165 c 65,0 127,20 185,59 65,43 97,96 97,159 0,99 -94,153 -199,153 m -31,-39 c 87,0 130,-30 130,-90 0,-56 -28,-131 -57,-157 -38,-34 -88,-51 -150,-51 H 313 l 66,264 c 8,34 8,34 50,34 z" />
-      </g>
-      <g
-         data-mml-node="mo"
-         data-semantic-type="punctuation"
-         data-semantic-role="application"
-         data-semantic-annotation="nemeth:number;depth:3"
-         data-semantic-id="28"
-         data-semantic-parent="29"
-         data-semantic-added="true"
-         data-semantic-operator="appl"
-         aria-level="2"
-         data-speech-node="true"
-         transform="translate(754)"
-         id="g30">
-        <path
-           id="use29"
-           d="" />
-      </g>
-      <g
-         data-mml-node="mrow"
-         data-semantic-added="true"
-         data-semantic-type="fenced"
-         data-semantic-role="leftright"
-         data-semantic-annotation="depth:3"
-         data-semantic-id="27"
-         data-semantic-children="26"
-         data-semantic-content="15,21"
-         data-semantic-parent="29"
-         data-semantic-owns="15 26 21"
-         aria-level="2"
-         data-speech-node="true"
-         transform="translate(754)"
-         id="g41">
-        <g
-           data-mml-node="mo"
-           data-latex="("
-           data-semantic-type="fence"
-           data-semantic-role="open"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="15"
-           data-semantic-parent="27"
-           data-semantic-attributes="latex:("
-           data-semantic-operator="fenced"
-           aria-level="3"
-           data-speech-node="true"
-           id="g31">
-          <path
-             id="use30"
-             d="m 318,-248 c 9,0 14,5 14,14 0,3 -2,7 -5,11 -52,40 -94,106 -125,197 -27,79 -41,157 -41,234 v 84 c 0,77 14,155 41,234 31,91 73,157 125,197 3,3 5,7 5,11 0,9 -5,14 -14,14 -1,0 -4,-1 -7,-3 C 251,699 201,631 160,540 121,453 101,371 101,292 v -84 c 0,-79 20,-161 59,-248 41,-91 91,-159 151,-205 3,-2 6,-3 7,-3 z" />
-        </g>
-        <g
-           data-mml-node="mrow"
-           data-semantic-added="true"
-           data-semantic-type="punctuated"
-           data-semantic-role="sequence"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="26"
-           data-semantic-children="16,18,20"
-           data-semantic-content="18"
-           data-semantic-parent="27"
-           data-semantic-owns="16 18 20"
-           aria-level="3"
-           data-speech-node="true"
-           transform="translate(389)"
-           id="g39">
-          <g
-             data-mml-node="TeXAtom"
-             data-mjx-texclass="ORD"
-             data-latex="\mathbf h"
-             id="g33">
-            <g
-               data-mml-node="mi"
-               data-latex="h"
-               data-semantic-type="identifier"
-               data-semantic-role="simple function"
-               data-semantic-font="bold"
-               data-semantic-annotation="clearspeak:simple;depth:5"
-               data-semantic-id="16"
-               data-semantic-parent="26"
-               data-semantic-attributes="latex:\mathbf h;texclass:ORD"
-               aria-level="4"
-               data-speech-node="true"
-               id="g32">
-              <path
-                 id="use31"
-                 d="m 615,0 v 47 h -69 v 259 c 0,105 -54,144 -154,144 -96,0 -147,-58 -169,-96 h -1 V 694 L 45,686 v -47 c 62,0 69,0 69,-39 V 47 H 45 V 0 L 171,3 297,0 v 47 h -69 v 209 c 0,109 86,158 149,158 34,0 55,-21 55,-97 V 47 H 363 V 0 l 126,3 z" />
-            </g>
-          </g>
-          <g
-             data-mml-node="mspace"
-             data-latex="\!"
-             transform="translate(639)"
-             id="g34" />
-          <g
-             data-mml-node="mo"
-             data-latex="\mid"
-             data-semantic-type="punctuation"
-             data-semantic-role="vbar"
-             data-semantic-annotation="depth:5"
-             data-semantic-id="18"
-             data-semantic-parent="26"
-             data-semantic-attributes="latex:\mid"
-             data-semantic-operator="punctuated"
-             aria-level="4"
-             data-speech-node="true"
-             transform="translate(749.8)"
-             id="g35">
-            <path
-               id="use34"
-               d="m 139,-250 c 13,0 20,8 20,24 v 952 c 0,16 -7,24 -20,24 -13,0 -20,-8 -20,-24 v -952 c 0,-16 7,-24 20,-24 z" />
-          </g>
-          <g
-             data-mml-node="mspace"
-             data-latex="\!"
-             transform="translate(1027.8)"
-             id="g36" />
-          <g
-             data-mml-node="TeXAtom"
-             data-mjx-texclass="ORD"
-             data-latex="\mathbf v"
-             transform="translate(1138.6)"
-             id="g38">
-            <g
-               data-mml-node="mi"
-               data-latex="v"
-               data-semantic-type="identifier"
-               data-semantic-role="latinletter"
-               data-semantic-font="bold"
-               data-semantic-annotation="clearspeak:simple;depth:5"
-               data-semantic-id="20"
-               data-semantic-parent="26"
-               data-semantic-attributes="latex:\mathbf v;texclass:ORD"
-               aria-level="4"
-               data-speech-node="true"
-               id="g37">
-              <path
-                 id="use36"
-                 d="m 580,397 v 47 c -25,-2 -54,-3 -79,-3 l -91,3 v -47 c 19,0 48,-3 48,-11 0,0 0,-2 -5,-12 L 337,124 210,397 h 54 v 47 L 140,441 26,444 V 397 H 90 L 265,21 c 12,-25 25,-25 38,-25 17,0 27,3 37,24 l 166,356 c 6,14 10,21 74,21 z" />
-            </g>
-          </g>
-        </g>
-        <g
-           data-mml-node="mo"
-           data-latex=")"
-           data-semantic-type="fence"
-           data-semantic-role="close"
-           data-semantic-annotation="depth:4"
-           data-semantic-id="21"
-           data-semantic-parent="27"
-           data-semantic-attributes="latex:)"
-           data-semantic-operator="fenced"
-           aria-level="3"
-           data-speech-node="true"
-           transform="translate(2134.6)"
-           id="g40">
-          <path
-             id="use39"
-             d="m 78,-245 c 60,46 110,114 151,205 39,87 59,169 59,248 v 84 c 0,79 -20,161 -59,248 -41,91 -91,159 -151,205 -3,2 -6,3 -7,3 -9,0 -14,-5 -14,-14 0,-4 2,-8 5,-11 52,-40 94,-106 125,-197 27,-79 41,-157 41,-234 v -84 c 0,-77 -14,-155 -41,-234 -31,-91 -73,-157 -125,-197 -3,-4 -5,-8 -5,-11 0,-9 5,-14 14,-14 1,0 4,1 7,3 z" />
-        </g>
+           id="use21"
+           d="m 615,0 v 47 h -69 v 259 c 0,105 -54,144 -154,144 -96,0 -147,-58 -169,-96 h -1 V 694 L 45,686 v -47 c 62,0 69,0 69,-39 V 47 H 45 V 0 L 171,3 297,0 v 47 h -69 v 209 c 0,109 86,158 149,158 34,0 55,-21 55,-97 V 47 H 363 V 0 l 126,3 z"
+           style="fill:#bf4800;fill-opacity:1" />
       </g>
     </g>
+    <path
+       id="use24"
+       d="m 36.120954,17.359538 c 0.26245,-0.201212 0.481159,-0.498656 0.6605,-0.896705 0.170593,-0.380553 0.258076,-0.739235 0.258076,-1.084794 v -0.367431 c 0,-0.345559 -0.08748,-0.704241 -0.258076,-1.084794 -0.179341,-0.398049 -0.39805,-0.695493 -0.6605,-0.896705 -0.01312,-0.0087 -0.02624,-0.01312 -0.03062,-0.01312 -0.03937,0 -0.06124,0.02187 -0.06124,0.06124 0,0.0175 0.0087,0.03499 0.02187,0.04812 0.227456,0.174967 0.411172,0.463662 0.546771,0.861712 0.118102,0.345559 0.179341,0.686744 0.179341,1.023555 v 0.367431 c 0,0.336811 -0.06124,0.677996 -0.179341,1.023555 -0.135599,0.39805 -0.319315,0.686745 -0.546771,0.861712 -0.01312,0.0175 -0.02187,0.03499 -0.02187,0.04812 0,0.03937 0.02187,0.06124 0.06124,0.06124 0.0044,0 0.0175,-0.0044 0.03062,-0.01312 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <path
+       id="use28"
+       d="M 7.5779883,13.300308 H 6.1782539 c -0.1006059,0 -0.1487217,0.0044 -0.1487217,0.100606 0,0.04812 0.048116,0.06999 0.1443476,0.06999 0.087483,0 0.2624502,-0.01312 0.2624502,0.05686 0,0.0087 -0.00437,0.03499 -0.017497,0.07874 l -0.5773904,2.322684 c -0.026245,0.09623 -0.069987,0.153096 -0.1312251,0.174967 -0.030619,0.0087 -0.1093543,0.01312 -0.2449536,0.01312 -0.096232,0 -0.1399734,0.0087 -0.1399734,0.100606 0,0.04812 0.026245,0.06999 0.083109,0.06999 l 0.5467713,-0.01312 0.2799469,0.0044 c 0.048116,0 0.2230826,0.0087 0.2799468,0.0087 0.069987,0 0.1049801,-0.03499 0.1049801,-0.10498 0,-0.04374 -0.048116,-0.06561 -0.1399734,-0.06561 -0.1749668,0 -0.2624502,-0.0175 -0.2624502,-0.05686 0,0 0.00437,-0.01312 0.013122,-0.06999 l 0.2624502,-1.067297 h 0.721738 c 0.2843211,0 0.5555196,-0.08748 0.8092215,-0.258076 0.284321,-0.188089 0.4242945,-0.41992 0.4242945,-0.695493 0,-0.433043 -0.411172,-0.669248 -0.8704599,-0.669248 M 7.4423881,13.47089 c 0.3805528,0 0.5686421,0.131225 0.5686421,0.393675 0,0.244953 -0.1224768,0.573016 -0.2493277,0.686745 -0.1662185,0.148721 -0.384927,0.223082 -0.6561255,0.223082 H 6.5194392 L 6.8081344,13.619611 C 6.8431274,13.47089 6.8431274,13.47089 7.0268429,13.47089 Z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <path
+       id="use29"
+       d=""
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <path
+       id="use30"
+       d="m 9.8394343,17.37266 c 0.039367,0 0.061238,-0.02187 0.061238,-0.06124 0,-0.01312 -0.00875,-0.03062 -0.021871,-0.04812 C 9.651345,17.088339 9.4676298,16.799644 9.3320305,16.401594 9.213928,16.056035 9.1526896,15.71485 9.1526896,15.378039 v -0.367431 c 0,-0.336811 0.061238,-0.677996 0.1793409,-1.023555 0.1355993,-0.39805 0.3193145,-0.686745 0.5467713,-0.861712 0.013122,-0.01312 0.021871,-0.03062 0.021871,-0.04812 0,-0.03937 -0.021871,-0.06124 -0.061238,-0.06124 -0.00437,0 -0.017497,0.0044 -0.030619,0.01312 -0.2624502,0.201212 -0.4811587,0.498656 -0.6604997,0.896705 -0.1705926,0.380553 -0.258076,0.739235 -0.258076,1.084794 v 0.367431 c 0,0.345559 0.087483,0.704241 0.258076,1.084794 0.179341,0.398049 0.3980495,0.695493 0.6604997,0.896705 0.013122,0.0087 0.026245,0.01312 0.030619,0.01312 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <g
+       data-mml-node="TeXAtom"
+       data-mjx-texclass="ORD"
+       data-latex="\mathbf h"
+       id="g33"
+       transform="matrix(0.00437417,0,0,-0.00437417,10.15,16.287866)"
+       style="fill:#bf4800;stroke:#000000;stroke-width:0;fill-opacity:1">
+      <g
+         data-mml-node="mi"
+         data-latex="h"
+         data-semantic-type="identifier"
+         data-semantic-role="simple function"
+         data-semantic-font="bold"
+         data-semantic-annotation="clearspeak:simple;depth:5"
+         data-semantic-id="16"
+         data-semantic-parent="26"
+         data-semantic-attributes="latex:\mathbf h;texclass:ORD"
+         aria-level="4"
+         data-speech-node="true"
+         id="g32"
+         style="fill:#bf4800;fill-opacity:1">
+        <path
+           id="use31"
+           d="m 615,0 v 47 h -69 v 259 c 0,105 -54,144 -154,144 -96,0 -147,-58 -169,-96 h -1 V 694 L 45,686 v -47 c 62,0 69,0 69,-39 V 47 H 45 V 0 L 171,3 297,0 v 47 h -69 v 209 c 0,109 86,158 149,158 34,0 55,-21 55,-97 V 47 H 363 V 0 l 126,3 z"
+           style="fill:#bf4800;fill-opacity:1" />
+      </g>
+    </g>
+    <g
+       data-mml-node="mspace"
+       data-latex="\!"
+       transform="matrix(0.00437417,0,0,-0.00437417,12.945095,16.287866)"
+       id="g34"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <g
+       data-mml-node="mo"
+       data-latex="\mid"
+       data-semantic-type="punctuation"
+       data-semantic-role="vbar"
+       data-semantic-annotation="depth:5"
+       data-semantic-id="18"
+       data-semantic-parent="26"
+       data-semantic-attributes="latex:\mid"
+       data-semantic-operator="punctuated"
+       aria-level="4"
+       data-speech-node="true"
+       transform="matrix(0.00437417,0,0,-0.00437417,13.429753,16.287866)"
+       id="g35"
+       style="fill:#000000;stroke:#000000;stroke-width:0">
+      <path
+         id="use34"
+         d="m 139,-250 c 13,0 20,8 20,24 v 952 c 0,16 -7,24 -20,24 -13,0 -20,-8 -20,-24 v -952 c 0,-16 7,-24 20,-24 z" />
+    </g>
+    <g
+       data-mml-node="mspace"
+       data-latex="\!"
+       transform="matrix(0.00437417,0,0,-0.00437417,14.645772,16.287866)"
+       id="g36"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
+    <g
+       data-mml-node="TeXAtom"
+       data-mjx-texclass="ORD"
+       data-latex="\mathbf v"
+       transform="matrix(0.00437417,0,0,-0.00437417,15.13043,16.287866)"
+       id="g38"
+       style="fill:#00bf16;stroke:#000000;stroke-width:0;fill-opacity:1">
+      <g
+         data-mml-node="mi"
+         data-latex="v"
+         data-semantic-type="identifier"
+         data-semantic-role="latinletter"
+         data-semantic-font="bold"
+         data-semantic-annotation="clearspeak:simple;depth:5"
+         data-semantic-id="20"
+         data-semantic-parent="26"
+         data-semantic-attributes="latex:\mathbf v;texclass:ORD"
+         aria-level="4"
+         data-speech-node="true"
+         id="g37"
+         style="fill:#00bf16;fill-opacity:1">
+        <path
+           id="use36"
+           d="m 580,397 v 47 c -25,-2 -54,-3 -79,-3 l -91,3 v -47 c 19,0 48,-3 48,-11 0,0 0,-2 -5,-12 L 337,124 210,397 h 54 v 47 L 140,441 26,444 V 397 H 90 L 265,21 c 12,-25 25,-25 38,-25 17,0 27,3 37,24 l 166,356 c 6,14 10,21 74,21 z"
+           style="fill:#00bf16;fill-opacity:1" />
+      </g>
+    </g>
+    <path
+       id="use39"
+       d="m 18.126736,17.359538 c 0.26245,-0.201212 0.481159,-0.498656 0.6605,-0.896705 0.170593,-0.380553 0.258076,-0.739235 0.258076,-1.084794 v -0.367431 c 0,-0.345559 -0.08748,-0.704241 -0.258076,-1.084794 -0.179341,-0.398049 -0.39805,-0.695493 -0.6605,-0.896705 -0.01312,-0.0087 -0.02624,-0.01312 -0.03062,-0.01312 -0.03937,0 -0.06124,0.02187 -0.06124,0.06124 0,0.0175 0.0087,0.03499 0.02187,0.04812 0.227456,0.174967 0.411172,0.463662 0.546771,0.861712 0.118102,0.345559 0.179341,0.686744 0.179341,1.023555 v 0.367431 c 0,0.336811 -0.06124,0.677996 -0.179341,1.023555 -0.135599,0.39805 -0.319315,0.686745 -0.546771,0.861712 -0.01312,0.0175 -0.02187,0.03499 -0.02187,0.04812 0,0.03937 0.02187,0.06124 0.06124,0.06124 0.0044,0 0.0175,-0.0044 0.03062,-0.01312 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.190235;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
        d="M 21.179998,7.0587998 15.703273,11.774146"
        id="path5"
        sodipodi:nodetypes="cc" />
+    <image
+       xlink:href="data:image/png;base64,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&#10;gg==&#10;"
+       width="21.580431"
+       height="18.885305"
+       transform="matrix(0.26458333,0,0,0.26458333,15.565293,6.9636823)"
+       id="image2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.190235;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;marker-end:url(#ArrowWideRounded)"
        d="m 21.275116,7.1539178 5.476727,4.7153462"
        id="path5-6"
        sodipodi:nodetypes="cc" />
+    <image
+       xlink:href="data:image/png;base64,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&#10;"
+       width="21.580439"
+       height="18.885305"
+       transform="matrix(0.26458333,0,0,0.26458333,21.179998,7.0588003)"
+       id="image1" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -788,6 +520,12 @@
        style="fill:none;stroke:#000000;stroke-width:0.225;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;marker-end:url(#Triangle)"
        d="M 5.4794503,26.813401 18.973201,24.226891"
        id="path6" />
+    <image
+       xlink:href="data:image/png;base64,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&#10;"
+       width="54.391017"
+       height="12.487543"
+       transform="matrix(0.26458333,0,0,0.26458333,5.3669503,23.621905)"
+       id="image3" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -837,6 +575,12 @@
        style="fill:none;stroke:#000000;stroke-width:0.225;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;marker-end:url(#Triangle)"
        d="m 23.471119,24.226891 13.493751,2.58651"
        id="path6-4" />
+    <image
+       xlink:href="data:image/png;base64,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&#10;"
+       width="54.391019"
+       height="12.487543"
+       transform="matrix(0.26458333,0,0,0.26458333,23.358619,24.114391)"
+       id="image4" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -847,6 +591,12 @@
        style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none;marker-end:url(#Triangle)"
        d="m 41.46279,26.813391 4.889892,-0.93731"
        id="path7" />
+    <image
+       xlink:href="data:image/png;base64,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&#10;"
+       width="22.249275"
+       height="6.5556501"
+       transform="matrix(0.26458333,0,0,0.26458333,41.33779,25.203875)"
+       id="image5" />
     <text
        xml:space="preserve"
        style="font-size:3.52778px;line-height:1.3;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:none"

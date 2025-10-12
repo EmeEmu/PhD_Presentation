@@ -328,26 +328,26 @@
 	<!---->
 	<!-- </section> -->
 
-	<section>
-		<h1> Introduction </h1>
-
-		<div class="floating fragment debug"
-     		style="
-					--floating-left: 0.1%; --floating-top: 24.9%; --floating-w: 1906px; --floating-h: 542px;
-     		">
-				<div class="r-svg-layers" 
-					data-src="assets/intro/neuro/fMRI_spont.svg" 
-					data-base="Layer 1" 
-				></div>
-		</div>
-
-		<ul class="citations">
-  		<li><a href="https://www.pnas.org/doi/10.1073/pnas.0601417103" target="_blank" rel="noopener">
-      		<span class="author">Damoiseaux et al.</span> <span class="journal">PNAS</span> <span class="year">2006</span>
-    	</a></li>
-		</ul>
-
-	</section>
+	<!-- <section> -->
+	<!-- 	<h1> Introduction </h1> -->
+	<!---->
+	<!-- 	<div class="floating fragment debug" -->
+ <!--     		style=" -->
+	<!-- 				--floating-left: 0.1%; --floating-top: 24.9%; --floating-w: 1906px; --floating-h: 542px; -->
+ <!--     		"> -->
+	<!-- 			<div class="r-svg-layers"  -->
+	<!-- 				data-src="assets/intro/neuro/fMRI_spont.svg"  -->
+	<!-- 				data-base="Layer 1"  -->
+	<!-- 			></div> -->
+	<!-- 	</div> -->
+	<!---->
+	<!-- 	<ul class="citations"> -->
+ <!--  		<li><a href="https://www.pnas.org/doi/10.1073/pnas.0601417103" target="_blank" rel="noopener"> -->
+ <!--      		<span class="author">Damoiseaux et al.</span> <span class="journal">PNAS</span> <span class="year">2006</span> -->
+ <!--    	</a></li> -->
+	<!-- 	</ul> -->
+	<!---->
+	<!-- </section> -->
 
 	<section>
 		<h1> Introduction </h1>
@@ -624,12 +624,22 @@
 			<img src="https://chartwellspeakers.b-cdn.net/wp-content/uploads/2023/09/geoffhinton_14977197-e1697029454322.webp" width="100%"/>
 		</div>
 
-		<div class="floating"
+		<div class="floating fragment"
      		style="
-					--floating-left: 22.6%; --floating-top: 8.5%; --floating-w: 936px; --floating-h: 405px;
+					--floating-left: -2.3%; --floating-top: 0.3%; --floating-w: 2005px; --floating-h: 1074px;
      		">
-			<img src="assets/intro/RBM/diag_simple.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/math.svg" 
+					data-base="Layer 1" 
+				></div>
 		</div>
+
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 22.6%; --floating-top: 8.5%; --floating-w: 936px; --floating-h: 405px; -->
+  <!--    		"> -->
+		<!-- 	<img src="assets/intro/RBM/diag_simple.svg" width="100%"/> -->
+		<!-- </div> -->
 
 
 		<!-- <div class="floating debug" -->
@@ -641,50 +651,50 @@
 		<!-- 		<p>hidden configuration : $\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$</p> -->
 		<!-- 	</div> -->
 		<!-- </div> -->
-		<div class="floating"
-     		style="
-					--floating-left: 15.2%; --floating-top: 43.8%; --floating-w: 611px; --floating-h: 152px;
-     		">
-				<p>visible configuration</p>
-				$$\mathbf v=(v_1,\dots,v_N)\in\{\text{on},\text{off}\}^N$$
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 15.2%; --floating-top: 43.8%; --floating-w: 611px; --floating-h: 152px; -->
+  <!--    		"> -->
+		<!-- 		<p>visible configuration</p> -->
+				<!-- $$\mathbf v=(v_1,\dots,v_N)\in\{\text{on},\text{off}\}^N$$ -->
 				<!-- <p>hidden configuration : $\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$</p> -->
-		</div>
-		<div class="floating"
-     		style="
-					--floating-left: 53.4%; --floating-top: 43.7%; --floating-w: 562px; --floating-h: 151px;
-     		">
-				<p>hidden configuration</p>
-				$$\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$$
-		</div>
+		<!-- </div> -->
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 53.4%; --floating-top: 43.7%; --floating-w: 562px; --floating-h: 151px; -->
+  <!--    		"> -->
+		<!-- 		<p>hidden configuration</p> -->
+				<!-- $$\mathbf h=(h_1,\dots,h_M)\in\mathbb{R}^M$$ -->
+		<!-- </div> -->
 
-		<div class="floating fragment"
-     		style="
-					--floating-left: 6.5%; --floating-top: 60.1%; --floating-w: 1083px; --floating-h: 375px;
-     		">
-			$$
-				\begin{aligned}
-          P(\mathbf v,\mathbf h) &= \frac{1}{Z}\,
-          e^{-E(\mathbf v,\mathbf h)}\\
-          E(\mathbf v,\mathbf h) &=
-              -\sum_{i=1}^{N}g_i v_i
-              +\sum_{\mu=1}^{M}\mathcal{U}_\mu(h_\mu)
-              -\sum_{i,\mu} w_{i\mu} v_i h_\mu
-          \end{aligned}
-			$$
-		</div>
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 6.5%; --floating-top: 60.1%; --floating-w: 1083px; --floating-h: 375px; -->
+  <!--    		"> -->
+		<!-- 	$$ -->
+		<!-- 		\begin{aligned} -->
+  <!--         P(\mathbf v,\mathbf h) &= \frac{1}{Z}\, -->
+  <!--         e^{-E(\mathbf v,\mathbf h)}\\ -->
+  <!--         E(\mathbf v,\mathbf h) &= -->
+  <!--             -\sum_{i=1}^{N}g_i v_i -->
+  <!--             +\sum_{\mu=1}^{M}\mathcal{U}_\mu(h_\mu) -->
+  <!--             -\sum_{i,\mu} w_{i\mu} v_i h_\mu -->
+  <!--         \end{aligned} -->
+		<!-- 	$$ -->
+		<!-- </div> -->
 
-		<div class="floating fragment"
-     		style="
-					--floating-left: 65.2%; --floating-top: 64.5%; --floating-w: 432px; --floating-h: 268px;
-     		">
-			parameters $
-			\begin{cases}
-			&g_i\\
-			&\mathcal{U}_\mu\\
-			&w_{i\mu}
-			\end{cases}
-			$
-		</div>
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 65.2%; --floating-top: 64.5%; --floating-w: 432px; --floating-h: 268px; -->
+  <!--    		"> -->
+		<!-- 	parameters $ -->
+		<!-- 	\begin{cases} -->
+		<!-- 	&g_i\\ -->
+		<!-- 	&\mathcal{U}_\mu\\ -->
+		<!-- 	&w_{i\mu} -->
+		<!-- 	\end{cases} -->
+		<!-- 	$ -->
+		<!-- </div> -->
 
 		<!-- <div class="floating fragment debug" -->
   <!--    		style=" -->
@@ -726,33 +736,24 @@
 			<img src="assets/intro/RBM/diag_simple.svg" width="100%"/>
 		</div>
 
-		<div class="floating"
-     		style="
-					--floating-left: 50.5%; --floating-top: 2.4%; --floating-w: 919px; --floating-h: 529px;
-     		">
-				<div class="r-svg-layers" 
-					data-src="assets/intro/RBM/gibbs2.svg" 
-					data-base="Layer 1" 
-				></div>
-		</div>
+
+		<!-- <div class="floating fragment" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -2.0%; --floating-top: 52.0%; --floating-w: 2001px; --floating-h: 82px; -->
+  <!--    		"> -->
+		<!-- 	same statistics ⇒ $\langle\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{h}\rangle$, $\langle\mathbf{h}\rangle$, $\langle\mathbf{h}\mathbf{h}\rangle$ -->
+		<!-- </div> -->
 
 		<div class="floating fragment"
      		style="
-					--floating-left: -2.0%; --floating-top: 52.0%; --floating-w: 2001px; --floating-h: 82px;
-     		">
-			same statistics ⇒ $\langle\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{v}\rangle$, $\langle\mathbf{v}\mathbf{h}\rangle$, $\langle\mathbf{h}\rangle$, $\langle\mathbf{h}\mathbf{h}\rangle$
-		</div>
-
-		<div class="floating fragment"
-     		style="
-					--floating-left: -2.0%; --floating-top: 60.8%; --floating-w: 2001px; --floating-h: 83px;
+					--floating-left: 56.4%; --floating-top: 11.7%; --floating-w: 619px; --floating-h: 95px;
      		">
 			maximize $\mathcal{L} = \langle \log P(\mathbf{v}) \rangle_\text{data}$
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: -1.9%; --floating-top: 69.2%; --floating-w: 1990px; --floating-h: 271px;
+					--floating-left: 58.5%; --floating-top: 22.8%; --floating-w: 524px; --floating-h: 248px;
      		">
 			learn parameters $
 			\begin{cases}
@@ -762,6 +763,17 @@
 			\end{cases}
 			$
 		</div>
+
+		<div class="floating fragment"
+     		style="
+					--floating-left: 37.9%; --floating-top: 48.2%; --floating-w: 919px; --floating-h: 529px;
+     		">
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/gibbs2.svg" 
+					data-base="Layer 1" 
+				></div>
+		</div>
+
 	</section>
 
 	<section>
@@ -845,7 +857,7 @@
 
 		<div class="floating"
      		style="
-					--floating-left: -2.5%; --floating-top: 22.1%; --floating-w: 1276px; --floating-h: 484px;
+					--floating-left: 5.5%; --floating-top: 17.6%; --floating-w: 1276px; --floating-h: 484px;
      		">
 				<div class="r-svg-layers" 
 					data-src="assets/intro/RBM/diag_complex.svg" 
@@ -855,7 +867,7 @@
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 53.6%; --floating-top: 3.2%; --floating-w: 602px; --floating-h: 898px;
+					--floating-left: 59.4%; --floating-top: 3.5%; --floating-w: 697px; --floating-h: 1040px;
      		">
 			<img src="assets/intro/RBM/elife.svg" width="100%"/>
 		</div>
@@ -881,28 +893,39 @@
 
 		<div class="floating"
      		style="
-					--floating-left: -1.3%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 307px;
+					--floating-left: -2.2%; --floating-top: 15.4%; --floating-w: 2004px; --floating-h: 167px;
      		">
-			<p style="font-size: 0.7em;">Thijs van der Plas</p>
-			<img src="https://research.wur.nl/files-asset/126634744/GetMedia.ashx_id_123483_ts_1743673080?w=160&f=jpg" width="100%"/>
+			<p>hidden units ≠ brain states</p>
+			<p>⠀</p>
+			<p>⠀</p>
+			<p>⠀</p>
+			<p>brain states = superposition of a few hidden units</p>
 		</div>
-		<div class="floating"
-     		style="
-					--floating-left: 9.9%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 314px;
-     		">
-			<p style="font-size: 0.7em;">Jérôme Tubiana</p>
-			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5M6DoNByKuL3ONCGAu2a3WH3Wke_DdHgPQ&s" width="100%"/>
-		</div>
+
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -1.3%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 307px; -->
+  <!--    		"> -->
+		<!-- 	<p style="font-size: 0.7em;">Thijs van der Plas</p> -->
+		<!-- 	<img src="https://research.wur.nl/files-asset/126634744/GetMedia.ashx_id_123483_ts_1743673080?w=160&f=jpg" width="100%"/> -->
+		<!-- </div> -->
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 9.9%; --floating-top: 63.8%; --floating-w: 240px; --floating-h: 314px; -->
+  <!--    		"> -->
+		<!-- 	<p style="font-size: 0.7em;">Jérôme Tubiana</p> -->
+		<!-- 	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5M6DoNByKuL3ONCGAu2a3WH3Wke_DdHgPQ&s" width="100%"/> -->
+		<!-- </div> -->
 
 		<div class="floating"
      		style="
-					--floating-left: 9.6%; --floating-top: 20.5%; --floating-w: 1519px; --floating-h: 583px;
+					--floating-left: 9.6%; --floating-top: 35.5%; --floating-w: 1519px; --floating-h: 583px;
      		">
 			<img src="assets/intro/RBM/compositionality.jpg" width="100%"/>
 		</div>
 		<div class="floating fragment"
      		style="
-					--floating-left: 9.6%; --floating-top: 22.2%; --floating-w: 1519px; --floating-h: 583px;
+					--floating-left: 9.6%; --floating-top: 37.15%; --floating-w: 1519px; --floating-h: 583px;
      		">
 			<video loop="true" src="assets/intro/RBM/compositionality.mp4" width="100%"></video>
 		</div>
@@ -914,11 +937,11 @@
 		<!-- 	  <p>cell assembly = group of co-activating neurons, usually spatially localized</p> -->
 		<!-- </div> -->
 
-		<ul class="citations" style="bottom: 100px">
-  		<li><a href="https://elifesciences.org/articles/83139" target="_blank" rel="noopener">
-      		<span class="author">van der Plas & Tubiana et al.</span> <span class="journal">eLife</span> <span class="year">2023</span>
-    	</a></li>
-		</ul>
+		<!-- <ul class="citations" style="bottom: 100px"> -->
+  <!-- 		<li><a href="https://elifesciences.org/articles/83139" target="_blank" rel="noopener"> -->
+  <!--     		<span class="author">van der Plas & Tubiana et al.</span> <span class="journal">eLife</span> <span class="year">2023</span> -->
+  <!--   	</a></li> -->
+		<!-- </ul> -->
 
 	</section>
 
@@ -934,35 +957,38 @@
 		</div>
 
 
-		<div class="floating"
-     		style="
-					--floating-left: -2.0%; --floating-top: 22.0%; --floating-w: 1033px; --floating-h: 212px;
-     		">
-			<ul>
-				<li class="fragment">Hidden Units ≈ known Functional Networks</li>
-				<li class="fragment">Functional Networks are shared by all individuals</li>
-			</ul>
-			<p>⠀</p>
-			<p class="fragment">⇒ multiple RBMs shoud provide the same representation</p>
-		</div>
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -2.0%; --floating-top: 22.0%; --floating-w: 1033px; --floating-h: 212px; -->
+  <!--    		"> -->
+		<!-- 	<ul> -->
+		<!-- 		<li class="fragment">Hidden Units ≈ known Functional Networks</li> -->
+		<!-- 		<li class="fragment">Functional Networks are shared by all individuals</li> -->
+		<!-- 	</ul> -->
+		<!-- 	<p>⠀</p> -->
+		<!-- 	<p class="fragment">⇒ multiple RBMs shoud provide the same representation</p> -->
+		<!-- </div> -->
+		<!---->
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 57.7%; --floating-top: 27.0%; --floating-w: 758px; --floating-h: 69px; -->
+  <!--    		"> -->
+		<!-- 	<p class="fragment">RBMs are stochastic ⇒ variable solutions</p> -->
+		<!-- </div> -->
 
-		<div class="floating"
+		<div class="floating fragment"
      		style="
-					--floating-left: 57.7%; --floating-top: 27.0%; --floating-w: 758px; --floating-h: 69px;
+					--floating-left: 0.5%; --floating-top: 31.8%; --floating-w: 777px; --floating-h: 547px;
      		">
-			<p class="fragment">RBMs are stochastic ⇒ variable solutions</p>
+				<div class="r-svg-layers" 
+					data-src="assets/intro/RBM/singlefish_multiRBMs.svg" 
+					data-base="Layer 1" 
+				></div>
 		</div>
 
 		<div class="floating fragment"
      		style="
-					--floating-left: -0.2%; --floating-top: 46.9%; --floating-w: 774px; --floating-h: 472px;
-     		">
-			<img src="assets/intro/RBM/singlefish_multiRBMs.svg" width="100%"/>
-		</div>
-
-		<div class="floating fragment"
-     		style="
-				--floating-left: 42.2%; --floating-top: 48.1%; --floating-w: 1090px; --floating-h: 446px;
+				--floating-left: 41.4%; --floating-top: 35.9%; --floating-w: 1090px; --floating-h: 446px;
      		">
 			<img src="assets/multiRBM/degen_weights.svg" width="100%"/>
 		</div>
@@ -971,12 +997,12 @@
 	<section>
 		<h1> Restricted Boltzmann Machines </h1>
 		<h2> Summary </h2>
-		<div class="floating"
-     		style="
-					--floating-left: 3.7%; --floating-top: 12.5%; --floating-w: 1730px; --floating-h: 96px;
-     		">
-			<p><b>Goal :</b> Find a Common Representation for the Spontaneous Brain Activity of multiple fish.</p>
-		</div>
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: 3.7%; --floating-top: 12.5%; --floating-w: 1730px; --floating-h: 96px; -->
+  <!--    		"> -->
+		<!-- 	<p><b>Goal :</b> Find a Common Representation for the Spontaneous Brain Activity of multiple fish.</p> -->
+		<!-- </div> -->
 
 		<div class="floating fragment"
      		style="
@@ -1095,7 +1121,7 @@
 
 		<div class="floating fragment"
      		style="
-					--floating-left: -2.0%; --floating-top: 14.1%; --floating-w: 1998px; --floating-h: 236px;
+					--floating-left: -2.0%; --floating-top: 10.9%; --floating-w: 1998px; --floating-h: 236px;
      		">
 			<p><b>Hypothesis :</b></p>
 			<p>⠀</p>
@@ -1109,7 +1135,7 @@
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 0.7%; --floating-top: 39.0%; --floating-w: 1244px; --floating-h: 660px;
+					--floating-left: -2.6%; --floating-top: 32.5%; --floating-w: 1364px; --floating-h: 720px;
      		">
 			<!-- <img src="assets/intro/RBM/multi_fish_best_strats.svg" width="100%"/> -->
 				<div class="r-svg-layers" 
@@ -1177,7 +1203,7 @@
 					--floating-left: 33.4%; --floating-top: 81.0%; --floating-w: 567px; --floating-h: 122px;
      		">
      	<ul>
-			<li>Converge faster (1/10th)</li>
+			<li>Converge faster (×10)</li>
 			<li>Converge more reliably</li>
      	</ul>
 		</div>
@@ -1188,19 +1214,19 @@
 		<h1> Multi-fish Neuronal Model </h1>
 		<h2> Hidden Units map to Stereotypic Neuronal Populations </h2>
 
-		<div class="floating"
-     		style="
-					--floating-left: -0.0%; --floating-top: 32.4%; --floating-w: 1130px; --floating-h: 463px;
-     		">
-				<div class="r-svg-layers" 
-					data-src="assets/multiRBM/TS_maps.svg" 
-					data-base="Layer 1" 
-				></div>
-		</div>
+		<!-- <div class="floating" -->
+  <!--    		style=" -->
+		<!-- 			--floating-left: -0.0%; --floating-top: 32.4%; --floating-w: 1130px; --floating-h: 463px; -->
+  <!--    		"> -->
+		<!-- 		<div class="r-svg-layers"  -->
+		<!-- 			data-src="assets/multiRBM/TS_maps.svg"  -->
+		<!-- 			data-base="Layer 1"  -->
+		<!-- 		></div> -->
+		<!-- </div> -->
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 59.6%; --floating-top: -0.6%; --floating-w: 765px; --floating-h: 1070px;
+					--floating-left: 12.7%; --floating-top: 12.1%; --floating-w: 1443px; --floating-h: 951px;
      		">
 				<div class="r-svg-layers" 
 					data-src="assets/multiRBM/TS_samplemaps.svg" 
@@ -1469,18 +1495,25 @@
 			<img src="assets/multiDYN/sRBM_diag.svg" width="100%"/>
 		</div>
 
-		<div class="floating fragment"
+		<div class="floating fragment" data-fragment-index="1"
      		style="
 					--floating-left: 54.1%; --floating-top: 22.1%; --floating-w: 748px; --floating-h: 179px;
      		">
 			$$P(s\mid\mathbf{v}_t) = \mathbb{E}\Big[ P\big( s\mid P(\mathbf{h}\mid\mathbf{v}_t) \big) \Big]$$
 		</div>
 
-		<div class="floating fragment"
+		<div class="floating fragment" data-fragment-index="2"
      		style="
 					--floating-left: 2.6%; --floating-top: 47.6%; --floating-w: 1817px; --floating-h: 366px;
      		">
 			<img src="assets/multiDYN/sRBM_Psv.svg" width="100%"/>
+		</div>
+
+		<div class="floating fragment" data-fragment-index="2"
+     		style="
+					--floating-left: 72.9%; --floating-top: -0.1%; --floating-w: 349px; --floating-h: 66px;
+     		">
+			<p>model : 32 states</p>
 		</div>
 
 
@@ -1513,6 +1546,14 @@
      		">
 			<video loop="true" src="assets/multiDYN/Movie1.mp4"></video>
 		</div>
+
+		<div class="floating"
+     		style="
+					--floating-left: 72.9%; --floating-top: -0.1%; --floating-w: 349px; --floating-h: 66px;
+     		">
+			<p>model : 32 states</p>
+		</div>
+
 	</section>
 
 	<section>
@@ -1543,11 +1584,25 @@
 			<img src="assets/multiDYN/state_maps.svg" width="100%"/>
 		</div>
 
+		<div class="floating"
+     		style="
+					--floating-left: 72.9%; --floating-top: -0.1%; --floating-w: 349px; --floating-h: 66px;
+     		">
+			<p>model : 32 states</p>
+		</div>
+
 	</section>
 	
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> States are Used Similarly by All Fish </h2>
+
+		<div class="floating"
+     		style="
+					--floating-left: 72.9%; --floating-top: -0.1%; --floating-w: 349px; --floating-h: 66px;
+     		">
+			<p>model : 32 states</p>
+		</div>
 
 		<div class="fragment">
 		<div class="floating"
@@ -1567,9 +1622,12 @@
 
 		<div class="floating fragment"
      		style="
-					--floating-left: 52.8%; --floating-top: 29.0%; --floating-w: 731px; --floating-h: 614px;
+					--floating-left: 49.8%; --floating-top: 24.8%; --floating-w: 853px; --floating-h: 667px;
      		">
-			<img src="assets/multiDYN/Ps_matrix.svg" width="100%"/>
+				<div class="r-svg-layers" 
+					data-src="assets/multiDYN/Ps_matrix.svg" 
+					data-base="Layer 1"
+				></div>
 		</div>
 
 		<!-- <div class="floating debug" -->
@@ -1588,6 +1646,13 @@
 	<section>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Markovian Transition Rates are partially Conserved across fish </h2>
+
+		<div class="floating"
+     		style="
+					--floating-left: 72.9%; --floating-top: -0.1%; --floating-w: 349px; --floating-h: 66px;
+     		">
+			<p>model : 32 states</p>
+		</div>
 
 		<div class="floating"
      		style="
@@ -1629,6 +1694,13 @@
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Markovian Dynamics - sub-structure and hub-states </h2>
 
+		<div class="floating"
+     		style="
+					--floating-left: 72.9%; --floating-top: -0.1%; --floating-w: 349px; --floating-h: 66px;
+     		">
+			<p>model : 8 states</p>
+		</div>
+
 		<div class="floating fragment" data-id="famT"
      		style="
 					--floating-left: 20.0%; --floating-top: 6.2%; --floating-w: 1800px; --floating-h: 1015px;
@@ -1644,6 +1716,13 @@
 	<section data-auto-animate>
 		<h1> Dynamics of Spontaneous Activity </h1>
 		<h2> Markovian Dynamics - sub-structure and hub-states </h2>
+
+		<div class="floating"
+     		style="
+					--floating-left: 72.9%; --floating-top: -0.1%; --floating-w: 349px; --floating-h: 66px;
+     		">
+			<p>model : 8 states</p>
+		</div>
 
 		<div class="floating" data-id="famT"
      		style="

@@ -23,8 +23,8 @@
      inkscape:deskcolor="#505050"
      showguides="true"
      inkscape:zoom="4.9727595"
-     inkscape:cx="290.28148"
-     inkscape:cy="78.326732"
+     inkscape:cx="97.129169"
+     inkscape:cy="46.151438"
      inkscape:window-width="1914"
      inkscape:window-height="1050"
      inkscape:window-x="768"
@@ -35,6 +35,21 @@
        position="309.05446,87.339788"
        orientation="0,-1"
        id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="89.05446,137.33979"
+       orientation="1,0"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="43.562627,150.31597"
+       orientation="0,-1"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="227.05446,137.33979"
+       orientation="1,0"
+       id="guide4"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
@@ -2500,83 +2515,6 @@
        id="use729" />
   </g>
   <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g730"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-102-0-1a3e524d"
-       x="99.32"
-       y="32.512001"
-       id="use730" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g731"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-102-1-1a3e524d"
-       x="109.096"
-       y="32.512001"
-       id="use731" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g732"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-103-0-1a3e524d"
-       x="117.992"
-       y="32.512001"
-       id="use732" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g733"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-102-2-1a3e524d"
-       x="126.888"
-       y="32.512001"
-       id="use733" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g734"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-103-1-1a3e524d"
-       x="135.784"
-       y="32.512001"
-       id="use734" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g735"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-103-2-1a3e524d"
-       x="145.56"
-       y="32.512001"
-       id="use735" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g736"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-102-3-1a3e524d"
-       x="154.45599"
-       y="32.512001"
-       id="use736" />
-  </g>
-  <g
      clip-path="url(#clip-6-1a3e524d)"
      id="g737"
      transform="translate(-40.945541,-20.652627)">
@@ -2584,83 +2522,6 @@
        xlink:href="#source-5733-1a3e524d"
        transform="matrix(0.2,0,0,0.2,80,40)"
        id="use737" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g738"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-103-3-1a3e524d"
-       x="238.224"
-       y="32.512001"
-       id="use738" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g739"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-102-4-1a3e524d"
-       x="248.896"
-       y="32.512001"
-       id="use739" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g740"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-102-5-1a3e524d"
-       x="254.224"
-       y="32.512001"
-       id="use740" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g741"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-104-0-1a3e524d"
-       x="264"
-       y="32.512001"
-       id="use741" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g742"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-104-1-1a3e524d"
-       x="273.776"
-       y="32.512001"
-       id="use742" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g743"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-104-2-1a3e524d"
-       x="282.672"
-       y="32.512001"
-       id="use743" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g744"
-     transform="translate(-40.945541,-20.652627)">
-    <use
-       xlink:href="#glyph-104-3-1a3e524d"
-       x="292.448"
-       y="32.512001"
-       id="use744" />
   </g>
   <g
      clip-path="url(#clip-7-1a3e524d)"
@@ -3056,4 +2917,24 @@
      stroke-miterlimit="1.1547"
      d="M 177.05446,120.01534 V 18.679404"
      id="path1103" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:0.987361;fill:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:2.3811, 2.3811;stroke-opacity:0.976471"
+     x="89.765396"
+     y="12.027443"
+     id="text1"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="89.765396"
+       y="12.027443">Fish 1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:0.987361;fill:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:2.3811, 2.3811;stroke-opacity:0.976471"
+     x="226.86696"
+     y="12.027443"
+     id="text1-9"><tspan
+       sodipodi:role="line"
+       id="tspan1-1"
+       x="226.86696"
+       y="12.027443">Fish 2</tspan></text>
 </svg>

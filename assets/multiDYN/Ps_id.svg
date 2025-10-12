@@ -21,15 +21,37 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="3.2437939"
-     inkscape:cx="39.459967"
-     inkscape:cy="56.26128"
+     inkscape:zoom="6.4875878"
+     inkscape:cx="85.085554"
+     inkscape:cy="37.995632"
      inkscape:window-width="1914"
      inkscape:window-height="1050"
      inkscape:window-x="768"
      inkscape:window-y="792"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1109" />
+     inkscape:current-layer="svg1109"
+     showguides="true">
+    <sodipodi:guide
+       position="95.453424,55.437556"
+       orientation="1,0"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="159.43981,6.0615477"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="6.6280415,144.73793"
+       orientation="1,0"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-7.4103535,86.030983"
+       orientation="0,-1"
+       id="guide4"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <defs
      id="defs334">
     <g
@@ -2044,127 +2066,6 @@
   <g
      fill="#000000"
      fill-opacity="1"
-     id="g479"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-41-0-1a3e524d"
-       x="487.47333"
-       y="356.21887"
-       id="use478" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g480"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-12-1a3e524d"
-       x="496.36667"
-       y="356.21887"
-       id="use479" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g481"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-6-1a3e524d"
-       x="500.80667"
-       y="356.21887"
-       id="use480" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g482"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-9-2-1a3e524d"
-       x="507.47333"
-       y="356.21887"
-       id="use481" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g484"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-13-1a3e524d"
-       x="515.62"
-       y="356.21887"
-       id="use483" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g485"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-9-1a3e524d"
-       x="523.76666"
-       y="356.21887"
-       id="use484" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g486"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-8-1a3e524d"
-       x="531.17999"
-       y="356.21887"
-       id="use485" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g487"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-14-1a3e524d"
-       x="538.59332"
-       y="356.21887"
-       id="use486" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g488"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-15-1a3e524d"
-       x="545.26001"
-       y="356.21887"
-       id="use487" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g489"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-9-1a3e524d"
-       x="552.67334"
-       y="356.21887"
-       id="use488" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g490"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-7-2-1a3e524d"
-       x="560.08667"
-       y="356.21887"
-       id="use489" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
      id="g491"
      transform="translate(-431.21593,-226.33202)">
     <use
@@ -2293,127 +2194,6 @@
        x="567.57031"
        y="334.00021"
        id="use509" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g511"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-17-2-1a3e524d"
-       x="441.16907"
-       y="310.55331"
-       id="use510" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g512"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-22-1-1a3e524d"
-       x="441.16907"
-       y="301.66"
-       id="use511" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g513"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-45-0-1a3e524d"
-       x="441.16907"
-       y="297.22"
-       id="use512" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g514"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-17-3-1a3e524d"
-       x="441.16907"
-       y="290.55334"
-       id="use513" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g516"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-47-0-1a3e524d"
-       x="441.16907"
-       y="282.40668"
-       id="use515" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g517"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-48-0-1a3e524d"
-       x="441.16907"
-       y="273.51334"
-       id="use516" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g518"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-17-4-1a3e524d"
-       x="441.16907"
-       y="269.80667"
-       id="use517" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g519"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-49-0-1a3e524d"
-       x="441.16907"
-       y="262.39334"
-       id="use518" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g520"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-50-0-1a3e524d"
-       x="441.16907"
-       y="254.98"
-       id="use519" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g521"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-50-1-1a3e524d"
-       x="441.16907"
-       y="247.56667"
-       id="use520" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g522"
-     transform="translate(-431.21593,-226.33202)">
-    <use
-       xlink:href="#glyph-51-0-1a3e524d"
-       x="441.16907"
-       y="240.15334"
-       id="use521" />
   </g>
   <g
      fill="#000000"
@@ -2651,4 +2431,25 @@
      stroke-miterlimit="1.1547"
      d="M 47.784071,85.394536 V 5.8780367e-6"
      id="path1095" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:0.987361;fill:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:2.3811, 2.3811;stroke-opacity:0.976471"
+     x="96.163055"
+     y="130.10393"
+     id="text1"><tspan
+       sodipodi:role="line"
+       id="tspan1"
+       x="96.163055"
+       y="130.10393">P(s) Fish 1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;opacity:0.987361;fill:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6;stroke-dasharray:2.3811, 2.3811;stroke-opacity:0.976471"
+     x="-46.846745"
+     y="10.078553"
+     id="text1-7"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan1-5"
+       x="-46.846745"
+       y="10.078553">P(s) Fish 2</tspan></text>
 </svg>
