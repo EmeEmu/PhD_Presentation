@@ -21,15 +21,37 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="1.1791211"
-     inkscape:cx="219.65513"
-     inkscape:cy="303.19192"
-     inkscape:window-width="1914"
-     inkscape:window-height="1050"
-     inkscape:window-x="0"
-     inkscape:window-y="1104"
+     inkscape:zoom="1.1848451"
+     inkscape:cx="190.74224"
+     inkscape:cy="204.66811"
+     inkscape:window-width="1360"
+     inkscape:window-height="738"
+     inkscape:window-x="768"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g224" />
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <sodipodi:guide
+       position="23.143291,318.36021"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="22.596416,335.1424"
+       orientation="1,0"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="334.90668,0"
+       orientation="1,0"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="370.07133,20.655666"
+       orientation="0,-1"
+       id="guide4"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <defs
      id="defs72">
     <g
@@ -506,215 +528,6 @@
        fill-opacity="1"
        d="M 65,127 H 291 V 30 H 65 Z m 0,0"
        id="path75" />
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g150"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-25-0-9d0bbaa4"
-         x="27.002665"
-         y="86.726662"
-         id="use149" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g151"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-26-0-9d0bbaa4"
-         x="27.002665"
-         y="77.099998"
-         id="use150" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g152"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-27-0-9d0bbaa4"
-         x="27.002666"
-         y="69.686668"
-         id="use151" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g153"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-28-0-9d0bbaa4"
-         x="27.002666"
-         y="62.273335"
-         id="use152" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g154"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-29-0-9d0bbaa4"
-         x="27.002666"
-         y="55.60667"
-         id="use153" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g155"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-30-0-9d0bbaa4"
-         x="27.002666"
-         y="52.646667"
-         id="use154" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g156"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-31-0-9d0bbaa4"
-         x="27.002666"
-         y="48.940002"
-         id="use155" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g157"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-32-0-9d0bbaa4"
-         x="34.909332"
-         y="25.876282"
-         id="use156" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g158"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-33-0-9d0bbaa4"
-         x="40.84"
-         y="25.876282"
-         id="use157" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g159"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-32-1-9d0bbaa4"
-         x="43.805332"
-         y="25.876282"
-         id="use158" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g160"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-34-0-9d0bbaa4"
-         x="49.736"
-         y="25.876282"
-         id="use159" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g161"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-32-1-9d0bbaa4"
-         x="34.909332"
-         y="69.177582"
-         id="use160" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g162"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-33-0-9d0bbaa4"
-         x="40.84"
-         y="69.177582"
-         id="use161" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g163"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-32-0-9d0bbaa4"
-         x="43.805332"
-         y="69.177582"
-         id="use162" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g164"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-34-0-9d0bbaa4"
-         x="49.736"
-         y="69.177582"
-         id="use163" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g165"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-35-0-9d0bbaa4"
-         x="34.909332"
-         y="112.47891"
-         id="use164" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g166"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-36-0-9d0bbaa4"
-         x="40.84"
-         y="112.47891"
-         id="use165" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g167"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-35-0-9d0bbaa4"
-         x="43.805332"
-         y="112.47891"
-         id="use166" />
-    </g>
-    <g
-       fill="#000000"
-       fill-opacity="1"
-       id="g168"
-       transform="translate(0,14)">
-      <use
-         xlink:href="#glyph-37-0-9d0bbaa4"
-         x="49.736"
-         y="112.47891"
-         id="use167" />
-    </g>
     <path
        fill="none"
        stroke-width="1"
@@ -765,36 +578,6 @@
        stroke-miterlimit="1.1547"
        d="m 252.40234,127.66797 v 4"
        id="path191" />
-    <path
-       fill="none"
-       stroke-width="1"
-       stroke-linecap="butt"
-       stroke-linejoin="miter"
-       stroke="#000000"
-       stroke-opacity="1"
-       stroke-miterlimit="1.1547"
-       d="m 64.332031,35.988281 h -4"
-       id="path192" />
-    <path
-       fill="none"
-       stroke-width="1"
-       stroke-linecap="butt"
-       stroke-linejoin="miter"
-       stroke="#000000"
-       stroke-opacity="1"
-       stroke-miterlimit="1.1547"
-       d="m 64.332031,79.289062 h -4"
-       id="path193" />
-    <path
-       fill="none"
-       stroke-width="1"
-       stroke-linecap="butt"
-       stroke-linejoin="miter"
-       stroke="#000000"
-       stroke-opacity="1"
-       stroke-miterlimit="1.1547"
-       d="m 64.332031,122.58984 h -4"
-       id="path194" />
     <g
        id="g219">
       <path
@@ -1200,6 +983,28 @@
          d="m 252.40234,347.66797 v 4"
          id="path175-1" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:13.3333px;line-height:1.3;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
+       x="-81.913223"
+       y="54.046928"
+       id="text1"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="-81.913223"
+         y="54.046928"
+         style="font-size:13.3333px;fill:#000000;stroke:none">P(h)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:9.33333px;line-height:1.3;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
+       x="74.236656"
+       y="38.228294"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="74.236656"
+         y="38.228294">log</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1323,215 +1128,6 @@
          d="m 299,347 h 71 V 135 h -71 z m 0,0"
          id="path74" />
       <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g129"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-0-10-9d0bbaa4"
-           x="326.27335"
-           y="382.38666"
-           id="use129" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g130"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-0-3-9d0bbaa4"
-           x="335.89999"
-           y="382.38666"
-           id="use130" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g131"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-0-4-9d0bbaa4"
-           x="343.31332"
-           y="382.38666"
-           id="use131" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g132"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-0-11-9d0bbaa4"
-           x="350.72665"
-           y="382.38666"
-           id="use132" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g133"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-0-1-9d0bbaa4"
-           x="357.39334"
-           y="382.38666"
-           id="use133" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g134"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-0-12-9d0bbaa4"
-           x="360.35333"
-           y="382.38666"
-           id="use134" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g135"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-0-13-9d0bbaa4"
-           x="364.06"
-           y="382.38666"
-           id="use135" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g136"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-2-9d0bbaa4"
-           x="368.82217"
-           y="364.43466"
-           id="use136" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g137"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-4-9d0bbaa4"
-           x="374.75284"
-           y="364.43466"
-           id="use137" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g138"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-3-9d0bbaa4"
-           x="377.71817"
-           y="364.43466"
-           id="use138" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g139"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-24-0-9d0bbaa4"
-           x="383.64883"
-           y="364.43466"
-           id="use139" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g140"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-3-9d0bbaa4"
-           x="337.33539"
-           y="364.43466"
-           id="use140" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g141"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-4-9d0bbaa4"
-           x="343.26605"
-           y="364.43466"
-           id="use141" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g142"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-2-9d0bbaa4"
-           x="346.23138"
-           y="364.43466"
-           id="use142" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g143"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-3-9d0bbaa4"
-           x="352.16205"
-           y="364.43466"
-           id="use143" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g144"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-3-9d0bbaa4"
-           x="305.8486"
-           y="364.43466"
-           id="use144" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g145"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-4-9d0bbaa4"
-           x="311.77927"
-           y="364.43466"
-           id="use145" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g146"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-3-9d0bbaa4"
-           x="314.7446"
-           y="364.43466"
-           id="use146" />
-      </g>
-      <g
-         fill="#000000"
-         fill-opacity="1"
-         id="g147"
-         transform="translate(-14)">
-        <use
-           xlink:href="#glyph-6-2-9d0bbaa4"
-           x="320.67526"
-           y="364.43466"
-           id="use147" />
-      </g>
-      <g
          clip-path="url(#clip-1-9d0bbaa4)"
          id="g148"
          transform="translate(-14)">
@@ -1561,36 +1157,17 @@
            d="m 316.22656,332.01172 v -5.35547 l 64.54688,-5.35156 -22.04688,-5.35547 -15.625,-5.35156 -3.70312,-5.35547 -5.35157,-5.35157 -3.23828,-5.35546 v -5.35157 l -0.67968,-5.35547 -4.03125,-5.35156 -2.01563,-5.35547 -1.13281,-5.35156 2.17578,-5.35547 4.28516,-5.35156 -0.3711,-5.35547 0.73438,-5.35156 3.73828,-5.35547 -0.84375,-5.35547 7.91797,-5.35156 6.97656,-5.35547 -0.49609,-5.35156 -1.83985,-5.35547 -2.8164,-5.35156 -3.1875,-5.35547 0.35156,-5.35157 -4.76172,-5.35546 -0.50781,-5.35157 -0.79297,-5.35547 -1.13672,-5.35156 -2.24609,-5.35547 -8.41407,-5.35156 1.23438,-5.35547 -6.72266,-5.35156 v -10.70703"
            id="path148" />
       </g>
-      <path
-         fill="none"
-         stroke-width="1"
-         stroke-linecap="butt"
-         stroke-linejoin="miter"
-         stroke="#000000"
-         stroke-opacity="1"
-         stroke-miterlimit="1.1547"
-         d="m 365.19922,347.66797 v 4"
-         id="path180" />
-      <path
-         fill="none"
-         stroke-width="1"
-         stroke-linecap="butt"
-         stroke-linejoin="miter"
-         stroke="#000000"
-         stroke-opacity="1"
-         stroke-miterlimit="1.1547"
-         d="m 333.71484,347.66797 v 4"
-         id="path181" />
-      <path
-         fill="none"
-         stroke-width="1"
-         stroke-linecap="butt"
-         stroke-linejoin="miter"
-         stroke="#000000"
-         stroke-opacity="1"
-         stroke-miterlimit="1.1547"
-         d="m 302.22656,347.66797 v 4"
-         id="path182" />
+      <text
+         xml:space="preserve"
+         style="font-size:13.3333px;line-height:1.3;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;stroke:#000000;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
+         x="334.63324"
+         y="362.79486"
+         id="text1-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-2"
+           x="334.63324"
+           y="362.79486"
+           style="font-size:13.3333px;fill:#000000;stroke:none">P(h)</tspan></text>
       <path
          fill="none"
          stroke-width="1"
@@ -1601,6 +1178,16 @@
          stroke-miterlimit="1.1547"
          d="m 298.33203,338.06641 h -4"
          id="path183" />
+      <text
+         xml:space="preserve"
+         style="font-size:9.33333px;line-height:1.3;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;stroke:none;stroke-width:3.77953;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.6"
+         x="363.06479"
+         y="342.2439"
+         id="text4-0"><tspan
+           sodipodi:role="line"
+           id="tspan4-9"
+           x="363.06479"
+           y="342.2439">log</tspan></text>
       <path
          fill="none"
          stroke-width="1"
