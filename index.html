@@ -2280,7 +2280,103 @@
 
 <section> <!-- SUPPS SECTION -->
 	<section>
-		<h1> Supp : SLIDE TITLE GOES HERE </h1>
+		<h1> Supp : Voxelization Method </h1>
+		<img src="assets/supps/vox1.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Voxelization Results </h1>
+		<img src="assets/supps/vox2.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Compositionality </h1>
+		<img src="assets/supps/compositionality.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : RBM methods </h1>
+		<img src="assets/supps/RBMmethods.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : LightSheet Microscopy </h1>
+		<img src="assets/supps/LS.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Student's lower weights </h1>
+		<img src="assets/supps/small_weights.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Impact of the number of states </h1>
+		<img src="assets/supps/eight_states.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Hidden Autocorrelations </h1>
+		<img src="assets/supps/hidden_autocorr.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Hidden Exploration </h1>
+		<img src="assets/supps/hidden_space_transitions.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Student Statistics & Couplings </h1>
+		<img src="assets/supps/TSstats.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Student init+training + hidden correlations </h1>
+		<img src="assets/supps/student.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Binary Layer Composition </h1>
+		<img src="assets/supps/bin_composition.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Translation Statistics & Mapping methods </h1>
+		<img src="assets/supps/trans_stats.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Zebrafish Reorientation intro </h1>
+		<img src="assets/supps/HMM1.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Zebrafish Reorientation percistence and stubbornness </h1>
+		<img src="assets/supps/HMM2.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Zebrafish Reorientation individuality </h1>
+		<img src="assets/supps/HMM3.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Zebrafish Reorientation neuronal model and statistics </h1>
+		<img src="assets/supps/HMM4.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Zebrafish Reorientation behavioral and neuronal structure </h1>
+		<img src="assets/supps/HMM5.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : Zebrafish Reorientation generation </h1>
+		<img src="assets/supps/HMM6.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : nRMSE </h1>
+		<img src="assets/supps/nrmse.svg" width="100%" style="position:relative; top:-20px;"/>
+	</section>
+	<section>
+		<h1> Supp : RBM vs. PCA/ICA/VAEs </h1>
+		<img src="assets/supps/PCA_ICA1.svg" width="100%" style="position:relative; top:-20px;"/>
+		<aside class="notes">
+			<p>PCA/ICA/VAEs are excellent for dimensionality reduction or disentangling under specific constraints, but they either assume linear/independent factors (PCA/ICA) or impose a prior encoder/latent family (VAE).</p>
+			<p>PCA enforces orthogonal directions capturing variance; ICA enforces statistical independence of components. Great for denoising/low-rank structure; less natural for overlapping assemblies or correlated motifs (decorrelation/independence can merge real modes).</p>
+			<p>Directed latent-variable model with a prescribed encoder/latent prior (typically Gaussian); powerful for generation, but the latent statistics are imposed a priori, not learned by maximum entropy, and matching pairwise statistics can be difficult in practice for shallow VAEs.</p>
+			<p>Weight structure: cRBM weights are sparse with more large-magnitude links than PCA; PCA shows predominance of small weights → less crisp assemblies</p>
+			<p>Decorrelate/independence constraints can merge real modes: in synthetic proteins, PCA/ICA produce delocalized, mixed modes; RBM separates correlated motifs that co-occur but aren’t independent.</p>
+			<p>VAE models do not fit second-order statistics.</p>
+			<p>Functional connectivity & perturbations</p>
+			<p>ICA can separate sources but lacks this generative/perturbative machinery.</p>
+			<p>They’re fine for linear/independent factors, but decorrelation/independence can merge interacting motifs and dilute assemblies</p>
+		</aside>
+	</section>
+	<section>
+		<h1> Supp : RBM vs. PCA/ICA/VAEs </h1>
+		<img src="assets/supps/PCA_ICA2.svg" width="100%" style="position:relative; top:-20px;"/>
 	</section>
 </section> <!-- SUPPS SECTION -->
 
